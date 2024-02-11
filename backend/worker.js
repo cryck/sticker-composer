@@ -3,22 +3,12 @@ addEventListener('fetch', event => {
   })
   
   async function handleRequest(request) {
-    // Define the allowed origin
-    const allowedOrigin = 'https://signature-checker.pages.dev';
-      
     // Set CORS headers
     const corsHeaders = {
-      'Access-Control-Allow-Origin': allowedOrigin,
+      'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Methods': 'GET, HEAD, POST, OPTIONS',
       'Access-Control-Allow-Headers': 'Content-Type',
     };
-        
-    // Check the Origin header
-    const origin = request.headers.get("Origin") || "";
-    if (origin !== allowedOrigin) {
-      // Return an error or a CORS-related response if the origin is not allowed
-      return new Response("Forbidden", { status: 403 });
-    }
   
     if (request.method === "GET") {
       const url = new URL(request.url);

@@ -45,6 +45,7 @@ button:hover {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    flex: 1;
 }
 
 .result-group {
@@ -122,4 +123,20 @@ button:hover {
     visibility: visible;
     opacity: 1;
     transform: translateX(-50%) translateY(-15px); /* Slightly raise the tooltip */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
 }
