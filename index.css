@@ -45,6 +45,7 @@ button:hover {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    flex: 1;
 }
 
 .result-group {
