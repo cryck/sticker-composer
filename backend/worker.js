@@ -25,8 +25,7 @@ addEventListener('fetch', event => {
       const input = url.searchParams.get("input").toLowerCase();
       const isBackwards = url.searchParams.get("isBackwards") === 'true';
   
-      const response = await fetch('https://signature-checker.pages.dev/stickers.json');
-      const data = await response.json();
+      const data = await getStickers();
   
       let results = [];
       let remainingInput = input;
@@ -48,10 +47,7 @@ addEventListener('fetch', event => {
             const matchAgainst = item.matching ? item.matching.toLowerCase() : item.name.split('|').map(part => part.trim())[1].toLowerCase();
             const middlePartMain = matchAgainst.split(' ')[0];
   
-            if (item.description.toLowerCase().includes("autographed") || item.matching) {
-              return isBackwards ? middlePartMain.endsWith(partialInput) : middlePartMain.startsWith(partialInput);
-            }
-            return false;
+            return isBackwards ? middlePartMain.endsWith(partialInput) : middlePartMain.startsWith(partialInput);
           });
   
           if (filteredItems.length > 0) {
@@ -89,3 +85,11 @@ addEventListener('fetch', event => {
       });
     }
   }
+  
+  async function getStickers() {
+  const response = await fetch('https://signature-checker.pages.dev/stickers.json');
+  const allStickers = await response.json();
+  return allStickers
+    .filter(sticker => !sticker.ignore)
+    .filter(sticker => sticker.description.toLowerCase().includes("autographed") || sticker.matching);
+}
