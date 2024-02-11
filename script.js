@@ -8,6 +8,7 @@ async function callWorker() {
     try {
         const response = await fetch(apiUrl);
         const results = await response.json();
+        const selectedStickers = []
 
         const resultsDiv = document.getElementById('results');
         resultsDiv.innerHTML = '';
@@ -17,7 +18,7 @@ async function callWorker() {
                 results.reverse();
             }
 
-            results.forEach(result => {
+            results.forEach((result, i) => {
                 const groupDiv = document.createElement('div');
                 groupDiv.classList.add('result-group');
 
@@ -36,10 +37,11 @@ async function callWorker() {
                     image.alt = sticker.name;
                     image.classList.add('sticker-image');
 
-                    // Encode sticker name for URL
                     stickerWrapper.onclick = () => {
-                        let stickerNameForURL = encodeURIComponent(sticker.name);
-                        window.open(`https://steamcommunity.com/market/listings/730/${stickerNameForURL}`, '_blank');
+                        // Add sticker info to selectedStickers
+                        selectedStickers[i].sticker = sticker
+                        selectedStickers[i].index = i
+                        renderSelectedStickers(selectedStickers)
 
                         // Copy sticker name to clipboard
                         document.body.focus(); // Attempt to focus the document
@@ -54,6 +56,7 @@ async function callWorker() {
                     groupDiv.appendChild(stickerWrapper);
                 });
 
+                selectedStickers.push({matchedPart: result.matchedPart}) // Create object for each matched part
                 resultsDiv.appendChild(groupDiv);
             });
 
@@ -62,6 +65,13 @@ async function callWorker() {
                 infoMessageDiv.classList.add('info-message');
                 infoMessageDiv.textContent = "No matches found for your input. Try another search term.";
                 resultsDiv.appendChild(infoMessageDiv);
+            } else {
+                // Create and append selected stickers container
+                const selectedStickersList = document.createElement('ul');
+                selectedStickersList.id = 'selectedStickers';
+                selectedStickersList.classList.add('selected-stickers-container');
+                resultsDiv.appendChild(selectedStickersList);
+                renderSelectedStickers(selectedStickers)
             }
     } catch (error) {
         console.error('Error fetching data:', error);
@@ -74,3 +84,39 @@ document.getElementById('stickerInput').addEventListener('keypress', function(ev
         callWorker();
     }
 });
+
+function renderSelectedStickers(selectedStickers) {
+    const selectedStickersList = document.getElementById('selectedStickers');
+    selectedStickersList.innerHTML = '';
+    selectedStickersList.textContent = "Selected:";
+
+    selectedStickers.forEach(selected => {
+        const selectedStickerItem = document.createElement('li');
+        selectedStickerItem.classList.add('selected-sticker-wrapper');
+        selectedStickerItem.textContent = selected.matchedPart.toUpperCase();
+
+        if (selected.sticker) {
+            const image = document.createElement('img');
+            image.src = selected.sticker.image;
+            image.alt = selected.sticker.name;
+            image.classList.add('sticker-image');
+
+            // Remove sticker from selectedStickers on click
+            image.onclick = () => {
+                selectedStickers[selected.index].sticker = null
+                renderSelectedStickers(selectedStickers)
+            }
+            selectedStickerItem.appendChild(image)
+
+            const selectedStickerInfo = document.createElement('a');
+            selectedStickerInfo.classList.add('selected-sticker-info');
+            selectedStickerInfo.textContent = selected.sticker.name;
+            selectedStickerInfo.href = `https://steamcommunity.com/market/listings/730/${encodeURIComponent(selected.sticker.name)}`;
+            selectedStickerInfo.target = '_blank';
+            selectedStickerInfo.draggable = false;
+            selectedStickerItem.appendChild(selectedStickerInfo);
+        }
+        
+        selectedStickersList.appendChild(selectedStickerItem);
+    });
+}

@@ -48,6 +48,33 @@ button:hover {
     flex: 1;
 }
 
+.selected-stickers-container {
+    width: 150px;
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 2px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.selected-sticker-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding: 6px 4px;
+    user-select: text;
+}
+
+.selected-sticker-info {
+    font-weight: normal;
+    font-size: small;
+}
+
 .result-group {
     display: flex;
     flex-direction: column;
