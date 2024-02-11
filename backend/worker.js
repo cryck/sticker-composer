@@ -3,9 +3,6 @@ addEventListener('fetch', event => {
   })
   
   async function handleRequest(request) {
-    // Define the allowed origin
-    const allowedOrigin = 'https://signature-checker.pages.dev';
-      
     // Set CORS headers
     const corsHeaders = {
       'Access-Control-Allow-Origin': '*',
