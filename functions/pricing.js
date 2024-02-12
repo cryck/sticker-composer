@@ -1,5 +1,4 @@
-export default {
-    async fetch(request, env, ctx) {
+export async function onRequest(context) {
       const corsHeaders = {
           'Access-Control-Allow-Origin': '*',
           'Access-Control-Allow-Methods': 'GET, HEAD, POST, OPTIONS',
@@ -13,7 +12,7 @@ export default {
       }); 
   
       // Extract stickerName from the request's URL query parameters
-      const url = new URL(request.url);
+      const url = new URL(context.request.url);
       const stickerName = url.searchParams.get("stickerName");
   
       // Proceed only if stickerName is provided
@@ -24,7 +23,7 @@ export default {
           });
       }
   
-      const apiUrl = `https://csgobackpack.net/api/GetItemPrice/?id=${encodeURIComponent(stickerName)}&key=${env.csgobackpackApiKey}`;
+      const apiUrl = `https://csgobackpack.net/api/GetItemPrice/?id=${encodeURIComponent(stickerName)}&key=${context.env.csgobackpackApiKey}`;
       try {
           const response = await fetch(apiUrl, customHeaders);
           if (!response.ok) {
@@ -45,4 +44,4 @@ export default {
               headers: { 'Content-Type': 'application/json' }
           });
       }
-  }}
+  }
