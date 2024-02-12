@@ -155,7 +155,6 @@ body {
 }
 
 .results-container {
-    max-width: 500px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -261,10 +260,6 @@ footer p {
 @media only screen and (max-width: 768px) {
     .main-content {
         grid-template-columns: 1fr;
-    }
-
-    .main-content .results-container {
-        min-width: 100%;
     }
 
     .selected-stickers-container {
