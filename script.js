@@ -65,9 +65,8 @@ async function callWorker() {
                 infoMessageDiv.classList.add('info-message');
                 infoMessageDiv.textContent = "No matches found for your input. Try another search term.";
                 resultsDiv.appendChild(infoMessageDiv);
-            } else {
-                renderSelectedStickers(selectedStickers)
-            }
+            } 
+            renderSelectedStickers(selectedStickers)
     } catch (error) {
         console.error('Error fetching data:', error);
         alert('Failed to fetch data from the worker.');
@@ -83,7 +82,8 @@ document.getElementById('stickerInput').addEventListener('keypress', function(ev
 function renderSelectedStickers(selectedStickers) {
     const selectedStickersList = document.getElementById('selectedStickers');
     selectedStickersList.innerHTML = '';
-    
+    if(!selectedStickers.length) return
+
     const title = document.createElement('li');
     title.classList.add('selected-sticker-item');
     title.textContent = "Selected:";
