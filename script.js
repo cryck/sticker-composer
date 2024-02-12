@@ -14,8 +14,8 @@ async function callWorker() {
         resultsDiv.innerHTML = '';
 
             // Reverse the results if isBackwards is true to ensure they are displayed from left to right
-            if (isBackwards)
-                results.reverse(); {
+            if (isBackwards) {
+                results.reverse();
             }
 
             results.forEach((result, i) => {
