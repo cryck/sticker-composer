@@ -10,18 +10,32 @@
     <link rel="stylesheet" href="/index.css">
 </head>
 <body>
-    <h1>Counter-Strike 2 - Sticker Craft Generator</h1>
-    <div class="search-container">
-        <input type="text" id="stickerInput" placeholder="Enter sticker name">
-        <label>
-            <input type="checkbox" id="isBackwards"> Search Backwards
-        </label>
-        <button onclick="callWorker()">Search</button>
-    </div>
-    <div class="main-content">
-        <div id="results" class="results-container"></div>
-        <div id="selectedStickersContainer" class="selected-stickers-container">
-            <ul id="selectedStickers" class="selected-stickers-list"></ul>
+    <div class="base-container">
+        <div class="page-header">
+            <h1 class="title">CS Sticker</h1>
+            <h2 class="subTitle">Counter-Strike 2 - Sticker Craft Generator</h2>
+        </div>
+    
+        <div class="search-container">
+            <div class="input-group">
+                <input type="text" id="stickerInput" placeholder="Enter sticker name">
+                <button onclick="callWorker()">Generate</button>
+            </div>
+    
+            <div>
+                <label>
+                    <input type="checkbox" id="isBackwards"> Search Backwards
+                </label>
+            </div>
+        </div>
+        
+        <div class="page-content">
+            <div class="main-content">
+                <div id="results" class="results-container"></div>
+                <div id="selectedStickersContainer" class="selected-stickers-container">
+                    <ul id="selectedStickers" class="selected-stickers-list"></ul>
+                </div>
+            </div>
         </div>
     </div>
 

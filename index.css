@@ -1,54 +1,119 @@
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     margin: 0;
     background-color: #f5f5f5;
 }
 
+.base-container {
+    width: 1760px;
+    max-width: 90%;
+    min-height: calc(100dvh - 56px); /* Calculating Dynamic view height and subtracting footer size */
+    margin: 0 auto;
+}
+
+.page-header {
+    margin-top: 64px;
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.page-header .title, .page-header .subTitle {
+    animation: fadeInUp 0.25s both;
+    text-align: center;
+}
+
+.page-header .title {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.page-header .subTitle {
+    animation-delay: 0.1s;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
 .search-container {
+    margin-top: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
 
-#stickerInput {
-    font-size: 16px;
-    padding: 10px;
+.search-container .input-group {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: minmax(auto, 500px) 128px;
+    gap: 16px;
+}
+
+.search-container .input-group input {
+    font-size: 1rem;
+    padding: 16px 32px;
+    border-radius: 100px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 300px;
 }
 
-button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+.search-container .input-group button {
+    background-color: #232323;
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: 100px;
     cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    transition: background-color 0.25s;
 }
 
-button:hover {
-    background-color: #0056b3;
+.search-container .input-group button:hover {
+    background-color: #595959;
+}
+
+.page-content {
+    position: relative;
+    margin-top: 64px;
 }
 
 .main-content {
     position: relative; /* Needed for selected stickers list positioning  */
     flex: 1; /* Needed to keep the footer on the bottom */
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .selected-stickers-container {
     height: 100%;
-    position: absolute;
-    top: 0;
-    right: -180px;
 }
 
 .selected-stickers-list {
@@ -68,6 +133,9 @@ button:hover {
     border: 1px solid #ccc;
     border-bottom: 0; /* For avoiding double borders */
     padding: 6px 4px;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
     user-select: text;
 }
 
@@ -87,12 +155,13 @@ button:hover {
 }
 
 .results-container {
-    margin-top: 20px;
+    max-width: 500px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     flex: 1;
+    padding: 0 32px;
 }
 
 .result-group {
@@ -146,6 +215,7 @@ button:hover {
     position: relative;
     display: inline-block;
     cursor: pointer;
+    animation: fadeInUp 0.25s both;
 }
 
 .sticker-wrapper::after {
@@ -175,10 +245,9 @@ button:hover {
 footer {
     text-align: center;
     padding: 20px 0;
-    margin-top: 30px;
     background-color: #f0f0f0;
     color: #333;
-    font-size: 14px;
+    font-size: 0.875rem;
     width: 100%;
     box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
 }
@@ -190,6 +259,14 @@ footer p {
 
 /* Mobile media queries*/
 @media only screen and (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+
+    .main-content .results-container {
+        min-width: 100%;
+    }
+
     .selected-stickers-container {
         position: sticky;
         bottom: 0;
@@ -238,5 +315,13 @@ footer p {
     }
     .sticker-image::after{
         display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .search-container .input-group {
+        grid-template-columns: 1fr;
+        align-items: stretch;
+        justify-content: stretch;
     }
 }

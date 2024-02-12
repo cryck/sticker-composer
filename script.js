@@ -14,8 +14,8 @@ async function callWorker() {
         resultsDiv.innerHTML = '';
 
             // Reverse the results if isBackwards is true to ensure they are displayed from left to right
-            if (isBackwards) {
-                results.reverse();
+            if (isBackwards)
+                results.reverse(); {
             }
 
             results.forEach((result, i) => {
@@ -60,12 +60,17 @@ async function callWorker() {
                 resultsDiv.appendChild(groupDiv);
             });
 
+            const selectedStickersList = document.getElementById('selectedStickers');
+
             if (results.length === 0) {
                 const infoMessageDiv = document.createElement('div');
                 infoMessageDiv.classList.add('info-message');
                 infoMessageDiv.textContent = "No matches found for your input. Try another search term.";
                 resultsDiv.appendChild(infoMessageDiv);
-            } 
+                selectedStickersList.style.display = "none"
+            }  else {
+                selectedStickersList.style.display = "block"
+            }
             renderSelectedStickers(selectedStickers)
     } catch (error) {
         console.error('Error fetching data:', error);
