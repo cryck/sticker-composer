@@ -42,14 +42,6 @@ async function callWorker() {
                         selectedStickers[i].sticker = sticker
                         selectedStickers[i].index = i
                         renderSelectedStickers(selectedStickers)
-
-                        // Copy sticker name to clipboard
-                        document.body.focus(); // Attempt to focus the document
-                        navigator.clipboard.writeText(sticker.name).then(() => {
-                            console.log('Sticker name copied to clipboard');
-                        }).catch(err => {
-                            console.error('Failed to copy sticker name to clipboard', err);
-                        });
                     };
 
                     stickerWrapper.appendChild(image);
@@ -76,6 +68,21 @@ async function callWorker() {
         console.error('Error fetching data:', error);
         alert('Failed to fetch data from the worker.');
     }
+}
+
+function displayInfoMessage(reason, inputVal) {
+    const infoMessageDiv = document.createElement('div');
+    const infoContainerDiv = document.getElementById('infoContainer');
+    infoMessageDiv.classList.add('info-message');
+    infoMessageDiv.innerHTML = `${reason} Try another search term or try this other tool: `;
+
+    const link = document.createElement('a');
+    link.href = `https://stickertool.pcpie.nl/?input=${encodeURIComponent(inputVal)}`;
+    link.textContent = 'stickertool.pcpie.nl';
+    link.target = "_blank";
+
+    infoMessageDiv.appendChild(link);
+    infoContainerDiv.appendChild(infoMessageDiv);
 }
 
 document.getElementById('stickerInput').addEventListener('keypress', function(event) {
@@ -124,3 +131,12 @@ function renderSelectedStickers(selectedStickers) {
         selectedStickersList.appendChild(selectedStickerItem);
     });
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const params = new URLSearchParams(window.location.search);
+    const inputParam = params.get('input');
+    if (inputParam) {
+        document.getElementById('stickerInput').value = decodeURIComponent(inputParam);
+        callWorker();
+    }
+});
