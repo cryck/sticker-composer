@@ -66,11 +66,6 @@ async function callWorker() {
                 infoMessageDiv.textContent = "No matches found for your input. Try another search term.";
                 resultsDiv.appendChild(infoMessageDiv);
             } else {
-                // Create and append selected stickers container
-                const selectedStickersList = document.createElement('ul');
-                selectedStickersList.id = 'selectedStickers';
-                selectedStickersList.classList.add('selected-stickers-container');
-                resultsDiv.appendChild(selectedStickersList);
                 renderSelectedStickers(selectedStickers)
             }
     } catch (error) {
@@ -88,11 +83,15 @@ document.getElementById('stickerInput').addEventListener('keypress', function(ev
 function renderSelectedStickers(selectedStickers) {
     const selectedStickersList = document.getElementById('selectedStickers');
     selectedStickersList.innerHTML = '';
-    selectedStickersList.textContent = "Selected:";
+    
+    const title = document.createElement('li');
+    title.classList.add('selected-sticker-item');
+    title.textContent = "Selected:";
+    selectedStickersList.appendChild(title);
 
     selectedStickers.forEach(selected => {
         const selectedStickerItem = document.createElement('li');
-        selectedStickerItem.classList.add('selected-sticker-wrapper');
+        selectedStickerItem.classList.add('selected-sticker-item');
         selectedStickerItem.textContent = selected.matchedPart.toUpperCase();
 
         if (selected.sticker) {
