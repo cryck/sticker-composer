@@ -240,3 +240,7 @@ footer p {
         display: none;
     }
 }
+
+#infoContainer {
+    margin: 10px 0;
+}

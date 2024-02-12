@@ -52,24 +52,32 @@ async function callWorker() {
                 resultsDiv.appendChild(groupDiv);
             });
 
-            if (results.length === 0) {
-                const infoMessageDiv = document.createElement('div');
-                infoMessageDiv.classList.add('info-message');
-                infoMessageDiv.innerHTML = "No matches found for your input. Try another search term or try this other tool: ";
+        if (results.length === 0) {
+            displayInfoMessage('No matches found for your input.', inputVal)
+        } else if (results.map(x => x.matchedPart).join('') !== inputVal) {
+            displayInfoMessage('Could not match the entire input.', inputVal)
+        }
 
-                const link = document.createElement('a');
-                link.href = `https://stickertool.pcpie.nl/?input=${encodeURIComponent(inputVal)}`;
-                link.textContent = 'stickertool.pcpie.nl';
-                link.target = "_blank";
-
-                infoMessageDiv.appendChild(link);
-                resultsDiv.appendChild(infoMessageDiv);
-            } 
-            renderSelectedStickers(selectedStickers)
+        renderSelectedStickers(selectedStickers)
     } catch (error) {
         console.error('Error fetching data:', error);
         alert('Failed to fetch data from the worker.');
     }
+}
+
+function displayInfoMessage(reason, inputVal) {
+    const infoMessageDiv = document.createElement('div');
+    const infoContainerDiv = document.getElementById('infoContainer');
+    infoMessageDiv.classList.add('info-message');
+    infoMessageDiv.innerHTML = `${reason} Try another search term or try this other tool: `;
+
+    const link = document.createElement('a');
+    link.href = `https://stickertool.pcpie.nl/?input=${encodeURIComponent(inputVal)}`;
+    link.textContent = 'stickertool.pcpie.nl';
+    link.target = "_blank";
+
+    infoMessageDiv.appendChild(link);
+    infoContainerDiv.appendChild(infoMessageDiv);
 }
 
 document.getElementById('stickerInput').addEventListener('keypress', function(event) {
