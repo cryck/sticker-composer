@@ -54,11 +54,13 @@ async function callWorker() {
 
             const selectedStickersList = document.getElementById('selectedStickers');
 
-            if (results.length === 0) {
-                const infoMessageDiv = document.createElement('div');
-                infoMessageDiv.classList.add('info-message');
-                infoMessageDiv.textContent = "No matches found for your input. Try another search term.";
-                resultsDiv.appendChild(infoMessageDiv);
+            if (results.length <= 0) {
+                const message = results.map(x => x.matchedPart).join('') !== inputVal
+                    ? "Could not match the entire input."
+                    : "No matches found for your input."
+
+                displayInfoMessage(resultsDiv, message, inputVal)
+
                 selectedStickersList.style.display = "none"
             }  else {
                 selectedStickersList.style.display = "block"
@@ -70,19 +72,22 @@ async function callWorker() {
     }
 }
 
-function displayInfoMessage(reason, inputVal) {
-    const infoMessageDiv = document.createElement('div');
-    const infoContainerDiv = document.getElementById('infoContainer');
-    infoMessageDiv.classList.add('info-message');
-    infoMessageDiv.innerHTML = `${reason} Try another search term or try this other tool: `;
+function displayInfoMessage(container, reason, inputVal) {
+    const div = document.createElement("div")
+
+    const text = document.createElement('span');
+    text.classList.add('info-message');
+    text.innerHTML = `${reason} Try another search term or try this other tool: `;
 
     const link = document.createElement('a');
     link.href = `https://stickertool.pcpie.nl/?input=${encodeURIComponent(inputVal)}`;
     link.textContent = 'stickertool.pcpie.nl';
     link.target = "_blank";
 
-    infoMessageDiv.appendChild(link);
-    infoContainerDiv.appendChild(infoMessageDiv);
+    div.appendChild(text)
+    div.appendChild(link);
+
+    container.appendChild(div)
 }
 
 document.getElementById('stickerInput').addEventListener('keypress', function(event) {
