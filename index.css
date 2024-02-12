@@ -39,6 +39,52 @@ button:hover {
     background-color: #0056b3;
 }
 
+.main-content {
+    position: relative; /* Needed for selected stickers list positioning  */
+}
+
+.selected-stickers-container {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -180px;
+}
+
+.selected-stickers-list {
+    width: 150px;
+    position: sticky;
+    top: 20px;
+    text-align: center;
+    font-weight: bold;
+    list-style: none;
+}
+
+.selected-sticker-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-bottom: 0; /* For avoiding double borders */
+    padding: 6px 4px;
+    user-select: text;
+}
+
+/* Round top and bottom items */
+.selected-sticker-item:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.selected-sticker-item:last-child {
+    border-radius: 0 0 5px 5px;
+    border-bottom: 1px solid #ccc;;
+}
+
+.selected-sticker-info {
+    font-weight: normal;
+    font-size: small;
+}
+
 .results-container {
     margin-top: 20px;
     display: flex;
@@ -46,33 +92,6 @@ button:hover {
     gap: 20px;
     justify-content: center;
     flex: 1;
-}
-
-.selected-stickers-container {
-    width: 150px;
-    height: fit-content;
-    position: sticky;
-    top: 20px;
-    background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px 2px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.selected-sticker-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-top: 1px solid #ccc;
-    padding: 6px 4px;
-    user-select: text;
-}
-
-.selected-sticker-info {
-    font-weight: normal;
-    font-size: small;
 }
 
 .result-group {
@@ -166,4 +185,57 @@ footer {
 footer p {
     margin: 0;
     padding: 0;
+}
+
+/* Mobile media queries*/
+@media only screen and (max-width: 768px) {
+    .selected-stickers-container {
+        position: sticky;
+        bottom: 0;
+    }
+
+    .selected-stickers-list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .selected-sticker-item {
+        width: 100%;
+    }
+
+    /* Hide title on mobile */
+    .selected-sticker-item:first-child {
+        display: none;
+    }
+
+    .selected-sticker-item {
+        font-size: small;
+        border-radius: 0;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .selected-sticker-item:nth-child(2) {
+        border-radius: 10px 0 0 0;
+    }
+    .selected-sticker-item:last-child {
+        border-radius: 0 10px 0 0;
+    }
+
+    .selected-sticker-item > .sticker-image {
+        max-width: 56px;
+    }
+
+    .selected-sticker-info {
+        font-size: x-small;
+    }
+
+    /* Hide tooltips on mobile */
+    .sticker-wrapper::after {
+        display: none;
+    }
+    .sticker-image::after{
+        display: none;
+    }
 }
