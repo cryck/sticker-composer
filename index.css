@@ -41,6 +41,7 @@ button:hover {
 
 .main-content {
     position: relative; /* Needed for selected stickers list positioning  */
+    flex: 1; /* Needed to keep the footer on the bottom */
 }
 
 .selected-stickers-container {
