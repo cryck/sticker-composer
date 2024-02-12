@@ -55,7 +55,14 @@ async function callWorker() {
             if (results.length === 0) {
                 const infoMessageDiv = document.createElement('div');
                 infoMessageDiv.classList.add('info-message');
-                infoMessageDiv.textContent = "No matches found for your input. Try another search term or try this other tool: <a href='stickertool.pcpie.nl/?input=" + inputVal + "'>stickertool.pcpie.nl</a>.";
+                infoMessageDiv.innerHTML = "No matches found for your input. Try another search term or try this other tool: ";
+
+                const link = document.createElement('a');
+                link.href = `https://stickertool.pcpie.nl/?input=${encodeURIComponent(inputVal)}`;
+                link.textContent = 'stickertool.pcpie.nl';
+                link.target = "_blank";
+
+                infoMessageDiv.appendChild(link);
                 resultsDiv.appendChild(infoMessageDiv);
             } 
             renderSelectedStickers(selectedStickers)
