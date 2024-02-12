@@ -117,5 +117,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const inputParam = params.get('input');
     if (inputParam) {
         document.getElementById('stickerInput').value = decodeURIComponent(inputParam);
+        callWorker();
     }
 });
