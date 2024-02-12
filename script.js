@@ -56,6 +56,8 @@ async function callWorker() {
             displayInfoMessage('No matches found for your input.', inputVal)
         } else if (results.map(x => x.matchedPart).join('') !== inputVal) {
             displayInfoMessage('Could not match the entire input.', inputVal)
+        } else {
+            document.getElementById('infoContainer').innerHTML = ''
         }
 
         renderSelectedStickers(selectedStickers)
