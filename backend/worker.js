@@ -349,19 +349,41 @@ async function depthSearch(input) {
   return results
 }
 
-async function getTokenizations() {
-  const response = await fetch(
-    "http://127.0.0.1:5500/tokenized_player_names.json"
-  )
-  // <Token:${token-location}:${token-string}>
-  const tokenizationMap = await response.json()
+function mergeJSONData(dataArrays) {
+  let mergedData = [];
+  dataArrays.forEach(dataArray => {
+      mergedData = mergedData.concat(dataArray);
+  });
+  return mergedData;
+}
 
-  return tokenizationMap
+async function fetchAndMergeJSONData(urls) {
+  const dataArrays = await Promise.all(urls.map(async url => {
+      const response = await fetch(url);
+      const jsonData = await response.json();
+      return jsonData;
+  }));
+  return mergeJSONData(dataArrays);
+}
+
+async function getTokenizations() {
+  const urls = [
+    'https://cs-sticker.com/tokenized_player_names_chunk_0.json',
+    'https://cs-sticker.com/tokenized_player_names_chunk_1.json'
+  ];
+
+  try {
+    // <Token:${token-location}:${token-string}>
+    const tokenizationMap = await fetchAndMergeJSONData(urls);
+    return tokenizationMap
+  } catch (error) {
+      console.error('Error fetching or merging data:', error);
+  }
 }
 
 async function getStickers() {
   const response = await fetch(
-    "https://signature-checker.pages.dev/stickers.json"
+    "https://cs-sticker.com/stickers.json"
   )
   const allStickers = await response.json()
   return allStickers

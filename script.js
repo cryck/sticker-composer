@@ -11,7 +11,6 @@ function decrementResultIndex() {
   }
 }
 function incrementResultIndex() {
-  console.log("GIG")
   const newIndex = currentResultIndex + 1
 
   if (newIndex > 0 && newIndex < currentResultsList.length - 1) {
