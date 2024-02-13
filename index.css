@@ -275,6 +275,11 @@ footer p {
   text-align: center;
 }
 
+#infoContainer {
+    margin: 10px 0;
+    text-align: center;
+}
+
 /* Mobile media queries*/
 @media only screen and (max-width: 768px) {
   .main-content {
@@ -360,4 +365,6 @@ footer p {
   left: 16px;
   top: 13px;
   font-size: 19px;
+
 }
+
