@@ -11,7 +11,6 @@ function decrementResultIndex() {
   }
 }
 function incrementResultIndex() {
-  console.log("GIG")
   const newIndex = currentResultIndex + 1
 
   if (newIndex > 0 && newIndex < currentResultsList.length - 1) {
@@ -104,7 +103,10 @@ async function callWorker() {
   const isBackwards = document.getElementById("isBackwards").checked
   const isDepth = document.getElementById("isDepth").checked
 
-  const apiUrl = `https://polished-bush-fd60.cryck.workers.dev/?input=${encodeURIComponent(
+  // const apiUrl = `https://polished-bush-fd60.cryck.workers.dev/?input=${encodeURIComponent(
+  //   inputVal
+  // )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
+  const apiUrl = `http://localhost:8787/?input=${encodeURIComponent(
     inputVal
   )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
 
