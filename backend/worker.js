@@ -351,7 +351,7 @@ async function depthSearch(input) {
 
 async function getTokenizations() {
   const response = await fetch(
-    "http://127.0.0.1:5500/sticker-composer/tokenized_player_names.json"
+    "http://127.0.0.1:5500/tokenized_player_names.json"
   )
   // <Token:${token-location}:${token-string}>
   const tokenizationMap = await response.json()
@@ -361,7 +361,7 @@ async function getTokenizations() {
 
 async function getStickers() {
   const response = await fetch(
-    "'https://signature-checker.pages.dev/stickers.json'"
+    "https://signature-checker.pages.dev/stickers.json"
   )
   const allStickers = await response.json()
   return allStickers

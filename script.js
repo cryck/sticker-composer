@@ -40,7 +40,11 @@ function populateResults(resultIndex = 0) {
 
     const matchedPartSpan = document.createElement("span")
     matchedPartSpan.classList.add("matched-part")
-    matchedPartSpan.textContent = result.matchedPart.toUpperCase()
+    matchedPartSpan.textContent = result.matchedLoc
+      ? `${result.matchedLoc} : `
+      : ""
+    matchedPartSpan.textContent += result.matchedPart.toUpperCase()
+
     groupDiv.appendChild(matchedPartSpan)
 
     result.stickers.forEach((sticker) => {
