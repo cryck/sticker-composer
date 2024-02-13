@@ -19,7 +19,7 @@ async function handleRequest(request) {
     const isDepth = url.searchParams.get("isDepth") === "true"
 
     let results = []
-    if (isDepth) {
+    if (isDepth && input.length <= 10) {
       results = await depthSearch(input)
     } else {
       results = await mainSearch(input, isBackwards)
