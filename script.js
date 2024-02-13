@@ -20,8 +20,7 @@ function incrementResultIndex() {
 }
 
 function populateResults(resultIndex = 0) {
-  const results = currentResultsList[resultIndex]
-
+  let results = currentResultsList[resultIndex]
   const selectedStickers = []
 
   const resultIndexControls = document.getElementById("result-index-controls")
@@ -103,7 +102,10 @@ async function callWorker() {
   const isBackwards = document.getElementById("isBackwards").checked
   const isDepth = document.getElementById("isDepth").checked
 
-  const apiUrl = `https://polished-bush-fd60.cryck.workers.dev/?input=${encodeURIComponent(
+  // const apiUrl = `https://polished-bush-fd60.cryck.workers.dev/?input=${encodeURIComponent(
+  //   inputVal
+  // )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
+  const apiUrl = `http://localhost:8787/?input=${encodeURIComponent(
     inputVal
   )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
 

@@ -378,9 +378,7 @@ async function getTokenizations(Token) {
 }
 
 async function getStickers() {
-  const response = await fetch(
-    "https://signature-checker.pages.dev/stickers.json"
-  )
+  const response = await fetch("https://cs-sticker.com/stickers.json")
   const allStickers = await response.json()
   return allStickers
     .filter((sticker) => !sticker.ignore)
