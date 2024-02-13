@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover and explore Counter-Strike 2 sticker combinations with this intuitive sticker generator. Find your favorite CS2 sticker craft today or build your own nickname.">
-    <meta name="keywords" content="Counter-Strike 2, CS2, Sticker Generator, CS Stickers, Gaming, Valve, Steam">
-    <meta name="author" content="cryck">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover and explore Counter-Strike 2 sticker combinations with this intuitive sticker generator. Find your favorite CS2 sticker craft today or build your own nickname."
+    />
+    <meta
+      name="keywords"
+      content="Counter-Strike 2, CS2, Sticker Generator, CS Stickers, Gaming, Valve, Steam"
+    />
+    <meta name="author" content="cryck" />
     <title>Counter-Strike 2 Sticker Generator</title>
-    <link rel="stylesheet" href="/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
     <div class="base-container">
-        <div class="page-header">
-            <h1 class="title">CS Sticker</h1>
-            <h2 class="subTitle">Counter-Strike 2 - Sticker Craft Generator</h2>
-        </div>
+
+      <div class="page-header">
+        <h1 class="title">CS Sticker</h1>
+        <h2 class="subTitle">Counter-Strike 2 - Sticker Craft Generator</h2>
+      </div>
 
         <div class="search-container">
             <div class="input-group">
@@ -26,6 +33,9 @@
                 <label>
                     <input type="checkbox" id="isBackwards"> Search Backwards
                 </label>
+                <label>
+                  <input type="checkbox" id="isDepth" /> Depth Search
+                </label>
             </div>
         </div>
         <div id="infoContainer"></div>
@@ -35,9 +45,20 @@
                 <div id="results" class="results-container"></div>
                 <div id="selectedStickersContainer" class="selected-stickers-container">
                     <ul id="selectedStickers" class="selected-stickers-list"></ul>
+                    <div id="result-index-controls">
+                      <p id="result-index-control-left" onclick="decrementResultIndex()">
+                        <
+                      </p>
+                      <span id="result-index-label"></span>
+                      <p id="result-index-control-right" onclick="incrementResultIndex()">
+                        >
+                      </p>
+                    </div>
                 </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <a href="javascript:" id="back-to-top"><i class="icon-chevron-up"></i></a>
@@ -50,6 +71,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/back-to-top.js"></script>
-    <script src="/script.js"></script>
+    <script src="/script.js" defer></script>
+
 </body>
 </html>
