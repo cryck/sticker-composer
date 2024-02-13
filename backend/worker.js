@@ -351,10 +351,10 @@ async function depthSearch(input) {
 
 async function getTokenizations(Token) {
   const invertedDictRes = await fetch(
-    "http://127.0.0.1:5500/inverted_dict.json"
+    "https://cs-sticker.com/inverted_dict.json"
   )
   const stickersByMatchedFullWordRes = await fetch(
-    "http://127.0.0.1:5500/stickers_by_matched_full_word.json"
+    "https://cs-sticker.com/stickers_by_matched_full_word.json"
   )
   // <Token:${token-location}:${token-string}>
 
