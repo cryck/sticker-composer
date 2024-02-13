@@ -20,14 +20,7 @@ function incrementResultIndex() {
 }
 
 function populateResults(resultIndex = 0) {
-  const results = currentResultsList[resultIndex]
-  console.log("results:", results);
-
-    // If results is not an array, wrap it in an array
-    if (!Array.isArray(results)) {
-      results = [results];
-    }
-
+  let results = currentResultsList[resultIndex]
   const selectedStickers = []
 
   const resultIndexControls = document.getElementById("result-index-controls")
