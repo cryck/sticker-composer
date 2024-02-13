@@ -12,7 +12,7 @@ async function handleRequest(request) {
 
   if (request.method === "GET") {
     const url = new URL(request.url)
-
+    console.log(request.url)
     const input = url.searchParams.get("input").toLowerCase()
 
     const isBackwards = url.searchParams.get("isBackwards") === "true"
@@ -117,10 +117,10 @@ async function depthSearch(input) {
     }
 
     static stringifyToken(location, text) {
-      return `'<Token:${location}:${text}>'`
+      return `<Token:${location}:${text}>`
     }
     stringifySelf() {
-      return `'<Token:${this.location}:${this.text}>'`
+      return `<Token:${this.location}:${this.text}>`
     }
   }
 
@@ -341,7 +341,7 @@ async function depthSearch(input) {
 
     return results
   }
-  const tokenizationMap = await getTokenizations()
+  const tokenizationMap = await getTokenizations(Token)
 
   // results consists of all N permutations of tokens that spell input with various locations
   const results = stickerfyWord(input, tokenizationMap)
@@ -349,37 +349,32 @@ async function depthSearch(input) {
   return results
 }
 
-function mergeJSONData(dataArrays) {
-  let mergedData = [];
-  dataArrays.forEach(dataArray => {
-      mergedData = mergedData.concat(dataArray);
-  });
-  return mergedData;
-}
 
-async function fetchAndMergeJSONData(urls) {
-  const dataArrays = await Promise.all(urls.map(async url => {
-      const response = await fetch(url);
-      const jsonData = await response.json();
-      return jsonData;
-  }));
-  return mergeJSONData(dataArrays);
-}
+async function getTokenizations(Token) {
+  const invertedDictRes = await fetch(
+    "http://127.0.0.1:5500/inverted_dict.json"
+  )
+  const stickersByMatchedFullWordRes = await fetch(
+    "http://127.0.0.1:5500/stickers_by_matched_full_word.json"
+  )
+  // <Token:${token-location}:${token-string}>
 
-async function getTokenizations() {
-  const urls = [
-    'https://cs-sticker.com/tokenized_player_names_chunk_0.json',
-    'https://cs-sticker.com/tokenized_player_names_chunk_1.json'
-  ];
+  const invertedDict = await invertedDictRes.json()
+  const stickersByMatchedFullWord = await stickersByMatchedFullWordRes.json()
 
-  try {
-    // <Token:${token-location}:${token-string}>
-    const tokenizationMap = await fetchAndMergeJSONData(urls);
-    return tokenizationMap
-  } catch (error) {
-      console.error('Error fetching or merging data:', error);
-  }
-}
+  // Deriving the token map from above
+
+  const tokenizationMap = Object.fromEntries(
+    Object.entries(invertedDict).map(([token, matchedFullWords]) => {
+      const wordArray = []
+      // matchedFullWords is ['simple','shroud',...]
+      matchedFullWords.forEach((word) => {
+        wordArray.push(...stickersByMatchedFullWord[word])
+      })
+      return [token, wordArray]
+    })
+  )
+
 
 async function getStickers() {
   const response = await fetch(
