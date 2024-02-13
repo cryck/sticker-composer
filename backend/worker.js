@@ -361,7 +361,7 @@ async function getTokenizations() {
 
 async function getStickers() {
   const response = await fetch(
-    "http://127.0.0.1:5500/sticker-composer/stickers.json"
+    "'https://signature-checker.pages.dev/stickers.json'"
   )
   const allStickers = await response.json()
   return allStickers
