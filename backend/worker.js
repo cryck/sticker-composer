@@ -349,6 +349,7 @@ async function depthSearch(input) {
   return results
 }
 
+
 async function getTokenizations(Token) {
   const invertedDictRes = await fetch(
     "http://127.0.0.1:5500/inverted_dict.json"
@@ -374,12 +375,10 @@ async function getTokenizations(Token) {
     })
   )
 
-  return tokenizationMap
-}
 
 async function getStickers() {
   const response = await fetch(
-    "https://signature-checker.pages.dev/stickers.json"
+    "https://cs-sticker.com/stickers.json"
   )
   const allStickers = await response.json()
   return allStickers

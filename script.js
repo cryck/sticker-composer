@@ -20,8 +20,7 @@ function incrementResultIndex() {
 }
 
 function populateResults(resultIndex = 0) {
-  const results = currentResultsList[resultIndex]
-
+  let results = currentResultsList[resultIndex]
   const selectedStickers = []
 
   const resultIndexControls = document.getElementById("result-index-controls")
