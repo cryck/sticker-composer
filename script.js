@@ -21,6 +21,7 @@ function incrementResultIndex() {
 
 function populateResults(resultIndex = 0) {
   const results = currentResultsList[resultIndex]
+  console.log("results:", results);
 
   const selectedStickers = []
 
