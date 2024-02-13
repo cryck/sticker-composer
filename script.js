@@ -73,16 +73,13 @@ function populateResults(resultIndex = 0) {
   const selectedStickersList = document.getElementById("selectedStickers")
 
   if (results.length <= 0) {
-    const message =
-      results.map((x) => x.matchedPart).join("") !== inputVal
-        ? "Could not match the entire input."
-        : "No matches found for your input."
-
-    displayInfoMessage(resultsDiv, message, inputVal)
-
+    displayInfoMessage("No matches found for your input.", inputVal)
     selectedStickersList.style.display = "none"
+  } else if (results.map(x => x.matchedPart).join('') !== inputVal) {
+      displayInfoMessage("Could not match the entire input.", inputVal)
+      selectedStickersList.style.display = "none"
   } else {
-    selectedStickersList.style.display = "block"
+      selectedStickersList.style.display = "block"
   }
   renderSelectedStickers(selectedStickers)
 }
@@ -115,11 +112,12 @@ async function callWorker() {
     populateResults(currentResultIndex)
   } catch (error) {
     console.error("Error fetching data:", error)
-    alert("Failed to fetch data from the worker.")
+    displayInfoMessage("No matches found for your input.", inputVal)
+    selectedStickersList.style.display = "none"
   }
 }
 
-function displayInfoMessage(container, reason, inputVal) {
+function displayInfoMessage(reason, inputVal) {
   const div = document.createElement("div")
 
   const text = document.createElement("span")
@@ -136,7 +134,7 @@ function displayInfoMessage(container, reason, inputVal) {
   div.appendChild(text)
   div.appendChild(link)
 
-  container.appendChild(div)
+  document.getElementById('infoContainer').replaceChildren(div)
 }
 
 document
