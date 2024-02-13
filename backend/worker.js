@@ -373,7 +373,6 @@ async function getTokenizations(Token) {
       return [token, wordArray]
     })
   )
-
   return tokenizationMap
 }
 
