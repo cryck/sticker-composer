@@ -55,14 +55,12 @@ async function callWorker() {
             const selectedStickersList = document.getElementById('selectedStickers');
 
             if (results.length <= 0) {
-                const message = results.map(x => x.matchedPart).join('') !== inputVal
-                    ? "Could not match the entire input."
-                    : "No matches found for your input."
-
-                displayInfoMessage(resultsDiv, message, inputVal)
-
+                displayInfoMessage("No matches found for your input.", inputVal)
                 selectedStickersList.style.display = "none"
-            }  else {
+            } else if (results.map(x => x.matchedPart).join('') !== inputVal) {
+                displayInfoMessage("Could not match the entire input.", inputVal)
+                selectedStickersList.style.display = "none"
+            } else {
                 selectedStickersList.style.display = "block"
             }
             renderSelectedStickers(selectedStickers)
@@ -72,7 +70,7 @@ async function callWorker() {
     }
 }
 
-function displayInfoMessage(container, reason, inputVal) {
+function displayInfoMessage(reason, inputVal) {
     const div = document.createElement("div")
 
     const text = document.createElement('span');
@@ -87,7 +85,7 @@ function displayInfoMessage(container, reason, inputVal) {
     div.appendChild(text)
     div.appendChild(link);
 
-    container.appendChild(div)
+    document.getElementById('infoContainer').replaceChildren(div)
 }
 
 document.getElementById('stickerInput').addEventListener('keypress', function(event) {
