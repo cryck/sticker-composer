@@ -1,49 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover and explore Counter-Strike 2 sticker combinations with this intuitive sticker generator. Find your favorite CS2 sticker craft today or build your own nickname.">
-    <meta name="keywords" content="Counter-Strike 2, CS2, Sticker Generator, CS Stickers, Gaming, Valve, Steam">
-    <meta name="author" content="cryck">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover and explore Counter-Strike 2 sticker combinations with this intuitive sticker generator. Find your favorite CS2 sticker craft today or build your own nickname."
+    />
+    <meta
+      name="keywords"
+      content="Counter-Strike 2, CS2, Sticker Generator, CS Stickers, Gaming, Valve, Steam"
+    />
+    <meta name="author" content="cryck" />
     <title>Counter-Strike 2 Sticker Generator</title>
-    <link rel="stylesheet" href="/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
     <div class="base-container">
-        <div class="page-header">
-            <h1 class="title">CS Sticker</h1>
-            <h2 class="subTitle">Counter-Strike 2 - Sticker Craft Generator</h2>
+      <div class="page-header">
+        <h1 class="title">CS Sticker</h1>
+        <h2 class="subTitle">Counter-Strike 2 - Sticker Craft Generator</h2>
+      </div>
+
+      <div class="search-container">
+        <div class="input-group">
+          <input
+            type="text"
+            id="stickerInput"
+            placeholder="Enter sticker name"
+          />
+          <button onclick="callWorker()">Generate</button>
         </div>
-    
-        <div class="search-container">
-            <div class="input-group">
-                <input type="text" id="stickerInput" placeholder="Enter sticker name">
-                <button onclick="callWorker()">Generate</button>
-            </div>
-    
-            <div>
-                <label>
-                    <input type="checkbox" id="isBackwards"> Search Backwards
-                </label>
-            </div>
+
+        <div>
+          <label>
+            <input type="checkbox" id="isBackwards" /> Search Backwards
+          </label>
+          <label> <input type="checkbox" id="isDepth" /> Depth Search </label>
         </div>
-        
-        <div class="page-content">
-            <div class="main-content">
-                <div id="results" class="results-container"></div>
-                <div id="selectedStickersContainer" class="selected-stickers-container">
-                    <ul id="selectedStickers" class="selected-stickers-list"></ul>
-                </div>
+      </div>
+
+      <div class="page-content">
+        <div class="main-content">
+          <div id="results" class="results-container"></div>
+          <div
+            id="selectedStickersContainer"
+            class="selected-stickers-container"
+          >
+            <ul id="selectedStickers" class="selected-stickers-list"></ul>
+            <div id="result-index-controls">
+              <p
+                id="result-index-control-left"
+                onclick="decrementResultIndex()"
+              >
+                <
+              </p>
+              <span id="result-index-label"></span>
+              <p
+                id="result-index-control-right"
+                onclick="incrementResultIndex()"
+              >
+                >
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <footer>
-        Made by <a href="https://twitter.com/cryck_">cryck</a> with contributions from <a href="https://github.com/cryck/sticker-composer/graphs/contributors">these</a> lovely people. 
-        Powered by Steam. 
+      Made by <a href="https://twitter.com/cryck_">cryck</a> with contributions
+      from
+      <a href="https://github.com/cryck/sticker-composer/graphs/contributors"
+        >these</a
+      >
+      lovely people. Powered by Steam.
     </footer>
-    
-    <script src="/script.js"></script>
-</body>
+
+    <script src="./script.js" defer></script>
+  </body>
 </html>

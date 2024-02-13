@@ -1,322 +1,336 @@
 @keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #f5f5f5;
 }
 
 .base-container {
-    width: 1760px;
-    max-width: 90%;
-    min-height: calc(100dvh - 56px); /* Calculating Dynamic view height and subtracting footer size */
-    margin: 0 auto;
+  width: 1760px;
+  max-width: 90%;
+  min-height: calc(
+    100dvh - 56px
+  ); /* Calculating Dynamic view height and subtracting footer size */
+  margin: 0 auto;
 }
 
 .page-header {
-    margin-top: 64px;
-    padding: 32px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
+  margin-top: 64px;
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
-.page-header .title, .page-header .subTitle {
-    animation: fadeInUp 0.25s both;
-    text-align: center;
+.page-header .title,
+.page-header .subTitle {
+  animation: fadeInUp 0.25s both;
+  text-align: center;
 }
 
 .page-header .title {
-    font-weight: 600;
-    font-size: 3rem;
+  font-weight: 600;
+  font-size: 3rem;
 }
 
 .page-header .subTitle {
-    animation-delay: 0.1s;
-    font-size: 1.1rem;
-    font-weight: 300;
+  animation-delay: 0.1s;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 
 .search-container {
-    margin-top: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .search-container .input-group {
-    width: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: minmax(auto, 500px) 128px;
-    gap: 16px;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: minmax(auto, 500px) 128px;
+  gap: 16px;
 }
 
 .search-container .input-group input {
-    font-size: 1rem;
-    padding: 16px 32px;
-    border-radius: 100px;
-    border: 1px solid #ccc;
+  font-size: 1rem;
+  padding: 16px 32px;
+  border-radius: 100px;
+  border: 1px solid #ccc;
 }
 
 .search-container .input-group button {
-    background-color: #232323;
-    color: #fff;
-    padding: 16px 32px;
-    border-radius: 100px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.25s;
+  background-color: #232323;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.25s;
 }
 
 .search-container .input-group button:hover {
-    background-color: #595959;
+  background-color: #595959;
 }
 
 .page-content {
-    position: relative;
-    margin: 64px 0;
+  position: relative;
+  margin: 64px 0;
 }
 
 .main-content {
-    position: relative; /* Needed for selected stickers list positioning  */
-    flex: 1; /* Needed to keep the footer on the bottom */
-    
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    justify-content: center;
+  position: relative; /* Needed for selected stickers list positioning  */
+  flex: 1; /* Needed to keep the footer on the bottom */
+
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .selected-stickers-container {
-    height: 100%;
+  height: 100%;
 }
 
 .selected-stickers-list {
-    width: 150px;
-    position: sticky;
-    top: 20px;
-    text-align: center;
-    font-weight: bold;
-    list-style: none;
+  width: 150px;
+  position: sticky;
+  top: 20px;
+  text-align: center;
+  font-weight: bold;
+  list-style: none;
 }
 
 .selected-sticker-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #fff;
-    border: 1px solid #ccc;
-    border-bottom: 0; /* For avoiding double borders */
-    padding: 6px 4px;
-    -webkit-user-select: text;
-    -moz-user-select: text;
-    -o-user-select: text;
-    user-select: text;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-bottom: 0; /* For avoiding double borders */
+  padding: 6px 4px;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -o-user-select: text;
+  user-select: text;
 }
 
 /* Round top and bottom items */
 .selected-sticker-item:first-child {
-    border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
 }
 
 .selected-sticker-item:last-child {
-    border-radius: 0 0 5px 5px;
-    border-bottom: 1px solid #ccc;;
+  border-radius: 0 0 5px 5px;
+  border-bottom: 1px solid #ccc;
 }
 
 .selected-sticker-info {
-    font-weight: normal;
-    font-size: small;
+  font-weight: normal;
+  font-size: small;
 }
 
 .results-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    flex: 1;
-    padding: 0 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  flex: 1;
+  padding: 0 32px;
 }
 
 .result-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
 }
 
-.matched-part, .info-message {
-    text-align: center;
+.matched-part,
+.info-message {
+  text-align: center;
 }
 
 .matched-part {
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .sticker-image {
-    width: 100px;
-    height: auto;
-    margin-bottom: 5px;
-    cursor: pointer;
-    position: relative; /* Needed for tooltip positioning */
+  width: 100px;
+  height: auto;
+  margin-bottom: 5px;
+  cursor: pointer;
+  position: relative; /* Needed for tooltip positioning */
 }
 
 .sticker-image:hover::after {
-    content: attr(data-name); /* Use data attribute for tooltip text */
-    visibility: visible;
-    position: absolute;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
+  content: attr(data-name); /* Use data attribute for tooltip text */
+  visibility: visible;
+  position: absolute;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 .info-message {
-    margin-top: 20px;
-    font-style: italic;
-    width: 100%;
+  margin-top: 20px;
+  font-style: italic;
+  width: 100%;
 }
 
 .sticker-wrapper {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    animation: fadeInUp 0.25s both;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  animation: fadeInUp 0.25s both;
 }
 
 .sticker-wrapper::after {
-    content: attr(data-name); /* Use the data-name attribute for the tooltip */
-    visibility: hidden;
-    position: absolute;
-    left: 50%;
-    bottom: 100%;
-    transform: translateX(-50%) translateY(-10px);
-    white-space: nowrap;
-    z-index: 1;
-    background-color: black;
-    color: white;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.2s ease-in-out;
+  content: attr(data-name); /* Use the data-name attribute for the tooltip */
+  visibility: hidden;
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%) translateY(-10px);
+  white-space: nowrap;
+  z-index: 1;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s ease-in-out;
 }
 
 .sticker-wrapper:hover::after {
-    visibility: visible;
-    opacity: 1;
-    transform: translateX(-50%) translateY(-15px); /* Slightly raise the tooltip */
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(-15px); /* Slightly raise the tooltip */
 }
 
+#result-index-controls {
+  display: flex;
+  font-size: 2rem;
+  gap: 1rem;
+
+  display: none;
+}
+#result-index-controls > * {
+  cursor: pointer;
+}
 footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #f0f0f0;
-    color: #333;
-    font-size: 0.875rem;
-    width: 100%;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 0.875rem;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* Mobile media queries*/
 @media only screen and (max-width: 768px) {
-    .main-content {
-        grid-template-columns: 1fr;
-    }
+  .main-content {
+    grid-template-columns: 1fr;
+  }
 
-    .selected-stickers-container {
-        position: sticky;
-        bottom: 0;
-    }
+  .selected-stickers-container {
+    position: sticky;
+    bottom: 0;
+  }
 
-    .selected-stickers-list {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding: 0;
-    }
+  .selected-stickers-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
 
-    .selected-sticker-item {
-        width: 100%;
-    }
+  .selected-sticker-item {
+    width: 100%;
+  }
 
-    /* Hide title on mobile */
-    .selected-sticker-item:first-child {
-        display: none;
-    }
+  /* Hide title on mobile */
+  .selected-sticker-item:first-child {
+    display: none;
+  }
 
-    .selected-sticker-item {
-        font-size: small;
-        border-radius: 0;
-        border-bottom: 1px solid #ccc;
-    }
-    
-    .selected-sticker-item:nth-child(2) {
-        border-radius: 10px 0 0 0;
-    }
-    .selected-sticker-item:last-child {
-        border-radius: 0 10px 0 0;
-    }
+  .selected-sticker-item {
+    font-size: small;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+  }
 
-    .selected-sticker-item > .sticker-image {
-        max-width: 56px;
-    }
+  .selected-sticker-item:nth-child(2) {
+    border-radius: 10px 0 0 0;
+  }
+  .selected-sticker-item:last-child {
+    border-radius: 0 10px 0 0;
+  }
 
-    .selected-sticker-info {
-        font-size: x-small;
-    }
+  .selected-sticker-item > .sticker-image {
+    max-width: 56px;
+  }
 
-    /* Hide tooltips on mobile */
-    .sticker-wrapper::after {
-        display: none;
-    }
-    .sticker-image::after{
-        display: none;
-    }
+  .selected-sticker-info {
+    font-size: x-small;
+  }
+
+  /* Hide tooltips on mobile */
+  .sticker-wrapper::after {
+    display: none;
+  }
+  .sticker-image::after {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 450px) {
-    .search-container .input-group {
-        grid-template-columns: 1fr;
-        align-items: stretch;
-        justify-content: stretch;
-    }
+  .search-container .input-group {
+    grid-template-columns: 1fr;
+    align-items: stretch;
+    justify-content: stretch;
+  }
 }
