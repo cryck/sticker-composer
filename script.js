@@ -72,16 +72,21 @@ function populateResults(resultIndex = 0) {
   })
 
   const selectedStickersList = document.getElementById("selectedStickers")
-  const inputValLower = inputVal.toLowerCase();
+  const inputValLower = inputVal.toLowerCase()
 
   if (results.length <= 0) {
     displayInfoMessage("No matches found for your input.", inputVal)
     selectedStickersList.style.display = "none"
-  } else if (results.flat().map(x => x.matchedPart).join('') !== inputValLower) {
-      displayInfoMessage("Could not match the entire input.", inputVal)
-      selectedStickersList.style.display = "none"
+  } else if (
+    results
+      .flat()
+      .map((x) => x.matchedPart)
+      .join("") !== inputValLower
+  ) {
+    displayInfoMessage("Could not match the entire input.", inputVal)
+    selectedStickersList.style.display = "none"
   } else {
-      selectedStickersList.style.display = "block"
+    selectedStickersList.style.display = "block"
   }
   renderSelectedStickers(selectedStickers)
 }
@@ -101,7 +106,10 @@ async function callWorker() {
   const isBackwards = document.getElementById("isBackwards").checked
   const isDepth = document.getElementById("isDepth").checked
 
-  const apiUrl = `https://5p-bush-rush.cryck.workers.dev/?input=${encodeURIComponent(
+  // const apiUrl = `https://5p-bush-rush.cryck.workers.dev/?input=${encodeURIComponent(
+  //   inputVal
+  // )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
+  const apiUrl = `http://localhost:8787/?input=${encodeURIComponent(
     inputVal
   )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
 
@@ -134,12 +142,12 @@ function displayInfoMessage(reason, inputVal) {
   div.appendChild(text)
   div.appendChild(link)
 
-  document.getElementById('infoContainer').replaceChildren(div)
+  document.getElementById("infoContainer").replaceChildren(div)
 }
 
 function clearInfoMessage() {
-  const infoContainer = document.getElementById('infoContainer');
-  infoContainer.innerHTML = '';
+  const infoContainer = document.getElementById("infoContainer")
+  infoContainer.innerHTML = ""
 }
 
 document

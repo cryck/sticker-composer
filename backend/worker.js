@@ -12,7 +12,7 @@ async function handleRequest(request) {
 
   if (request.method === "GET") {
     const url = new URL(request.url)
-    console.log(request.url)
+
     const input = url.searchParams.get("input").toLowerCase()
 
     const isBackwards = url.searchParams.get("isBackwards") === "true"
@@ -183,6 +183,7 @@ async function depthSearch(input) {
     cartesianHelper(localizedTokenGroups, [], 0)
     return result
   }
+
   // only certain token localizations can be next to each other to spell words without gaps
   function checkViability(prevToken, potentialNextToken) {
     if (potentialNextToken.location === Token.TOTAL) {
@@ -224,7 +225,7 @@ async function depthSearch(input) {
       const allGroupingPermutations = cartesianProduct(groupingWithLoc)
 
       // Filtering Possibilities
-      const idxToKeep = []
+      const filtered = []
       for (
         let comboIdx = 0;
         comboIdx < allGroupingPermutations.length;
@@ -252,25 +253,13 @@ async function depthSearch(input) {
         }
 
         if (status) {
-          idxToKeep.push(comboIdx)
+          filtered.push(allGroupingPermutations[comboIdx])
         }
 
         //  End of allGroupingPermutations loop
       }
 
       // Now we have the allGroupingPermutations indexes that are plausible
-
-      // Array to hold the elements at specified indices
-      const filtered = []
-      // Loop through each index and push the corresponding element into the filtered array
-      idxToKeep.forEach((index) => {
-        if (index >= 0 && index < allGroupingPermutations.length) {
-          filtered.push(allGroupingPermutations[index])
-        } else {
-          // Handle out-of-bounds indices if needed
-          console.error(`Index ${index} is out of bounds.`)
-        }
-      })
 
       const aggregated_list = []
       const combo_set = []
@@ -287,6 +276,7 @@ async function depthSearch(input) {
             stickers_matching_tokens.push(list_of_stickers_match)
           } else {
             status = false
+            break
           }
         }
 
@@ -350,12 +340,19 @@ async function depthSearch(input) {
 }
 
 async function getTokenizations(Token) {
+  // const invertedDictRes = await fetch(
+  //   "https://cs-sticker.com/inverted_dict.json"
+  // )
+  // const stickersByMatchedFullWordRes = await fetch(
+  //   "https://cs-sticker.com/stickers_by_matched_full_word.json"
+  // )
   const invertedDictRes = await fetch(
-    "https://cs-sticker.com/inverted_dict.json"
+    "http://localhost:5500/inverted_dict.json"
   )
   const stickersByMatchedFullWordRes = await fetch(
-    "https://cs-sticker.com/stickers_by_matched_full_word.json"
+    "http://localhost:5500/stickers_by_matched_full_word.json"
   )
+
   // <Token:${token-location}:${token-string}>
 
   const invertedDict = await invertedDictRes.json()
