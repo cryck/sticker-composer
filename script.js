@@ -76,7 +76,7 @@ function populateResults(resultIndex = 0) {
   if (results.length <= 0) {
     displayInfoMessage("No matches found for your input.", inputVal)
     selectedStickersList.style.display = "none"
-  } else if (results.map(x => x.matchedPart).join('') !== inputVal) {
+  } else if (results.flat().map(x => x.matchedPart).join('') !== inputVal) {
       displayInfoMessage("Could not match the entire input.", inputVal)
       selectedStickersList.style.display = "none"
   } else {
