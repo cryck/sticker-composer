@@ -10,10 +10,14 @@ const canvas = document.getElementById('canvas');
         images.forEach((image, index) => {
             ctx.save();
             ctx.translate(image.x, image.y);
-            ctx.rotate(image.rotation);
+            ctx.rotate(getAdjustedRotation(image.rotation));
             ctx.drawImage(image.element, -image.width / 2, -image.height / 2, image.width, image.height);
             ctx.restore();
         });
+    }
+
+    function getAdjustedRotation(rotation) {
+        return rotation;
     }
 
     function saveCanvas() {
