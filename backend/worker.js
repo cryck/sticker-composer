@@ -331,26 +331,35 @@ async function depthSearch(input) {
 
     return results
   }
-  const tokenizationMap = await getTokenizations(Token)
+  const [tokenizationMap, stickersById] = await getTokenizations(Token)
 
   // results consists of all N permutations of tokens that spell input with various locations
   const results = stickerfyWord(input, tokenizationMap)
 
+  results.push(stickersById)
   return results
 }
 
 async function getTokenizations(Token) {
-  const invertedDictRes = await fetch(
-    "https://cs-sticker.com/inverted_dict.json"
-  )
-  const stickersByMatchedFullWordRes = await fetch(
-    "https://cs-sticker.com/stickers_by_matched_full_word.json"
-  )
+  // const invertedDictRes = await fetch(
+  //   "https://cs-sticker.com/inverted_dict.json"
+  // )
+  // const stickersByMatchedFullWordRes = await fetch(
+  //   "https://cs-sticker.com/stickers_by_matched_full_word.json"
+  // )
+  const neededJSONUrls = [
+    "http://localhost:5500/inverted_dict.json",
+    "http://localhost:5500/sticker_ids_by_matched_full_word.json",
+    "http://localhost:5500/stickers_by_id.json",
+  ]
+  const responses = await Promise.all(neededJSONUrls.map((url) => fetch(url)))
 
+  const data = await Promise.all(responses.map((response) => response.json()))
   // <Token:${token-location}:${token-string}>
 
-  const invertedDict = await invertedDictRes.json()
-  const stickersByMatchedFullWord = await stickersByMatchedFullWordRes.json()
+  const invertedDict = data[0]
+  const stickerIdsByMatchedFullWord = data[1]
+  const stickersById = data[2]
 
   // Deriving the token map from above
 
@@ -359,12 +368,12 @@ async function getTokenizations(Token) {
       const wordArray = []
       // matchedFullWords is ['simple','shroud',...]
       matchedFullWords.forEach((word) => {
-        wordArray.push(...stickersByMatchedFullWord[word])
+        wordArray.push(...stickerIdsByMatchedFullWord[word])
       })
       return [token, wordArray]
     })
   )
-  return tokenizationMap
+  return [tokenizationMap, stickersById]
 }
 
 async function getStickers() {

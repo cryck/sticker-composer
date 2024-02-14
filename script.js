@@ -106,7 +106,10 @@ async function callWorker() {
   const isBackwards = document.getElementById("isBackwards").checked
   const isDepth = document.getElementById("isDepth").checked
 
-  const apiUrl = `https://5p-bush-rush.cryck.workers.dev/?input=${encodeURIComponent(
+  // const apiUrl = `https://5p-bush-rush.cryck.workers.dev/?input=${encodeURIComponent(
+  //   inputVal
+  // )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
+  const apiUrl = `http://localhost:8787/?input=${encodeURIComponent(
     inputVal
   )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
 
@@ -115,6 +118,11 @@ async function callWorker() {
     // results now has an additional layer for each permuation
     currentResultsList = await response.json()
     currentResultIndex = 0
+
+    const lastElement = currentResultsList[currentResultsList.length - 1]
+    if (typeof lastElement === "object" && lastElement !== null) {
+      currentResultsList = convertDeepResults(currentResultsList)
+    }
 
     populateResults(currentResultIndex)
   } catch (error) {
@@ -207,3 +215,16 @@ document.addEventListener("DOMContentLoaded", function () {
     callWorker()
   }
 })
+
+function convertDeepResults(results) {
+  // They worker also sent stickers_by_id
+  const stickersById = currentResultsList.pop()
+  return currentResultsList.map((page) => {
+    return page.map((col) => {
+      return {
+        ...col,
+        stickers: col.stickers.map((id) => stickersById[id]),
+      }
+    })
+  })
+}
