@@ -1,5 +1,6 @@
 let currentResultsList = []
 let currentResultIndex = 0
+const selectedStickers = []
 const indexLabel = document.getElementById("result-index-label")
 
 function decrementResultIndex() {
@@ -22,7 +23,7 @@ function incrementResultIndex() {
 function populateResults(resultIndex = 0) {
   let inputVal = document.getElementById("stickerInput").value
   let results = currentResultsList[resultIndex]
-  const selectedStickers = []
+
 
   const resultIndexControls = document.getElementById("result-index-controls")
 
@@ -94,7 +95,6 @@ function populateResults(resultIndex = 0) {
     selectedStickersList.style.display = "block"
     clearInfoMessage()
   }
-  console.log(selectedStickers)
   renderSelectedStickers(selectedStickers)
 }
 
@@ -235,7 +235,7 @@ function convertDeepResults(results) {
   })
 }
 
-function pushStickersToCanvas(selectedStickers) {
+function pushStickersToCanvas() {
   if (!selectedStickers) {
     console.error("Not enough selected stickers.");
     return;
