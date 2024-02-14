@@ -186,9 +186,9 @@
         return item ? item : null;
     }
 
-    function placeSticker() {
+    async function placeSticker() {
         const stickerIds = getStickerIdsFromUrl();
-        const foundStickers = stickerIds.map(id => findStickerById(id));
+        const foundStickers = await Promise.all(stickerIds.map(id => findStickerById(id)));
         console.log(foundStickers)
         const validStickers = foundStickers.filter(sticker => sticker !== null);
         console.log(validStickers)
