@@ -106,10 +106,7 @@ async function callWorker() {
   const isBackwards = document.getElementById("isBackwards").checked
   const isDepth = document.getElementById("isDepth").checked
 
-  // const apiUrl = `https://5p-bush-rush.cryck.workers.dev/?input=${encodeURIComponent(
-  //   inputVal
-  // )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
-  const apiUrl = `http://localhost:8787/?input=${encodeURIComponent(
+  const apiUrl = `https://5p-bush-rush.cryck.workers.dev/?input=${encodeURIComponent(
     inputVal
   )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
 
@@ -118,8 +115,10 @@ async function callWorker() {
     // results now has an additional layer for each permuation
     currentResultsList = await response.json()
 
-    const lastElement = currentResultsList[currentResultsList.length - 1]
-    if (isDepth && !Array.isArray(lastElement)) {
+    if (
+      isDepth &&
+      !Array.isArray(currentResultsList[currentResultsList.length - 1])
+    ) {
       currentResultsList = convertDeepResults(currentResultsList)
     }
 
