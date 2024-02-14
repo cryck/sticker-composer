@@ -189,7 +189,9 @@
     function placeSticker() {
         const stickerIds = getStickerIdsFromUrl();
         const foundStickers = stickerIds.map(id => findStickerById(id));
+        console.log(foundStickers)
         const validStickers = foundStickers.filter(sticker => sticker !== null);
+        console.log(validStickers)
         validStickers.forEach(validSticker => {
             const imageName = validSticker.name;
             const imagePath = validSticker.image;
@@ -250,26 +252,7 @@
         const imagePath = selectedOption.dataset.path + "_large.png";
     });
 
-    // Load images from JSON file
-    fetch('./sticker_ids.json')
-        .then(response => response.json())
-        .then(data => {
-            const dropdown = document.getElementById('imageDropdown');
-            for (const key in data) {
-                const option = document.createElement('option');
-                option.value = data[key].name;
-                option.text = data[key].real_name;
-                option.dataset.path = data[key].sticker_material;
 
-                const image = new Image();
-                image.src = "https://meckedev.de" + data[key].sticker_material + "_large.png";
-                image.className = 'dropdown-image';
-                option.prepend(image);
-
-                dropdown.appendChild(option);
-            }
-        })
-        .catch(error => console.error('Error loading JSON:', error));
 
     canvas.addEventListener('mousedown', handleMouseDown);
     canvas.addEventListener('wheel', handleWheel);
