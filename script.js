@@ -85,6 +85,7 @@ function populateResults(resultIndex = 0) {
       selectedStickersList.style.display = "none"
   } else {
       selectedStickersList.style.display = "block"
+      clearInfoMessage()
   }
   renderSelectedStickers(selectedStickers)
 }
