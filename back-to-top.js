@@ -1,13 +1,22 @@
-$(window).scroll(function() {
-  if ($(this).scrollTop() >= 100) {
-      $('#back-to-top').fadeIn(200);
+// Listen for scroll events on the window
+window.addEventListener('scroll', function() {
+  if (window.scrollY >= 100) {
+    // Fade in the back-to-top button
+    document.getElementById('back-to-top').style.display = 'block';
+    document.getElementById('back-to-top').style.opacity = 1;
+    document.getElementById('back-to-top').style.transition = 'opacity 200ms';
   } else {
-      $('#back-to-top').fadeOut(200);
+    // Fade out the back-to-top button
+    document.getElementById('back-to-top').style.opacity = 0;
+    setTimeout(function() {
+      document.getElementById('back-to-top').style.display = 'none';
+    }, 200);
   }
 });
 
-$('#back-to-top').click(function() {
-  $('body,html').animate({
-      scrollTop : 0
-  }, 1000);
+document.getElementById('back-to-top').addEventListener('click', function() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 });
