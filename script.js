@@ -94,8 +94,10 @@ function populateResults(resultIndex = 0) {
     selectedStickersList.style.display = "block"
     clearInfoMessage()
   }
+  console.log(selectedStickers)
   renderSelectedStickers(selectedStickers)
 }
+
 function rotateResults(direction) {
   // direction is +-1
   const newIndex = currentResultIndex + direction
@@ -231,4 +233,18 @@ function convertDeepResults(results) {
       }
     })
   })
+}
+
+function pushStickersToCanvas(selectedStickers) {
+  if (!selectedStickers) {
+    console.error("Not enough selected stickers.");
+    return;
+  }
+
+  const slotParams = selectedStickers
+    .slice(0, 5)
+    .map((sticker, index) => `slot${index}=${sticker.id}`)
+    .join("&");
+
+  window.open(`/canvas.html?${slotParams}`, '_blank');
 }
