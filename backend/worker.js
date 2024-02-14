@@ -12,7 +12,7 @@ async function handleRequest(request) {
 
   if (request.method === "GET") {
     const url = new URL(request.url)
-    console.log(request.url)
+
     const input = url.searchParams.get("input").toLowerCase()
 
     const isBackwards = url.searchParams.get("isBackwards") === "true"
@@ -58,7 +58,7 @@ async function mainSearch(input, isBackwards) {
         : remainingInput.substring(0, length)
 
       filteredItems = data.filter((item) => {
-        item.matching ? console.log(item) : ""
+        // item.matching ? console.log(item) : ""
         // Determine the string to match against (either item.matching or the middle part of the sticker name)
         const matchAgainst = item.matching
           ? item.matching.toLowerCase()
@@ -183,6 +183,7 @@ async function depthSearch(input) {
     cartesianHelper(localizedTokenGroups, [], 0)
     return result
   }
+
   // only certain token localizations can be next to each other to spell words without gaps
   function checkViability(prevToken, potentialNextToken) {
     if (potentialNextToken.location === Token.TOTAL) {
@@ -224,7 +225,7 @@ async function depthSearch(input) {
       const allGroupingPermutations = cartesianProduct(groupingWithLoc)
 
       // Filtering Possibilities
-      const idxToKeep = []
+      const filtered = []
       for (
         let comboIdx = 0;
         comboIdx < allGroupingPermutations.length;
@@ -252,25 +253,13 @@ async function depthSearch(input) {
         }
 
         if (status) {
-          idxToKeep.push(comboIdx)
+          filtered.push(allGroupingPermutations[comboIdx])
         }
 
         //  End of allGroupingPermutations loop
       }
 
       // Now we have the allGroupingPermutations indexes that are plausible
-
-      // Array to hold the elements at specified indices
-      const filtered = []
-      // Loop through each index and push the corresponding element into the filtered array
-      idxToKeep.forEach((index) => {
-        if (index >= 0 && index < allGroupingPermutations.length) {
-          filtered.push(allGroupingPermutations[index])
-        } else {
-          // Handle out-of-bounds indices if needed
-          console.error(`Index ${index} is out of bounds.`)
-        }
-      })
 
       const aggregated_list = []
       const combo_set = []
@@ -287,6 +276,7 @@ async function depthSearch(input) {
             stickers_matching_tokens.push(list_of_stickers_match)
           } else {
             status = false
+            break
           }
         }
 
@@ -341,25 +331,34 @@ async function depthSearch(input) {
 
     return results
   }
-  const tokenizationMap = await getTokenizations(Token)
+  const [tokenizationMap, stickersById] = await getTokenizations(Token)
 
   // results consists of all N permutations of tokens that spell input with various locations
   const results = stickerfyWord(input, tokenizationMap)
 
+  results.push(stickersById)
   return results
 }
 
 async function getTokenizations(Token) {
-  const invertedDictRes = await fetch(
-    "https://cs-sticker.com/inverted_dict.json"
-  )
-  const stickersByMatchedFullWordRes = await fetch(
-    "https://cs-sticker.com/stickers_by_matched_full_word.json"
-  )
+  // const neededJSONUrls = [
+  //   "https://cs-sticker.com/inverted_dict.json",
+  //   "https://cs-sticker.com/sticker_ids_by_matched_full_word.json",
+  //   "https://cs-sticker.com/stickers_by_id.json",
+  // ]
+  const neededJSONUrls = [
+    "https://cs-sticker.com/inverted_dict.json",
+    "https://cs-sticker.com/sticker_ids_by_matched_full_word.json",
+    "https://cs-sticker.com/stickers_by_id.json",
+  ]
+  const responses = await Promise.all(neededJSONUrls.map((url) => fetch(url)))
+
+  const data = await Promise.all(responses.map((response) => response.json()))
   // <Token:${token-location}:${token-string}>
 
-  const invertedDict = await invertedDictRes.json()
-  const stickersByMatchedFullWord = await stickersByMatchedFullWordRes.json()
+  const invertedDict = data[0]
+  const stickerIdsByMatchedFullWord = data[1]
+  const stickersById = data[2]
 
   // Deriving the token map from above
 
@@ -368,16 +367,17 @@ async function getTokenizations(Token) {
       const wordArray = []
       // matchedFullWords is ['simple','shroud',...]
       matchedFullWords.forEach((word) => {
-        wordArray.push(...stickersByMatchedFullWord[word])
+        wordArray.push(...stickerIdsByMatchedFullWord[word])
       })
       return [token, wordArray]
     })
   )
-  return tokenizationMap
+  return [tokenizationMap, stickersById]
 }
 
 async function getStickers() {
   const response = await fetch("https://cs-sticker.com/stickers.json")
+
   const allStickers = await response.json()
   return allStickers
     .filter((sticker) => !sticker.ignore)
