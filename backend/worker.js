@@ -89,6 +89,7 @@ async function mainSearch(input, isBackwards) {
         stickers: filteredItems.map((item) => ({
           name: item.name,
           image: item.image,
+          id: item.id,
         })),
       })
     }

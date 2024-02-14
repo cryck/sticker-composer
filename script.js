@@ -1,6 +1,6 @@
 let currentResultsList = []
 let currentResultIndex = 0
-const selectedStickers = []
+let selectedStickers = []
 const indexLabel = document.getElementById("result-index-label")
 
 function decrementResultIndex() {
@@ -24,7 +24,7 @@ function populateResults(resultIndex = 0) {
   let inputVal = document.getElementById("stickerInput").value
   let results = currentResultsList[resultIndex]
 
-
+  selectedStickers = []
   const resultIndexControls = document.getElementById("result-index-controls")
 
   if (currentResultsList.length > 1) {
@@ -244,7 +244,12 @@ function pushStickersToCanvas() {
 
   const slotParams = selectedStickers
     .slice(0, 5)
-    .map((sticker, index) => `slot${index}=${sticker.id}`)
+    .map((selected, index) => {
+      if (selected.sticker && selected.sticker.id) {
+        return `slot${index}=${selected.sticker.id}`;
+    } else {
+        return '';
+    }})
     .join("&");
 
   window.open(`/canvas.html?${slotParams}`, '_blank');
