@@ -96,6 +96,7 @@ function rotateResults(direction) {
 
 async function callWorker() {
   let inputVal = document.getElementById("stickerInput").value
+  clearInfoMessage()
   // Remove spaces from the input
   inputVal = inputVal.replace(/\s+/g, "")
   const isBackwards = document.getElementById("isBackwards").checked
@@ -135,6 +136,11 @@ function displayInfoMessage(reason, inputVal) {
   div.appendChild(link)
 
   document.getElementById('infoContainer').replaceChildren(div)
+}
+
+function clearInfoMessage() {
+  const infoContainer = document.getElementById('infoContainer');
+  infoContainer.innerHTML = '';
 }
 
 document
