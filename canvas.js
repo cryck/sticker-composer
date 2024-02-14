@@ -28,9 +28,8 @@ const canvas = document.getElementById('canvas');
         link.click();
     }
 
-    function loadImage(path, name, offSet) {
+    function loadImage(path, offSet) {
         const image = new Image();
-        image.crossOrigin="anonymous"
         image.onload = function() {
             images.push({
                 element: image,
@@ -125,11 +124,10 @@ const canvas = document.getElementById('canvas');
         const foundStickers = await findStickersById(stickerIds)
         const validStickers = foundStickers.filter(sticker => sticker !== null);
         validStickers.forEach((validSticker, index) => {
-            const imageName = validSticker.name;
             const imagePath = validSticker.image;
             // Calculate the offset for each sticker
             const offSet = 50 * (index);
-            loadImage(imagePath, imageName, offSet);
+            loadImage(imagePath, offSet);
         });
     }
 
