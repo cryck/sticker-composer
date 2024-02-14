@@ -31,8 +31,10 @@ function populateResults(resultIndex = 0) {
   } else {
     resultIndexControls.style.display = "none"
   }
-  
-  indexLabel.innerText = `${currentResultIndex + 1}/${currentResultsList.length}`
+
+  indexLabel.innerText = `${currentResultIndex + 1}/${
+    currentResultsList.length
+  }`
   const resultsDiv = document.getElementById("results")
   resultsDiv.innerHTML = ""
 
@@ -75,16 +77,21 @@ function populateResults(resultIndex = 0) {
   })
 
   const selectedStickersList = document.getElementById("selectedStickers")
-  const inputValLower = inputVal.toLowerCase();
+  const inputValLower = inputVal.toLowerCase()
 
   if (results.length <= 0) {
     displayInfoMessage("No matches found for your input.", inputVal)
     selectedStickersList.style.display = "none"
-  } else if (results.flat().map(x => x.matchedPart).join('') !== inputValLower) {
-      displayInfoMessage("Could not match the entire input.", inputVal)
-      selectedStickersList.style.display = "none"
+  } else if (
+    results
+      .flat()
+      .map((x) => x.matchedPart)
+      .join("") !== inputValLower
+  ) {
+    displayInfoMessage("Could not match the entire input.", inputVal)
+    selectedStickersList.style.display = "none"
   } else {
-      selectedStickersList.style.display = "block"
+    selectedStickersList.style.display = "block"
   }
   renderSelectedStickers(selectedStickers)
 }
@@ -104,7 +111,7 @@ async function callWorker() {
   const isBackwards = document.getElementById("isBackwards").checked
   const isDepth = document.getElementById("isDepth").checked
 
-  const apiUrl = `https://5p-bush-rush.cryck.workers.dev/?input=${encodeURIComponent(
+  const apiUrl = `https://worker-jolly-frost-2e50.cryck.workers.dev/?input=${encodeURIComponent(
     inputVal
   )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
 
@@ -112,7 +119,13 @@ async function callWorker() {
     const response = await fetch(apiUrl)
     // results now has an additional layer for each permuation
     currentResultsList = await response.json()
-    currentResultIndex = 0
+
+    if (
+      isDepth &&
+      !Array.isArray(currentResultsList[currentResultsList.length - 1])
+    ) {
+      currentResultsList = convertDeepResults(currentResultsList)
+    }
 
     populateResults(currentResultIndex)
   } catch (error) {
@@ -137,12 +150,12 @@ function displayInfoMessage(reason, inputVal) {
   div.appendChild(text)
   div.appendChild(link)
 
-  document.getElementById('infoContainer').replaceChildren(div)
+  document.getElementById("infoContainer").replaceChildren(div)
 }
 
 function clearInfoMessage() {
-  const infoContainer = document.getElementById('infoContainer');
-  infoContainer.innerHTML = '';
+  const infoContainer = document.getElementById("infoContainer")
+  infoContainer.innerHTML = ""
 }
 
 document
@@ -205,3 +218,16 @@ document.addEventListener("DOMContentLoaded", function () {
     callWorker()
   }
 })
+
+function convertDeepResults(results) {
+  // They worker also sent stickers_by_id
+  const stickersById = currentResultsList.pop()
+  return currentResultsList.map((page) => {
+    return page.map((col) => {
+      return {
+        ...col,
+        stickers: col.stickers.map((id) => stickersById[id]),
+      }
+    })
+  })
+}
