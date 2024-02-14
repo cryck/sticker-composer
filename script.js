@@ -31,8 +31,10 @@ function populateResults(resultIndex = 0) {
   } else {
     resultIndexControls.style.display = "none"
   }
-  
-  indexLabel.innerText = `${currentResultIndex + 1}/${currentResultsList.length}`
+
+  indexLabel.innerText = `${currentResultIndex + 1}/${
+    currentResultsList.length
+  }`
   const resultsDiv = document.getElementById("results")
   resultsDiv.innerHTML = ""
 

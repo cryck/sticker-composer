@@ -341,6 +341,11 @@ async function depthSearch(input) {
 }
 
 async function getTokenizations(Token) {
+  // const neededJSONUrls = [
+  //   "https://cs-sticker.com/inverted_dict.json",
+  //   "https://cs-sticker.com/sticker_ids_by_matched_full_word.json",
+  //   "https://cs-sticker.com/stickers_by_id.json",
+  // ]
   const neededJSONUrls = [
     "https://cs-sticker.com/inverted_dict.json",
     "https://cs-sticker.com/sticker_ids_by_matched_full_word.json",
