@@ -72,11 +72,12 @@ function populateResults(resultIndex = 0) {
   })
 
   const selectedStickersList = document.getElementById("selectedStickers")
+  const inputValLower = inputVal.toLowerCase();
 
   if (results.length <= 0) {
     displayInfoMessage("No matches found for your input.", inputVal)
     selectedStickersList.style.display = "none"
-  } else if (results.flat().map(x => x.matchedPart).join('') !== inputVal) {
+  } else if (results.flat().map(x => x.matchedPart).join('') !== inputValLower) {
       displayInfoMessage("Could not match the entire input.", inputVal)
       selectedStickersList.style.display = "none"
   } else {
