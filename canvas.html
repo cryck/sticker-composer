@@ -231,6 +231,10 @@
     canvas.addEventListener('mousedown', handleMouseDown);
     canvas.addEventListener('wheel', handleWheel);
     window.addEventListener('keydown', handleKeyDown);
+
+    window.addEventListener('load', async () => {
+        placeSticker();
+    });
 </script>
 </body>
 </html>
