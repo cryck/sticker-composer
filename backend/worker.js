@@ -341,15 +341,10 @@ async function depthSearch(input) {
 }
 
 async function getTokenizations(Token) {
-  // const neededJSONUrls = [
-  //   "https://cs-sticker.com/inverted_dict.json",
-  //   "https://cs-sticker.com/sticker_ids_by_matched_full_word.json",
-  //   "https://cs-sticker.com/stickers_by_id.json",
-  // ]
   const neededJSONUrls = [
-    "https://cs-sticker.com/inverted_dict.json",
-    "https://cs-sticker.com/sticker_ids_by_matched_full_word.json",
-    "https://cs-sticker.com/stickers_by_id.json",
+    "https://cs-sticker.com/data/inverted_dict.json",
+    "https://cs-sticker.com/data/sticker_ids_by_matched_full_word.json",
+    "https://cs-sticker.com/data/stickers_by_id.json",
   ]
   const responses = await Promise.all(neededJSONUrls.map((url) => fetch(url)))
 
@@ -376,7 +371,7 @@ async function getTokenizations(Token) {
 }
 
 async function getStickers() {
-  const response = await fetch("https://cs-sticker.com/stickers.json")
+  const response = await fetch("https://cs-sticker.com/data/stickers.json")
 
   const allStickers = await response.json()
   return allStickers
