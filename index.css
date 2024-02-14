@@ -26,6 +26,10 @@ body {
   background-color: #f5f5f5;
 }
 
+label {
+  margin-right: 10px;
+}
+
 .base-container {
   width: 1760px;
   max-width: 90%;
