@@ -225,22 +225,6 @@
         }
     }
 
-    document.getElementById('searchInput').addEventListener('input', function(event) {
-        const searchQuery = event.target.value.toLowerCase();
-        const options = document.getElementById('imageDropdown').options;
-        for (let i = 0; i < options.length; i++) {
-            const option = options[i];
-            const realName = option.text.toLowerCase();
-            const searchTerms = searchQuery.split(' ').filter(term => term.trim() !== '');
-            const matches = searchTerms.every(term => realName.toLowerCase().includes(term));
-            if (matches) {
-                option.style.display = '';
-            } else {
-                option.style.display = 'none';
-            }
-        }
-    });
-
     canvas.addEventListener('mousedown', handleMouseDown);
     canvas.addEventListener('wheel', handleWheel);
     window.addEventListener('keydown', handleKeyDown);
