@@ -20,6 +20,7 @@ function incrementResultIndex() {
 }
 
 function populateResults(resultIndex = 0) {
+  let inputVal = document.getElementById("stickerInput").value
   let results = currentResultsList[resultIndex]
   const selectedStickers = []
 
