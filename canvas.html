@@ -1,0 +1,259 @@
+<style>
+    #imageDropdown{
+        height: 20rem;
+    }
+
+    #canvasContainer {
+        width: calc(800px * (16 / 9));
+        margin: 0 auto;
+    }
+
+    #canvas {
+        border: 1px solid black;
+        position: relative;
+        width: 100%;
+        height: 800px;
+    }
+
+    .dropdown-image {
+        width: 100px;
+        height: 80px;
+        vertical-align: middle;
+    }
+</style>
+
+<div class="container mt-3">
+    <div class="row">
+        <div class="col">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search for a sticker...">
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <select id="imageDropdown" class="form-select" size="3">
+                <!-- Options will be populated dynamically -->
+            </select>
+        </div>
+        <div class="col">
+
+<div id="selectedImageInfo" class="mt-3"></div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <button onclick="placeSticker()" class="btn btn-primary">Place Sticker</button>
+            <button onclick="saveCanvas()" class="btn btn-primary">Save Canvas</button> 
+        </div>
+    </div>
+    <div class="row mt-3 text-white fs-5">
+        Backspace = Delete Sticker | Mousewheel = Rotate Sticker | Arrow Up = 1 Layer Up | Arrow Down = 1 Layer Down
+    </div>
+
+</div>
+
+<div id="canvasContainer" class="mt-3">
+    <canvas id="canvas" width="1280" height="800"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    let images = [];
+    let selectedImageIndex = null;
+    let offsetX, offsetY;
+    let rotationPrecision = 1;
+
+    function drawImages() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        images.forEach((image, index) => {
+            ctx.save();
+            ctx.translate(image.x, image.y);
+            ctx.rotate(getAdjustedRotation(image.rotation));
+            ctx.drawImage(image.element, -image.width / 2, -image.height / 2, image.width, image.height);
+            ctx.restore();
+        });
+    }
+
+    function getAdjustedRotation(rotation) {
+        return rotation;
+    }
+
+    function saveImage() {
+        const dataURL = canvas.toDataURL('image/png');
+        const link = document.createElement('a');
+        link.href = dataURL;
+        link.download = 'canvas.png';
+        link.click();
+    }
+
+    function saveCanvas() {
+        const dataURL = canvas.toDataURL('image/png');
+        const link = document.createElement('a');
+        link.href = dataURL;
+        link.download = 'canvas.png';
+        link.click();
+    }
+
+    function loadImage(path, name) {
+        const image = new Image();
+        image.onload = function() {
+            images.push({
+                element: image,
+                x: canvas.width / 2,
+                y: canvas.height / 2,
+                width: image.width,
+                height: image.height,
+                rotation: 0
+            });
+            drawImages();
+        };
+        image.src = path;
+    }
+
+    function handleMouseDown(event) {
+        const mouseX = event.clientX - canvas.getBoundingClientRect().left;
+        const mouseY = event.clientY - canvas.getBoundingClientRect().top;
+        for (let i = images.length - 1; i >= 0; i--) {
+            const image = images[i];
+            const dx = mouseX - image.x;
+            const dy = mouseY - image.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            if (distance <= image.width / 2) {
+                selectedImageIndex = i;
+                offsetX = mouseX - image.x;
+                offsetY = mouseY - image.y;
+                canvas.addEventListener('mousemove', handleMouseMove);
+                canvas.addEventListener('mouseup', handleMouseUp);
+                updateSelectedImageInfo();
+                return;
+            }
+        }
+    }
+
+    function handleMouseMove(event) {
+        const mouseX = event.clientX - canvas.getBoundingClientRect().left;
+        const mouseY = event.clientY - canvas.getBoundingClientRect().top;
+        images[selectedImageIndex].x = mouseX - offsetX;
+        images[selectedImageIndex].y = mouseY - offsetY;
+        drawImages();
+    }
+
+    function handleMouseUp() {
+        canvas.removeEventListener('mousemove', handleMouseMove);
+        canvas.removeEventListener('mouseup', handleMouseUp);
+                updateSelectedImageInfo();
+    }
+
+    function handleWheel(event) {
+        event.preventDefault();
+        const delta = Math.sign(event.deltaY);
+        const rotationAmount = (delta * Math.PI) / 180 * rotationPrecision;
+        images[selectedImageIndex].rotation += rotationAmount;
+        drawImages();
+    }
+
+    function handleKeyDown(event) {
+        if (event.key === 'Backspace' && selectedImageIndex !== null && document.activeElement !== document.getElementById('searchInput')) {
+            images.splice(selectedImageIndex, 1);
+            selectedImageIndex = null;
+            drawImages();
+            updateSelectedImageInfo();
+        } else if (event.key === 'ArrowUp') {
+            moveImageUp();
+            event.preventDefault();
+        } else if (event.key === 'ArrowDown') {
+            moveImageDown();
+            event.preventDefault();
+        }
+    }
+
+    function placeSticker() {
+        const selectedIndex = document.getElementById('imageDropdown').selectedIndex;
+        const selectedOption = document.getElementById('imageDropdown').options[selectedIndex];
+        const imageName = selectedOption.value;
+        const imagePath = selectedOption.dataset.path + "_large.png";
+        loadImage(imagePath, imageName);
+    }
+
+
+    function updateSelectedImageInfo() {
+        const selectedImage = images[selectedImageIndex];
+        const selectedImageInfoDiv = document.getElementById('selectedImageInfo');
+        if (selectedImage) {
+            selectedImageInfoDiv.innerHTML = `<p style="color: #fff; font-size: 2rem;">Selected on Canvas: </p><img src="${selectedImage.element.src}" class="selected-image"/>`;
+        } else {
+            selectedImageInfoDiv.innerText = 'No Image Selected';
+        }
+    }
+
+    function moveImageDown() {
+        if (selectedImageIndex !== null && selectedImageIndex > 0) {
+            const temp = images[selectedImageIndex];
+            images[selectedImageIndex] = images[selectedImageIndex - 1];
+            images[selectedImageIndex - 1] = temp;
+            selectedImageIndex--;
+            drawImages();
+        }
+    }
+
+    function moveImageUp() {
+        if (selectedImageIndex !== null && selectedImageIndex < images.length - 1) {
+            const temp = images[selectedImageIndex];
+            images[selectedImageIndex] = images[selectedImageIndex + 1];
+            images[selectedImageIndex + 1] = temp;
+            selectedImageIndex++;
+            drawImages();
+        }
+    }
+
+    document.getElementById('searchInput').addEventListener('input', function(event) {
+        const searchQuery = event.target.value.toLowerCase();
+        const options = document.getElementById('imageDropdown').options;
+        for (let i = 0; i < options.length; i++) {
+            const option = options[i];
+            const realName = option.text.toLowerCase();
+            const searchTerms = searchQuery.split(' ').filter(term => term.trim() !== '');
+            const matches = searchTerms.every(term => realName.toLowerCase().includes(term));
+            if (matches) {
+                option.style.display = '';
+            } else {
+                option.style.display = 'none';
+            }
+        }
+    });
+
+    document.getElementById('imageDropdown').addEventListener('change', function(event) {
+        const selectedIndex = event.target.selectedIndex;
+        const selectedOption = event.target.options[selectedIndex];
+        const imageName = selectedOption.value;
+        const imagePath = selectedOption.dataset.path + "_large.png";
+    });
+
+    // Load images from JSON file
+    fetch('./sticker_ids.json')
+        .then(response => response.json())
+        .then(data => {
+            const dropdown = document.getElementById('imageDropdown');
+            for (const key in data) {
+                const option = document.createElement('option');
+                option.value = data[key].name;
+                option.text = data[key].real_name;
+                option.dataset.path = data[key].sticker_material;
+
+                const image = new Image();
+                image.src = "https://meckedev.de" + data[key].sticker_material + "_large.png";
+                image.className = 'dropdown-image';
+                option.prepend(image);
+
+                dropdown.appendChild(option);
+            }
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+
+    canvas.addEventListener('mousedown', handleMouseDown);
+    canvas.addEventListener('wheel', handleWheel);
+    window.addEventListener('keydown', handleKeyDown);
+</script>
+</body>
+</html>
