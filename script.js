@@ -5,7 +5,7 @@ const indexLabel = document.getElementById("result-index-label")
 function decrementResultIndex() {
   const newIndex = currentResultIndex - 1
 
-  if (newIndex > 0 && newIndex < currentResultsList.length - 1) {
+  if (newIndex >= 0 && newIndex < currentResultsList.length - 1) {
     currentResultIndex -= 1
     populateResults(currentResultIndex)
   }
@@ -13,7 +13,7 @@ function decrementResultIndex() {
 function incrementResultIndex() {
   const newIndex = currentResultIndex + 1
 
-  if (newIndex > 0 && newIndex < currentResultsList.length - 1) {
+  if (newIndex > 0 && newIndex <= currentResultsList.length - 1) {
     currentResultIndex += 1
     populateResults(currentResultIndex)
   }
@@ -29,7 +29,7 @@ function populateResults(resultIndex = 0) {
   if (currentResultsList.length > 1) {
     resultIndexControls.style.display = "flex"
   }
-  indexLabel.innerText = `${currentResultIndex}/${currentResultsList.length}`
+  indexLabel.innerText = `${currentResultIndex + 1}/${currentResultsList.length}`
   const resultsDiv = document.getElementById("results")
   resultsDiv.innerHTML = ""
 
