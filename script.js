@@ -106,10 +106,7 @@ async function callWorker() {
   const isBackwards = document.getElementById("isBackwards").checked
   const isDepth = document.getElementById("isDepth").checked
 
-  // const apiUrl = `https://5p-bush-rush.cryck.workers.dev/?input=${encodeURIComponent(
-  //   inputVal
-  // )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
-  const apiUrl = `http://localhost:8787/?input=${encodeURIComponent(
+  const apiUrl = `https://5p-bush-rush.cryck.workers.dev/?input=${encodeURIComponent(
     inputVal
   )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
 
