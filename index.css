@@ -257,6 +257,8 @@ label {
 
 #result-index-controls {
   display: flex;
+  justify-content: center;
+  margin-top: 10px;
   font-size: 2rem;
   gap: 1rem;
 
