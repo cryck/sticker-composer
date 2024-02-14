@@ -58,7 +58,7 @@ async function mainSearch(input, isBackwards) {
         : remainingInput.substring(0, length)
 
       filteredItems = data.filter((item) => {
-        item.matching ? console.log(item) : ""
+        // item.matching ? console.log(item) : ""
         // Determine the string to match against (either item.matching or the middle part of the sticker name)
         const matchAgainst = item.matching
           ? item.matching.toLowerCase()
@@ -377,7 +377,8 @@ async function getTokenizations(Token) {
 }
 
 async function getStickers() {
-  const response = await fetch("https://cs-sticker.com/stickers.json")
+  // const response = await fetch("https://cs-sticker.com/stickers.json")
+  const response = await fetch("http://localhost:5500/stickers.json")
 
   const allStickers = await response.json()
   return allStickers

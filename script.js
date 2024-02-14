@@ -117,10 +117,9 @@ async function callWorker() {
     const response = await fetch(apiUrl)
     // results now has an additional layer for each permuation
     currentResultsList = await response.json()
-    currentResultIndex = 0
 
     const lastElement = currentResultsList[currentResultsList.length - 1]
-    if (typeof lastElement === "object" && lastElement !== null) {
+    if (isDepth && !Array.isArray(lastElement)) {
       currentResultsList = convertDeepResults(currentResultsList)
     }
 
