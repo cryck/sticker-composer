@@ -28,7 +28,10 @@ function populateResults(resultIndex = 0) {
 
   if (currentResultsList.length > 1) {
     resultIndexControls.style.display = "flex"
+  } else {
+    resultIndexControls.style.display = "none"
   }
+  
   indexLabel.innerText = `${currentResultIndex + 1}/${currentResultsList.length}`
   const resultsDiv = document.getElementById("results")
   resultsDiv.innerHTML = ""
