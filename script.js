@@ -112,10 +112,6 @@ async function callWorker() {
     populateResults(currentResultIndex)
   } catch (error) {
     console.error("Error fetching data:", error)
-    let inputVal = document.getElementById("stickerInput").value
-    const selectedStickersList = document.getElementById("selectedStickers")
-    displayInfoMessage("No matches found for your input.", inputVal)
-    selectedStickersList.style.display = "none"
   }
 }
 
