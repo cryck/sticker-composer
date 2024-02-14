@@ -1,4 +1,8 @@
 <style>
+    body {
+        background-color: #242424;
+    }
+
     #imageDropdown{
         height: 20rem;
     }
@@ -23,20 +27,9 @@
 </style>
 
 <div class="container mt-3">
-    <div class="row">
-        <div class="col">
-            <input type="text" id="searchInput" class="form-control" placeholder="Search for a sticker...">
-        </div>
-    </div>
     <div class="row mt-3">
         <div class="col">
-            <select id="imageDropdown" class="form-select" size="3">
-                <!-- Options will be populated dynamically -->
-            </select>
-        </div>
-        <div class="col">
-
-<div id="selectedImageInfo" class="mt-3"></div>
+            <div id="selectedImageInfo" class="mt-3"></div>
         </div>
     </div>
     <div class="row mt-3">
@@ -46,7 +39,7 @@
         </div>
     </div>
     <div class="row mt-3 text-white fs-5">
-        Backspace = Delete Sticker | Mousewheel = Rotate Sticker | Arrow Up = 1 Layer Up | Arrow Down = 1 Layer Down
+        <kbd>Backspace</kbd> = Delete Sticker | Mousewheel = Rotate Sticker | <kbd>Arrow Up</kbd> = 1 Layer Up | <kbd>Arrow Down</kbd> = 1 Layer Down
     </div>
 
 </div>
@@ -95,12 +88,12 @@
         link.click();
     }
 
-    function loadImage(path, name) {
+    function loadImage(path, name, offSet) {
         const image = new Image();
         image.onload = function() {
             images.push({
                 element: image,
-                x: canvas.width / 2,
+                x: canvas.width / 2 + offSet,
                 y: canvas.height / 2,
                 width: image.width,
                 height: image.height,
@@ -192,10 +185,12 @@
         console.log(foundStickers)
         const validStickers = foundStickers.filter(sticker => sticker !== null);
         console.log(validStickers)
-        validStickers.forEach(validSticker => {
+        validStickers.forEach((validSticker, index) => {
             const imageName = validSticker.name;
             const imagePath = validSticker.image;
-            loadImage(imagePath, imageName);
+            // Calculate the offset for each sticker
+            const offSet = 50 * (index);
+            loadImage(imagePath, imageName, offSet);
         });
     }
 
@@ -245,18 +240,13 @@
         }
     });
 
-    document.getElementById('imageDropdown').addEventListener('change', function(event) {
-        const selectedIndex = event.target.selectedIndex;
-        const selectedOption = event.target.options[selectedIndex];
-        const imageName = selectedOption.value;
-        const imagePath = selectedOption.dataset.path + "_large.png";
-    });
-
-
-
     canvas.addEventListener('mousedown', handleMouseDown);
     canvas.addEventListener('wheel', handleWheel);
     window.addEventListener('keydown', handleKeyDown);
+
+    document.addEventListener("DOMContentLoaded", function () {
+        placeSticker()
+    })
 </script>
 </body>
 </html>
