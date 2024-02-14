@@ -236,6 +236,7 @@ function convertDeepResults(results) {
 }
 
 function pushStickersToCanvas() {
+  console.log(selectedStickers)
   if (!selectedStickers) {
     console.error("Not enough selected stickers.");
     return;
