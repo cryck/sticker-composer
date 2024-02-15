@@ -168,3 +168,25 @@ const canvas = document.getElementById('canvas');
     window.addEventListener('load', async () => {
         placeSticker();
     });
+
+    // Get references to the canvas and overlay div elements
+    const canvasDiv = document.getElementById('canvas');
+    const overlayDiv = document.getElementById('selectedImageInfo');
+
+    // Calculate the position of the overlay div relative to the canvas
+    function positionOverlayDiv() {
+        const canvasRect = canvas.getBoundingClientRect();
+        const canvasContainerRect = canvas.parentElement.getBoundingClientRect();
+        
+        // Calculate the position of the overlay div
+        const overlayTop = canvasRect.top - canvasContainerRect.top;
+        const overlayRight = canvasContainerRect.right - canvasRect.right;
+        
+        // Set the position of the overlay div
+        overlayDiv.style.top = `${overlayTop}px`;
+        overlayDiv.style.right = `${overlayRight}px`;
+    }
+
+    // Call the positionOverlayDiv function initially and on window resize
+    positionOverlayDiv();
+    window.addEventListener('resize', positionOverlayDiv);
