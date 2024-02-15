@@ -102,14 +102,14 @@ const canvas = document.getElementById('canvas');
     }
 
     function getStickerIdsFromUrl() {
-        const params = new URLSearchParams(window.location.search)
-        const slot0 = params.get("slot0")
-        const slot1 = params.get("slot1")
-        const slot2 = params.get("slot2")
-        const slot3 = params.get("slot3")
-        const slot4 = params.get("slot4")
-
-        return [slot0, slot1, slot2, slot3, slot4]
+        const params = new URLSearchParams(window.location.search);
+        const slot0 = params.get("slot0") || null;
+        const slot1 = params.get("slot1") || null;
+        const slot2 = params.get("slot2") || null;
+        const slot3 = params.get("slot3") || null;
+        const slot4 = params.get("slot4") || null;
+    
+        return [slot0, slot1, slot2, slot3, slot4];
     }
 
     async function findStickersById(idsToFind) {
