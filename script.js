@@ -78,11 +78,13 @@ function populateResults(resultIndex = 0) {
   })
 
   const selectedStickersList = document.getElementById("selectedStickers")
+  const addToCanvasButton = document.getElementById("add-selected-to-canvas")
   const inputValLower = inputVal.toLowerCase()
 
   if (results.length <= 0) {
     displayInfoMessage("No matches found for your input.", inputVal)
     selectedStickersList.style.display = "none"
+    addToCanvasButton.style.display = "none"
   } else if (
     results
       .flat()
@@ -91,8 +93,10 @@ function populateResults(resultIndex = 0) {
   ) {
     displayInfoMessage("Could not match the entire input.", inputVal)
     selectedStickersList.style.display = "none"
+    addToCanvasButton.style.display = "none"
   } else {
     selectedStickersList.style.display = "block"
+    addToCanvasButton.style.display = "block"
     clearInfoMessage()
   }
   renderSelectedStickers(selectedStickers)
