@@ -103,11 +103,11 @@ const canvas = document.getElementById('canvas');
 
     function getStickerIdsFromUrl() {
         const params = new URLSearchParams(window.location.search);
-        const slot0 = params.get("slot0") || null;
-        const slot1 = params.get("slot1") || null;
-        const slot2 = params.get("slot2") || null;
-        const slot3 = params.get("slot3") || null;
-        const slot4 = params.get("slot4") || null;
+        const slot0 = params.get("slot0");
+        const slot1 = params.get("slot1");
+        const slot2 = params.get("slot2");
+        const slot3 = params.get("slot3");
+        const slot4 = params.get("slot4");
     
         return [slot0, slot1, slot2, slot3, slot4];
     }
@@ -122,7 +122,7 @@ const canvas = document.getElementById('canvas');
     async function placeSticker() {
         const stickerIds = getStickerIdsFromUrl();
         const foundStickers = await findStickersById(stickerIds)
-        const validStickers = foundStickers.filter(sticker => sticker !== null);
+        const validStickers = foundStickers.filter(sticker => sticker !== undefined);
         validStickers.forEach((validSticker, index) => {
             const imagePath = validSticker.image;
             // Calculate the offset for each sticker
@@ -176,12 +176,11 @@ const canvas = document.getElementById('canvas');
     // Calculate the position of the overlay div relative to the canvas
     function positionOverlayDiv() {
         const canvasRect = canvas.getBoundingClientRect();
-        const canvasContainerRect = canvas.parentElement.getBoundingClientRect();
-        
+
         // Calculate the position of the overlay div
-        const overlayTop = canvasRect.top - canvasContainerRect.top;
-        const overlayRight = canvasContainerRect.right - canvasRect.right;
-        
+        const overlayTop = canvasRect.top 
+        const overlayRight = canvasRect.left;
+
         // Set the position of the overlay div
         overlayDiv.style.top = `${overlayTop}px`;
         overlayDiv.style.right = `${overlayRight}px`;
