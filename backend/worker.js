@@ -89,6 +89,7 @@ async function mainSearch(input, isBackwards) {
         stickers: filteredItems.map((item) => ({
           name: item.name,
           image: item.image,
+          id: item.id,
         })),
       })
     }
@@ -341,16 +342,12 @@ async function depthSearch(input) {
 }
 
 async function getTokenizations(Token) {
-  // const neededJSONUrls = [
-  //   "https://cs-sticker.com/inverted_dict.json",
-  //   "https://cs-sticker.com/sticker_ids_by_matched_full_word.json",
-  //   "https://cs-sticker.com/stickers_by_id.json",
-  // ]
   const neededJSONUrls = [
     "https://cs-sticker.com/inverted_dict.json",
     "https://cs-sticker.com/sticker_ids_by_matched_full_word.json",
     "https://cs-sticker.com/stickers_by_id.json",
   ]
+
   const responses = await Promise.all(neededJSONUrls.map((url) => fetch(url)))
 
   const data = await Promise.all(responses.map((response) => response.json()))

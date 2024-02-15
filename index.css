@@ -292,8 +292,23 @@ footer p {
 }
 
 #infoContainer {
-    margin: 10px 0;
-    text-align: center;
+  margin: 10px 0;
+  text-align: center;
+}
+
+#add-selected-to-canvas {
+  display: none;
+}
+
+#add-selected-to-canvas button {
+  background-color: #ccc;
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  transition: background-color 0.25s;
+  margin-bottom: 10px;
 }
 
 /* Mobile media queries*/

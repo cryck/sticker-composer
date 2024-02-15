@@ -1,5 +1,6 @@
 let currentResultsList = []
 let currentResultIndex = 0
+let selectedStickers = []
 const indexLabel = document.getElementById("result-index-label")
 
 function decrementResultIndex() {
@@ -22,8 +23,8 @@ function incrementResultIndex() {
 function populateResults(resultIndex = 0) {
   let inputVal = document.getElementById("stickerInput").value
   let results = currentResultsList[resultIndex]
-  const selectedStickers = []
 
+  selectedStickers = []
   const resultIndexControls = document.getElementById("result-index-controls")
 
   if (currentResultsList.length > 1) {
@@ -77,11 +78,13 @@ function populateResults(resultIndex = 0) {
   })
 
   const selectedStickersList = document.getElementById("selectedStickers")
+  const addToCanvasButton = document.getElementById("add-selected-to-canvas")
   const inputValLower = inputVal.toLowerCase()
 
   if (results.length <= 0) {
     displayInfoMessage("No matches found for your input.", inputVal)
     selectedStickersList.style.display = "none"
+    addToCanvasButton.style.display = "none"
   } else if (
     results
       .flat()
@@ -90,12 +93,15 @@ function populateResults(resultIndex = 0) {
   ) {
     displayInfoMessage("Could not match the entire input.", inputVal)
     selectedStickersList.style.display = "none"
+    addToCanvasButton.style.display = "none"
   } else {
     selectedStickersList.style.display = "block"
+    addToCanvasButton.style.display = "block"
     clearInfoMessage()
   }
   renderSelectedStickers(selectedStickers)
 }
+
 function rotateResults(direction) {
   // direction is +-1
   const newIndex = currentResultIndex + direction
@@ -231,4 +237,24 @@ function convertDeepResults(results) {
       }
     })
   })
+}
+
+function pushStickersToCanvas() {
+  console.log(selectedStickers)
+  if (!selectedStickers) {
+    console.error("Not enough selected stickers.");
+    return;
+  }
+
+  const slotParams = selectedStickers
+    .slice(0, 5)
+    .map((selected, index) => {
+      if (selected.sticker && selected.sticker.id) {
+        return `slot${index}=${selected.sticker.id}`;
+    } else {
+        return '';
+    }})
+    .join("&");
+
+  window.open(`/canvas.html?${slotParams}`, '_blank');
 }
