@@ -1,5 +1,7 @@
-const canvas = document.getElementById('canvas');
-    const ctx = canvas.getContext('2d');
+const canvasContainer = document.getElementById("canvasContainer")
+const canvas = document.getElementById("canvas")
+const ctx = canvas.getContext("2d")
+canvas.width = canvasContainer.getBoundingClientRect().width
     let images = [];
     let selectedImageIndex = null;
     let offsetX, offsetY;
@@ -49,10 +51,10 @@ const canvas = document.getElementById('canvas');
         const mouseY = event.clientY - canvas.getBoundingClientRect().top;
         for (let i = images.length - 1; i >= 0; i--) {
             const image = images[i];
-            const dx = mouseX - image.x;
-            const dy = mouseY - image.y;
-            const distance = Math.sqrt(dx * dx + dy * dy);
-            if (distance <= image.width / 2) {
+            const dx = Math.abs(mouseX - image.x);
+            const dy = Math.abs(mouseY - image.y);
+
+            if (dx <= image.width/2 && dy<=image.height/2) {
                 selectedImageIndex = i;
                 offsetX = mouseX - image.x;
                 offsetY = mouseY - image.y;
