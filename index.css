@@ -66,7 +66,7 @@ a {
 .page-header .title {
   font-weight: 600;
   font-size: 2.75rem;
-  font-family: "Kode Mono";
+  font-family: "Kode Mono", Arial, sans-serif;
   font-weight: bolder;
 }
 
