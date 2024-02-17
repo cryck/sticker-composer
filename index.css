@@ -198,6 +198,14 @@ button:hover {
   margin-bottom: 3px;
 }
 
+.selected-sticker-item:not(:has(> img), :nth-of-type(1))::after {
+  content: "No sticker selected";
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #bbb;
+}
+
 /* Round top and bottom items */
 .selected-sticker-item:first-child {
   border-radius: 5px 5px 0 0;
