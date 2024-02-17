@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -20,17 +23,20 @@
     <div class="base-container">
 
       <div class="page-header">
-        <h1 class="title">CS-Sticker.com</h1>
+        <img src="assets/imgs/main.png" alt="stickers">
+        <h1 class="title">cs-sticker.com</h1>
         <h2 class="subTitle">Generate any text to apply to your CS2 skins & personalize your inventory</h2>
       </div>
 
         <div class="search-container">
             <div class="input-group">
                 <input type="text" id="stickerInput" placeholder="Enter text to spell..." autofocus>
-                <button onclick="callWorker()">Generate</button>
+                <button onclick="callWorker()" title="Generate stickers">
+                  <img src="assets/icons/sparkles.svg" alt="sparkles icon">
+                  Generate</button>
             </div>
 
-            <div>
+            <div class="checkbox-container">
                 <label>
                     <input type="checkbox" id="isBackwards"> Search Backwards
                 </label>
@@ -47,7 +53,9 @@
                 <div id="selectedStickersContainer" class="selected-stickers-container">
                   <div class="selected-stickers-wrapper">
                     <div id="add-selected-to-canvas">
-                      <button onclick="pushStickersToCanvas()">Add to canvas</button>
+                      <button onclick="pushStickersToCanvas()" title="Add selected stickers to canvas"> 
+                  <img src="assets/icons/mouse-pointer-square.svg" alt="mouse pointer square icon">
+                  Add to Canvas</button>
                     </div>
                     <ul id="selectedStickers" class="selected-stickers-list"></ul>
                     <div id="result-index-controls">
