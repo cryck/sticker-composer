@@ -95,8 +95,8 @@ function populateResults(resultIndex = 0) {
     selectedStickersList.style.display = "none"
     addToCanvasButton.style.display = "none"
   } else {
-    selectedStickersList.style.display = "block"
-    addToCanvasButton.style.display = "block"
+    selectedStickersList.style.display = "flex"
+    addToCanvasButton.style.display = "flex"
     clearInfoMessage()
   }
   renderSelectedStickers(selectedStickers)
@@ -242,19 +242,20 @@ function convertDeepResults(results) {
 function pushStickersToCanvas() {
   console.log(selectedStickers)
   if (!selectedStickers) {
-    console.error("Not enough selected stickers.");
-    return;
+    console.error("Not enough selected stickers.")
+    return
   }
 
   const slotParams = selectedStickers
     .slice(0, 5)
     .map((selected, index) => {
       if (selected.sticker && selected.sticker.id) {
-        return `slot${index}=${selected.sticker.id}`;
-    } else {
-        return '';
-    }})
-    .join("&");
+        return `slot${index}=${selected.sticker.id}`
+      } else {
+        return ""
+      }
+    })
+    .join("&")
 
-  window.open(`/canvas.html?${slotParams}`, '_blank');
+  window.open(`/canvas.html?${slotParams}`, "_blank")
 }

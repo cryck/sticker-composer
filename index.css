@@ -176,9 +176,12 @@ button:hover {
 
 .selected-stickers-list {
   width: 150px;
+  flex-direction: column;
   text-align: center;
   font-weight: bold;
   list-style: none;
+  gap: 3px;
+  box-shadow: 0 0 5px #1b2838;
 }
 
 .selected-sticker-item {
@@ -191,15 +194,12 @@ button:hover {
   -moz-user-select: text;
   -o-user-select: text;
   user-select: text;
-  backdrop-filter: blur(10px);
-}
-
-.selected-sticker-item:not(.selected-sticker-item:nth-last-of-type(1)) {
-  margin-bottom: 3px;
+  backdrop-filter: blur(20px);
 }
 
 .selected-sticker-item:not(:has(> img), :nth-of-type(1))::after {
   content: "No sticker selected";
+  margin: auto 0;
   font-family: Arial, sans-serif;
   font-weight: lighter;
   font-size: 13px;
@@ -221,7 +221,6 @@ button:hover {
 
 .selected-sticker-item:last-child {
   border-radius: 0 0 5px 5px;
-  /* border-bottom: 1px solid #ccc; */
 }
 
 .selected-sticker-info {
@@ -392,15 +391,26 @@ footer p {
     bottom: 0;
   }
 
+  .selected-sticker-item:first-child {
+    border-radius: 5px;
+  }
+
+  .selected-sticker-item:last-child {
+    border-radius: 5px;
+  }
+
   .selected-stickers-list {
     width: 100%;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 0;
   }
 
   .selected-sticker-item {
-    width: 100%;
+    flex: 1 1 100px;
+    border-radius: 5px;
   }
 
   /* Hide title on mobile */
@@ -410,14 +420,7 @@ footer p {
 
   .selected-sticker-item {
     font-size: small;
-    border-radius: 0;
-  }
-
-  .selected-sticker-item:nth-child(2) {
-    border-radius: 10px 0 0 0;
-  }
-  .selected-sticker-item:last-child {
-    border-radius: 0 10px 0 0;
+    border-radius: 5px;
   }
 
   .selected-sticker-item > .sticker-image {
