@@ -207,7 +207,6 @@ button:hover {
 }
 
 .selected-sticker-item:has(.sticker-image:hover) {
-  /* background: red; */
   background-image: url("/assets/icons/trash-2.svg");
   background-repeat: no-repeat;
   background-size: 20px;
