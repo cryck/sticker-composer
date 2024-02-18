@@ -206,6 +206,14 @@ button:hover {
   color: #bbb;
 }
 
+.selected-sticker-item:has(.sticker-image:hover) {
+  background-image: url("/assets/icons/trash-2.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position-x: 10px;
+  background-position-y: 10px;
+}
+
 /* Round top and bottom items */
 .selected-sticker-item:first-child {
   border-radius: 5px 5px 0 0;
