@@ -133,7 +133,7 @@ async function callWorker() {
     ) {
       currentResultsList = convertDeepResults(currentResultsList)
     }
-
+    currentResultIndex = 0
     populateResults(currentResultIndex)
   } catch (error) {
     console.error("Error fetching data:", error)
