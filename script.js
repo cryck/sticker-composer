@@ -3,6 +3,20 @@ let currentResultIndex = 0
 let selectedStickers = []
 const indexLabel = document.getElementById("result-index-label")
 
+const pageSelector = document.getElementById("result-index-controls")
+
+pageSelector.addEventListener("wheel", (e) => {
+  e.preventDefault()
+  handlePageScroll(e)
+})
+
+function handlePageScroll(e) {
+  if (e.wheelDelta > 0) {
+    decrementResultIndex()
+  } else {
+    incrementResultIndex()
+  }
+}
 function decrementResultIndex() {
   const newIndex = currentResultIndex - 1
 
@@ -133,7 +147,7 @@ async function callWorker() {
     ) {
       currentResultsList = convertDeepResults(currentResultsList)
     }
-
+    currentResultIndex = 0
     populateResults(currentResultIndex)
   } catch (error) {
     console.error("Error fetching data:", error)
