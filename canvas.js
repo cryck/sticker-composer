@@ -120,6 +120,34 @@ canvas.width = canvasContainer.getBoundingClientRect().width
 
         return idsToFind.map(_id=>stickersById[_id])
     }
+    
+    function isAnySlotUndefined() {
+        const [slot0, slot1, slot2, slot3, slot4] = getStickerIdsFromUrl();
+        return [slot0, slot1, slot2, slot3, slot4].some(slot => slot === undefined);
+    }
+
+    function enableCoverStickerPlacement() {
+        if (isAnySlotUndefined()) {
+            const dropdownDiv = document.getElementById("cover-dropdown");
+            dropdownDiv.style.display = "block"
+            console.log("At least one slot is undefined.");
+
+            //fix for our own sticker_id file
+            for (const key in data) {
+                const option = document.createElement('option');
+                option.value = data[key].name;
+                option.text = data[key].real_name;
+                option.dataset.path = data[key].sticker_material;
+
+                const image = new Image();
+                image.src = data[key].sticker_material + "_large.png";
+                image.className = 'dropdown-image';
+                option.prepend(image);
+
+                dropdown.appendChild(option);
+            }
+        }
+    }
 
     async function placeSticker() {
         const stickerIds = getStickerIdsFromUrl();
