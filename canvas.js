@@ -115,12 +115,12 @@ canvas.width = canvasContainer.getBoundingClientRect().width
     }
 
     async function findStickersById(idsToFind) {
-        const response = await fetch("https://cs-sticker.com/stickers_by_id.json")
+        const response = await fetch("./stickers_by_id.json")
         const stickersById = await response.json()
 
         return idsToFind.map(_id=>stickersById[_id])
     }
-    
+
     function isAnySlotUndefined() {
         const [slot0, slot1, slot2, slot3, slot4] = getStickerIdsFromUrl();
         return [slot0, slot1, slot2, slot3, slot4].some(slot => slot === undefined);
@@ -132,15 +132,16 @@ canvas.width = canvasContainer.getBoundingClientRect().width
             dropdownDiv.style.display = "block"
             console.log("At least one slot is undefined.");
 
-            //fix for our own sticker_id file
-            for (const key in data) {
+            const stickerList = getStickers();
+
+            for (const sticker in stickerList) {
                 const option = document.createElement('option');
-                option.value = data[key].name;
-                option.text = data[key].real_name;
-                option.dataset.path = data[key].sticker_material;
+                option.value = stickerList[sticker].id;
+                option.text = stickerList[sticker].name;
+                option.dataset.path = stickerList[sticker].image;
 
                 const image = new Image();
-                image.src = data[key].sticker_material + "_large.png";
+                image.src = stickerList[sticker].image;
                 image.className = 'dropdown-image';
                 option.prepend(image);
 
@@ -197,6 +198,7 @@ canvas.width = canvasContainer.getBoundingClientRect().width
 
     window.addEventListener('load', async () => {
         placeSticker();
+        enableCoverStickerPlacement();
     });
 
     // Get references to the canvas and overlay div elements
