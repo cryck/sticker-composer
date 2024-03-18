@@ -11,7 +11,13 @@ const stickerSearchButton = document.getElementById("stickerSearchBtn")
 const searchResultDiv = document.getElementById("search-result-div")
 stickerSearchButton.addEventListener("click", handleSearchStickerChange)
 
+let images = []
+let selectedImageIndex = null
+let offsetX, offsetY
+let rotationPrecision = 1
+
 function handleSearchStickerChange(e) {
+  console.log("CALLED")
   const searchValue = stickerSearchInput.value
 
   if (searchValue && searchValue !== null && searchValue !== "") {
@@ -45,6 +51,8 @@ function handleSearchStickerChange(e) {
         const imagePath = sticker.image
         // Calculate the offset for each sticker
         const offSet = 50
+        selectedImageIndex = null
+        updateSelectedImageInfo()
         loadImage(imagePath, offSet)
         searchResultDiv.style.display = "none"
         searchResultDiv.innerHTML = ""
@@ -64,11 +72,6 @@ function handleSearchStickerChange(e) {
     searchResultDiv.style.display = "none"
   }
 }
-
-let images = []
-let selectedImageIndex = null
-let offsetX, offsetY
-let rotationPrecision = 1
 
 function drawImages() {
   ctx.clearRect(0, 0, canvas.width, canvas.height)
