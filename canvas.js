@@ -18,7 +18,7 @@ let rotationPrecision = 1
 
 function handleSearchStickerChange(e) {
   console.log("CALLED")
-  const searchValue = stickerSearchInput.value
+  const searchValue = stickerSearchInput.value.toLowerCase()
 
   if (searchValue && searchValue !== null && searchValue !== "") {
     searchResultDiv.style.display = "block"
