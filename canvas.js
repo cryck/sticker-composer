@@ -8,12 +8,12 @@ canvas.height = canvasContainer.getBoundingClientRect().height
 
 const stickerSearchInput = document.getElementById("stickerSearch")
 const stickerSearchButton = document.getElementById("stickerSearchBtn")
+const searchResultDiv = document.getElementById("search-result-div")
 stickerSearchButton.addEventListener("click", handleSearchStickerChange)
 
 function handleSearchStickerChange(e) {
   const searchValue = stickerSearchInput.value
-  console.log(searchValue)
-  const searchResultDiv = document.getElementById("search-result-div")
+
   if (searchValue && searchValue !== null && searchValue !== "") {
     searchResultDiv.style.display = "block"
     const stickers = Object.values(stickersById)
@@ -23,6 +23,14 @@ function handleSearchStickerChange(e) {
     // FIXME: Im pretty sure garbage collection would auto remove the event listeners here,
     // but if not fix
     searchResultDiv.innerHTML = ""
+    const closeBtn = document.createElement("div")
+    closeBtn.className = "sticker-result-close"
+    closeBtn.innerText = "Close"
+    closeBtn.addEventListener("click", (e) => {
+      searchResultDiv.innerHTML = ""
+      searchResultDiv.style.display = "none"
+    })
+    searchResultDiv.appendChild(closeBtn)
     for (let index = 0; index < matchedItems.length; index++) {
       const sticker = matchedItems[index]
 
@@ -36,7 +44,7 @@ function handleSearchStickerChange(e) {
 
         const imagePath = sticker.image
         // Calculate the offset for each sticker
-        const offSet = 50 * index
+        const offSet = 50
         loadImage(imagePath, offSet)
         searchResultDiv.style.display = "none"
         searchResultDiv.innerHTML = ""
@@ -52,7 +60,6 @@ function handleSearchStickerChange(e) {
       searchResultDiv.appendChild(div)
     }
   } else {
-    console.log("Setting to None")
     searchResultDiv.innerHTML = ""
     searchResultDiv.style.display = "none"
   }
