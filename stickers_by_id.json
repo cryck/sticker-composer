@@ -38518,5 +38518,2915 @@
     "id": "sticker-7253",
     "name": "Sticker | On An Eco (Foil)",
     "image": "https://raw.githubusercontent.com/ByMykel/CSGO-API/1675e7262bd51fdba1d74664fd4b4fc06a50bb12/public/images/econ/stickers/community/community_2024/foil_on_eco.png"
+  },
+  "sticker-7254": {
+    "id": "sticker-7254",
+    "name": "Sticker | Natus Vincere | Copenhagen 2024",
+    "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/navi_png.png"
+  },
+  "sticker-7255": {
+      "id": "sticker-7255",
+      "name": "Sticker | Natus Vincere (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/navi_glitter_png.png"
+  },
+  "sticker-7256": {
+      "id": "sticker-7256",
+      "name": "Sticker | Natus Vincere (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/navi_holo_png.png"
+  },
+  "sticker-7257": {
+      "id": "sticker-7257",
+      "name": "Sticker | Natus Vincere (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/navi_gold_png.png"
+  },
+  "sticker-7258": {
+      "id": "sticker-7258",
+      "name": "Sticker | Virtus.pro | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vp_png.png"
+  },
+  "sticker-7259": {
+      "id": "sticker-7259",
+      "name": "Sticker | Virtus.pro (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vp_glitter_png.png"
+  },
+  "sticker-7260": {
+      "id": "sticker-7260",
+      "name": "Sticker | Virtus.pro (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vp_holo_png.png"
+  },
+  "sticker-7261": {
+      "id": "sticker-7261",
+      "name": "Sticker | Virtus.pro (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vp_gold_png.png"
+  },
+  "sticker-7262": {
+      "id": "sticker-7262",
+      "name": "Sticker | G2 Esports | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/g2_png.png"
+  },
+  "sticker-7263": {
+      "id": "sticker-7263",
+      "name": "Sticker | G2 Esports (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/g2_glitter_png.png"
+  },
+  "sticker-7264": {
+      "id": "sticker-7264",
+      "name": "Sticker | G2 Esports (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/g2_holo_png.png"
+  },
+  "sticker-7265": {
+      "id": "sticker-7265",
+      "name": "Sticker | G2 Esports (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/g2_gold_png.png"
+  },
+  "sticker-7266": {
+      "id": "sticker-7266",
+      "name": "Sticker | FaZe Clan | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/faze_png.png"
+  },
+  "sticker-7267": {
+      "id": "sticker-7267",
+      "name": "Sticker | FaZe Clan (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/faze_glitter_png.png"
+  },
+  "sticker-7268": {
+      "id": "sticker-7268",
+      "name": "Sticker | FaZe Clan (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/faze_holo_png.png"
+  },
+  "sticker-7269": {
+      "id": "sticker-7269",
+      "name": "Sticker | FaZe Clan (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/faze_gold_png.png"
+  },
+  "sticker-7270": {
+      "id": "sticker-7270",
+      "name": "Sticker | Team Spirit | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/spir_png.png"
+  },
+  "sticker-7271": {
+      "id": "sticker-7271",
+      "name": "Sticker | Team Spirit (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/spir_glitter_png.png"
+  },
+  "sticker-7272": {
+      "id": "sticker-7272",
+      "name": "Sticker | Team Spirit (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/spir_holo_png.png"
+  },
+  "sticker-7273": {
+      "id": "sticker-7273",
+      "name": "Sticker | Team Spirit (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/spir_gold_png.png"
+  },
+  "sticker-7274": {
+      "id": "sticker-7274",
+      "name": "Sticker | Vitality | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vita_png.png"
+  },
+  "sticker-7275": {
+      "id": "sticker-7275",
+      "name": "Sticker | Vitality (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vita_glitter_png.png"
+  },
+  "sticker-7276": {
+      "id": "sticker-7276",
+      "name": "Sticker | Vitality (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vita_holo_png.png"
+  },
+  "sticker-7277": {
+      "id": "sticker-7277",
+      "name": "Sticker | Vitality (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/vita_gold_png.png"
+  },
+  "sticker-7278": {
+      "id": "sticker-7278",
+      "name": "Sticker | MOUZ | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mouz_png.png"
+  },
+  "sticker-7279": {
+      "id": "sticker-7279",
+      "name": "Sticker | MOUZ (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mouz_glitter_png.png"
+  },
+  "sticker-7280": {
+      "id": "sticker-7280",
+      "name": "Sticker | MOUZ (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mouz_holo_png.png"
+  },
+  "sticker-7281": {
+      "id": "sticker-7281",
+      "name": "Sticker | MOUZ (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mouz_gold_png.png"
+  },
+  "sticker-7282": {
+      "id": "sticker-7282",
+      "name": "Sticker | Complexity Gaming | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/cplx_png.png"
+  },
+  "sticker-7283": {
+      "id": "sticker-7283",
+      "name": "Sticker | Complexity Gaming (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/cplx_glitter_png.png"
+  },
+  "sticker-7284": {
+      "id": "sticker-7284",
+      "name": "Sticker | Complexity Gaming (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/cplx_holo_png.png"
+  },
+  "sticker-7285": {
+      "id": "sticker-7285",
+      "name": "Sticker | Complexity Gaming (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/cplx_gold_png.png"
+  },
+  "sticker-7286": {
+      "id": "sticker-7286",
+      "name": "Sticker | Cloud9 | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/c9_png.png"
+  },
+  "sticker-7287": {
+      "id": "sticker-7287",
+      "name": "Sticker | Cloud9 (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/c9_glitter_png.png"
+  },
+  "sticker-7288": {
+      "id": "sticker-7288",
+      "name": "Sticker | Cloud9 (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/c9_holo_png.png"
+  },
+  "sticker-7289": {
+      "id": "sticker-7289",
+      "name": "Sticker | Cloud9 (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/c9_gold_png.png"
+  },
+  "sticker-7290": {
+      "id": "sticker-7290",
+      "name": "Sticker | ENCE | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ence_png.png"
+  },
+  "sticker-7291": {
+      "id": "sticker-7291",
+      "name": "Sticker | ENCE (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ence_glitter_png.png"
+  },
+  "sticker-7292": {
+      "id": "sticker-7292",
+      "name": "Sticker | ENCE (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ence_holo_png.png"
+  },
+  "sticker-7293": {
+      "id": "sticker-7293",
+      "name": "Sticker | ENCE (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ence_gold_png.png"
+  },
+  "sticker-7294": {
+      "id": "sticker-7294",
+      "name": "Sticker | FURIA | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/furi_png.png"
+  },
+  "sticker-7295": {
+      "id": "sticker-7295",
+      "name": "Sticker | FURIA (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/furi_glitter_png.png"
+  },
+  "sticker-7296": {
+      "id": "sticker-7296",
+      "name": "Sticker | FURIA (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/furi_holo_png.png"
+  },
+  "sticker-7297": {
+      "id": "sticker-7297",
+      "name": "Sticker | FURIA (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/furi_gold_png.png"
+  },
+  "sticker-7298": {
+      "id": "sticker-7298",
+      "name": "Sticker | Heroic | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/hero_png.png"
+  },
+  "sticker-7299": {
+      "id": "sticker-7299",
+      "name": "Sticker | Heroic (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/hero_glitter_png.png"
+  },
+  "sticker-7300": {
+      "id": "sticker-7300",
+      "name": "Sticker | Heroic (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/hero_holo_png.png"
+  },
+  "sticker-7301": {
+      "id": "sticker-7301",
+      "name": "Sticker | Heroic (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/hero_gold_png.png"
+  },
+  "sticker-7302": {
+      "id": "sticker-7302",
+      "name": "Sticker | Eternal Fire | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/eter_png.png"
+  },
+  "sticker-7303": {
+      "id": "sticker-7303",
+      "name": "Sticker | Eternal Fire (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/eter_glitter_png.png"
+  },
+  "sticker-7304": {
+      "id": "sticker-7304",
+      "name": "Sticker | Eternal Fire (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/eter_holo_png.png"
+  },
+  "sticker-7305": {
+      "id": "sticker-7305",
+      "name": "Sticker | Eternal Fire (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/eter_gold_png.png"
+  },
+  "sticker-7306": {
+      "id": "sticker-7306",
+      "name": "Sticker | Apeks | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/apex_png.png"
+  },
+  "sticker-7307": {
+      "id": "sticker-7307",
+      "name": "Sticker | Apeks (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/apex_glitter_png.png"
+  },
+  "sticker-7308": {
+      "id": "sticker-7308",
+      "name": "Sticker | Apeks (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/apex_holo_png.png"
+  },
+  "sticker-7309": {
+      "id": "sticker-7309",
+      "name": "Sticker | Apeks (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/apex_gold_png.png"
+  },
+  "sticker-7310": {
+      "id": "sticker-7310",
+      "name": "Sticker | GamerLegion | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/gl_png.png"
+  },
+  "sticker-7311": {
+      "id": "sticker-7311",
+      "name": "Sticker | GamerLegion (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/gl_glitter_png.png"
+  },
+  "sticker-7312": {
+      "id": "sticker-7312",
+      "name": "Sticker | GamerLegion (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/gl_holo_png.png"
+  },
+  "sticker-7313": {
+      "id": "sticker-7313",
+      "name": "Sticker | GamerLegion (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/gl_gold_png.png"
+  },
+  "sticker-7314": {
+      "id": "sticker-7314",
+      "name": "Sticker | SAW | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/saw_png.png"
+  },
+  "sticker-7315": {
+      "id": "sticker-7315",
+      "name": "Sticker | SAW (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/saw_glitter_png.png"
+  },
+  "sticker-7316": {
+      "id": "sticker-7316",
+      "name": "Sticker | SAW (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/saw_holo_png.png"
+  },
+  "sticker-7317": {
+      "id": "sticker-7317",
+      "name": "Sticker | SAW (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/saw_gold_png.png"
+  },
+  "sticker-7318": {
+      "id": "sticker-7318",
+      "name": "Sticker | paiN Gaming | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pain_png.png"
+  },
+  "sticker-7319": {
+      "id": "sticker-7319",
+      "name": "Sticker | paiN Gaming (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pain_glitter_png.png"
+  },
+  "sticker-7320": {
+      "id": "sticker-7320",
+      "name": "Sticker | paiN Gaming (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pain_holo_png.png"
+  },
+  "sticker-7321": {
+      "id": "sticker-7321",
+      "name": "Sticker | paiN Gaming (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pain_gold_png.png"
+  },
+  "sticker-7322": {
+      "id": "sticker-7322",
+      "name": "Sticker | Imperial Esports | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/imp_png.png"
+  },
+  "sticker-7323": {
+      "id": "sticker-7323",
+      "name": "Sticker | Imperial Esports (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/imp_glitter_png.png"
+  },
+  "sticker-7324": {
+      "id": "sticker-7324",
+      "name": "Sticker | Imperial Esports (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/imp_holo_png.png"
+  },
+  "sticker-7325": {
+      "id": "sticker-7325",
+      "name": "Sticker | Imperial Esports (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/imp_gold_png.png"
+  },
+  "sticker-7326": {
+      "id": "sticker-7326",
+      "name": "Sticker | The MongolZ | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mngz_png.png"
+  },
+  "sticker-7327": {
+      "id": "sticker-7327",
+      "name": "Sticker | The MongolZ (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mngz_glitter_png.png"
+  },
+  "sticker-7328": {
+      "id": "sticker-7328",
+      "name": "Sticker | The MongolZ (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mngz_holo_png.png"
+  },
+  "sticker-7329": {
+      "id": "sticker-7329",
+      "name": "Sticker | The MongolZ (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/mngz_gold_png.png"
+  },
+  "sticker-7330": {
+      "id": "sticker-7330",
+      "name": "Sticker | AMKAL ESPORTS | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/amka_png.png"
+  },
+  "sticker-7331": {
+      "id": "sticker-7331",
+      "name": "Sticker | AMKAL ESPORTS (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/amka_glitter_png.png"
+  },
+  "sticker-7332": {
+      "id": "sticker-7332",
+      "name": "Sticker | AMKAL ESPORTS (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/amka_holo_png.png"
+  },
+  "sticker-7333": {
+      "id": "sticker-7333",
+      "name": "Sticker | AMKAL ESPORTS (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/amka_gold_png.png"
+  },
+  "sticker-7334": {
+      "id": "sticker-7334",
+      "name": "Sticker | ECSTATIC | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ecst_png.png"
+  },
+  "sticker-7335": {
+      "id": "sticker-7335",
+      "name": "Sticker | ECSTATIC (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ecst_glitter_png.png"
+  },
+  "sticker-7336": {
+      "id": "sticker-7336",
+      "name": "Sticker | ECSTATIC (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ecst_holo_png.png"
+  },
+  "sticker-7337": {
+      "id": "sticker-7337",
+      "name": "Sticker | ECSTATIC (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/ecst_gold_png.png"
+  },
+  "sticker-7338": {
+      "id": "sticker-7338",
+      "name": "Sticker | KOI | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/koi_png.png"
+  },
+  "sticker-7339": {
+      "id": "sticker-7339",
+      "name": "Sticker | KOI (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/koi_glitter_png.png"
+  },
+  "sticker-7340": {
+      "id": "sticker-7340",
+      "name": "Sticker | KOI (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/koi_holo_png.png"
+  },
+  "sticker-7341": {
+      "id": "sticker-7341",
+      "name": "Sticker | KOI (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/koi_gold_png.png"
+  },
+  "sticker-7342": {
+      "id": "sticker-7342",
+      "name": "Sticker | Legacy | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lgcy_png.png"
+  },
+  "sticker-7343": {
+      "id": "sticker-7343",
+      "name": "Sticker | Legacy (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lgcy_glitter_png.png"
+  },
+  "sticker-7344": {
+      "id": "sticker-7344",
+      "name": "Sticker | Legacy (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lgcy_holo_png.png"
+  },
+  "sticker-7345": {
+      "id": "sticker-7345",
+      "name": "Sticker | Legacy (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lgcy_gold_png.png"
+  },
+  "sticker-7346": {
+      "id": "sticker-7346",
+      "name": "Sticker | Lynn Vision | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lynn_png.png"
+  },
+  "sticker-7347": {
+      "id": "sticker-7347",
+      "name": "Sticker | Lynn Vision (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lynn_glitter_png.png"
+  },
+  "sticker-7348": {
+      "id": "sticker-7348",
+      "name": "Sticker | Lynn Vision (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lynn_holo_png.png"
+  },
+  "sticker-7349": {
+      "id": "sticker-7349",
+      "name": "Sticker | Lynn Vision (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/lynn_gold_png.png"
+  },
+  "sticker-7350": {
+      "id": "sticker-7350",
+      "name": "Sticker | PGL | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_png.png"
+  },
+  "sticker-7351": {
+      "id": "sticker-7351",
+      "name": "Sticker | PGL (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_glitter_png.png"
+  },
+  "sticker-7352": {
+      "id": "sticker-7352",
+      "name": "Sticker | PGL (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_holo_png.png"
+  },
+  "sticker-7353": {
+      "id": "sticker-7353",
+      "name": "Sticker | PGL (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/pgl_gold_png.png"
+  },
+  "sticker-7379": {
+      "id": "sticker-7379",
+      "name": "Sticker | jL | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_png.png"
+  },
+  "sticker-7380": {
+      "id": "sticker-7380",
+      "name": "Sticker | jL (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_glitter_png.png"
+  },
+  "sticker-7381": {
+      "id": "sticker-7381",
+      "name": "Sticker | jL (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_holo_png.png"
+  },
+  "sticker-7382": {
+      "id": "sticker-7382",
+      "name": "Sticker | jL (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jl_gold_png.png"
+  },
+  "sticker-7383": {
+      "id": "sticker-7383",
+      "name": "Sticker | Aleksib | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_png.png"
+  },
+  "sticker-7384": {
+      "id": "sticker-7384",
+      "name": "Sticker | Aleksib (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_glitter_png.png"
+  },
+  "sticker-7385": {
+      "id": "sticker-7385",
+      "name": "Sticker | Aleksib (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_holo_png.png"
+  },
+  "sticker-7386": {
+      "id": "sticker-7386",
+      "name": "Sticker | Aleksib (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_aleksib_gold_png.png"
+  },
+  "sticker-7387": {
+      "id": "sticker-7387",
+      "name": "Sticker | b1t | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_png.png"
+  },
+  "sticker-7388": {
+      "id": "sticker-7388",
+      "name": "Sticker | b1t (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_glitter_png.png"
+  },
+  "sticker-7389": {
+      "id": "sticker-7389",
+      "name": "Sticker | b1t (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_holo_png.png"
+  },
+  "sticker-7390": {
+      "id": "sticker-7390",
+      "name": "Sticker | b1t (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b1t_gold_png.png"
+  },
+  "sticker-7391": {
+      "id": "sticker-7391",
+      "name": "Sticker | iM | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_png.png"
+  },
+  "sticker-7392": {
+      "id": "sticker-7392",
+      "name": "Sticker | iM (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_glitter_png.png"
+  },
+  "sticker-7393": {
+      "id": "sticker-7393",
+      "name": "Sticker | iM (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_holo_png.png"
+  },
+  "sticker-7394": {
+      "id": "sticker-7394",
+      "name": "Sticker | iM (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_im_gold_png.png"
+  },
+  "sticker-7395": {
+      "id": "sticker-7395",
+      "name": "Sticker | w0nderful | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_png.png"
+  },
+  "sticker-7396": {
+      "id": "sticker-7396",
+      "name": "Sticker | w0nderful (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_glitter_png.png"
+  },
+  "sticker-7397": {
+      "id": "sticker-7397",
+      "name": "Sticker | w0nderful (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_holo_png.png"
+  },
+  "sticker-7398": {
+      "id": "sticker-7398",
+      "name": "Sticker | w0nderful (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_w0nderful_gold_png.png"
+  },
+  "sticker-7399": {
+      "id": "sticker-7399",
+      "name": "Sticker | fame | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fame_png.png"
+  },
+  "sticker-7400": {
+      "id": "sticker-7400",
+      "name": "Sticker | fame (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fame_glitter_png.png"
+  },
+  "sticker-7401": {
+      "id": "sticker-7401",
+      "name": "Sticker | fame (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fame_holo_png.png"
+  },
+  "sticker-7402": {
+      "id": "sticker-7402",
+      "name": "Sticker | fame (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fame_gold_png.png"
+  },
+  "sticker-7403": {
+      "id": "sticker-7403",
+      "name": "Sticker | FL1T | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fl1t_png.png"
+  },
+  "sticker-7404": {
+      "id": "sticker-7404",
+      "name": "Sticker | FL1T (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fl1t_glitter_png.png"
+  },
+  "sticker-7405": {
+      "id": "sticker-7405",
+      "name": "Sticker | FL1T (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fl1t_holo_png.png"
+  },
+  "sticker-7406": {
+      "id": "sticker-7406",
+      "name": "Sticker | FL1T (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fl1t_gold_png.png"
+  },
+  "sticker-7407": {
+      "id": "sticker-7407",
+      "name": "Sticker | Jame | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jame_png.png"
+  },
+  "sticker-7408": {
+      "id": "sticker-7408",
+      "name": "Sticker | Jame (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jame_glitter_png.png"
+  },
+  "sticker-7409": {
+      "id": "sticker-7409",
+      "name": "Sticker | Jame (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jame_holo_png.png"
+  },
+  "sticker-7410": {
+      "id": "sticker-7410",
+      "name": "Sticker | Jame (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jame_gold_png.png"
+  },
+  "sticker-7411": {
+      "id": "sticker-7411",
+      "name": "Sticker | mir | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mir_png.png"
+  },
+  "sticker-7412": {
+      "id": "sticker-7412",
+      "name": "Sticker | mir (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mir_glitter_png.png"
+  },
+  "sticker-7413": {
+      "id": "sticker-7413",
+      "name": "Sticker | mir (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mir_holo_png.png"
+  },
+  "sticker-7414": {
+      "id": "sticker-7414",
+      "name": "Sticker | mir (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mir_gold_png.png"
+  },
+  "sticker-7415": {
+      "id": "sticker-7415",
+      "name": "Sticker | n0rb3r7 | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_n0rb3r7_png.png"
+  },
+  "sticker-7416": {
+      "id": "sticker-7416",
+      "name": "Sticker | n0rb3r7 (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_n0rb3r7_glitter_png.png"
+  },
+  "sticker-7417": {
+      "id": "sticker-7417",
+      "name": "Sticker | n0rb3r7 (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_n0rb3r7_holo_png.png"
+  },
+  "sticker-7418": {
+      "id": "sticker-7418",
+      "name": "Sticker | n0rb3r7 (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_n0rb3r7_gold_png.png"
+  },
+  "sticker-7419": {
+      "id": "sticker-7419",
+      "name": "Sticker | HooXi | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hooxi_png.png"
+  },
+  "sticker-7420": {
+      "id": "sticker-7420",
+      "name": "Sticker | HooXi (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hooxi_glitter_png.png"
+  },
+  "sticker-7421": {
+      "id": "sticker-7421",
+      "name": "Sticker | HooXi (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hooxi_holo_png.png"
+  },
+  "sticker-7422": {
+      "id": "sticker-7422",
+      "name": "Sticker | HooXi (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hooxi_gold_png.png"
+  },
+  "sticker-7423": {
+      "id": "sticker-7423",
+      "name": "Sticker | huNter- | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hunter_png.png"
+  },
+  "sticker-7424": {
+      "id": "sticker-7424",
+      "name": "Sticker | huNter- (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hunter_glitter_png.png"
+  },
+  "sticker-7425": {
+      "id": "sticker-7425",
+      "name": "Sticker | huNter- (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hunter_holo_png.png"
+  },
+  "sticker-7426": {
+      "id": "sticker-7426",
+      "name": "Sticker | huNter- (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hunter_gold_png.png"
+  },
+  "sticker-7427": {
+      "id": "sticker-7427",
+      "name": "Sticker | m0NESY | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_m0nesy_png.png"
+  },
+  "sticker-7428": {
+      "id": "sticker-7428",
+      "name": "Sticker | m0NESY (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_m0nesy_glitter_png.png"
+  },
+  "sticker-7429": {
+      "id": "sticker-7429",
+      "name": "Sticker | m0NESY (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_m0nesy_holo_png.png"
+  },
+  "sticker-7430": {
+      "id": "sticker-7430",
+      "name": "Sticker | m0NESY (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_m0nesy_gold_png.png"
+  },
+  "sticker-7431": {
+      "id": "sticker-7431",
+      "name": "Sticker | nexa | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nexa_png.png"
+  },
+  "sticker-7432": {
+      "id": "sticker-7432",
+      "name": "Sticker | nexa (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nexa_glitter_png.png"
+  },
+  "sticker-7433": {
+      "id": "sticker-7433",
+      "name": "Sticker | nexa (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nexa_holo_png.png"
+  },
+  "sticker-7434": {
+      "id": "sticker-7434",
+      "name": "Sticker | nexa (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nexa_gold_png.png"
+  },
+  "sticker-7435": {
+      "id": "sticker-7435",
+      "name": "Sticker | NiKo | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_niko_png.png"
+  },
+  "sticker-7436": {
+      "id": "sticker-7436",
+      "name": "Sticker | NiKo (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_niko_glitter_png.png"
+  },
+  "sticker-7437": {
+      "id": "sticker-7437",
+      "name": "Sticker | NiKo (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_niko_holo_png.png"
+  },
+  "sticker-7438": {
+      "id": "sticker-7438",
+      "name": "Sticker | NiKo (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_niko_gold_png.png"
+  },
+  "sticker-7439": {
+      "id": "sticker-7439",
+      "name": "Sticker | broky | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_broky_png.png"
+  },
+  "sticker-7440": {
+      "id": "sticker-7440",
+      "name": "Sticker | broky (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_broky_glitter_png.png"
+  },
+  "sticker-7441": {
+      "id": "sticker-7441",
+      "name": "Sticker | broky (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_broky_holo_png.png"
+  },
+  "sticker-7442": {
+      "id": "sticker-7442",
+      "name": "Sticker | broky (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_broky_gold_png.png"
+  },
+  "sticker-7443": {
+      "id": "sticker-7443",
+      "name": "Sticker | frozen | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_frozen_png.png"
+  },
+  "sticker-7444": {
+      "id": "sticker-7444",
+      "name": "Sticker | frozen (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_frozen_glitter_png.png"
+  },
+  "sticker-7445": {
+      "id": "sticker-7445",
+      "name": "Sticker | frozen (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_frozen_holo_png.png"
+  },
+  "sticker-7446": {
+      "id": "sticker-7446",
+      "name": "Sticker | frozen (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_frozen_gold_png.png"
+  },
+  "sticker-7447": {
+      "id": "sticker-7447",
+      "name": "Sticker | karrigan | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_karrigan_png.png"
+  },
+  "sticker-7448": {
+      "id": "sticker-7448",
+      "name": "Sticker | karrigan (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_karrigan_glitter_png.png"
+  },
+  "sticker-7449": {
+      "id": "sticker-7449",
+      "name": "Sticker | karrigan (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_karrigan_holo_png.png"
+  },
+  "sticker-7450": {
+      "id": "sticker-7450",
+      "name": "Sticker | karrigan (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_karrigan_gold_png.png"
+  },
+  "sticker-7451": {
+      "id": "sticker-7451",
+      "name": "Sticker | rain | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_rain_png.png"
+  },
+  "sticker-7452": {
+      "id": "sticker-7452",
+      "name": "Sticker | rain (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_rain_glitter_png.png"
+  },
+  "sticker-7453": {
+      "id": "sticker-7453",
+      "name": "Sticker | rain (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_rain_holo_png.png"
+  },
+  "sticker-7454": {
+      "id": "sticker-7454",
+      "name": "Sticker | rain (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_rain_gold_png.png"
+  },
+  "sticker-7455": {
+      "id": "sticker-7455",
+      "name": "Sticker | ropz | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ropz_png.png"
+  },
+  "sticker-7456": {
+      "id": "sticker-7456",
+      "name": "Sticker | ropz (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ropz_glitter_png.png"
+  },
+  "sticker-7457": {
+      "id": "sticker-7457",
+      "name": "Sticker | ropz (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ropz_holo_png.png"
+  },
+  "sticker-7458": {
+      "id": "sticker-7458",
+      "name": "Sticker | ropz (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ropz_gold_png.png"
+  },
+  "sticker-7459": {
+      "id": "sticker-7459",
+      "name": "Sticker | chopper | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_png.png"
+  },
+  "sticker-7460": {
+      "id": "sticker-7460",
+      "name": "Sticker | chopper (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_glitter_png.png"
+  },
+  "sticker-7461": {
+      "id": "sticker-7461",
+      "name": "Sticker | chopper (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_holo_png.png"
+  },
+  "sticker-7462": {
+      "id": "sticker-7462",
+      "name": "Sticker | chopper (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_gold_png.png"
+  },
+  "sticker-7463": {
+      "id": "sticker-7463",
+      "name": "Sticker | donk | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_donk_png.png"
+  },
+  "sticker-7464": {
+      "id": "sticker-7464",
+      "name": "Sticker | donk (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_donk_glitter_png.png"
+  },
+  "sticker-7465": {
+      "id": "sticker-7465",
+      "name": "Sticker | donk (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_donk_holo_png.png"
+  },
+  "sticker-7466": {
+      "id": "sticker-7466",
+      "name": "Sticker | donk (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_donk_gold_png.png"
+  },
+  "sticker-7467": {
+      "id": "sticker-7467",
+      "name": "Sticker | magixx | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_magixx_png.png"
+  },
+  "sticker-7468": {
+      "id": "sticker-7468",
+      "name": "Sticker | magixx (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_magixx_glitter_png.png"
+  },
+  "sticker-7469": {
+      "id": "sticker-7469",
+      "name": "Sticker | magixx (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_magixx_holo_png.png"
+  },
+  "sticker-7470": {
+      "id": "sticker-7470",
+      "name": "Sticker | magixx (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_magixx_gold_png.png"
+  },
+  "sticker-7471": {
+      "id": "sticker-7471",
+      "name": "Sticker | sh1ro | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sh1ro_png.png"
+  },
+  "sticker-7472": {
+      "id": "sticker-7472",
+      "name": "Sticker | sh1ro (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sh1ro_glitter_png.png"
+  },
+  "sticker-7473": {
+      "id": "sticker-7473",
+      "name": "Sticker | sh1ro (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sh1ro_holo_png.png"
+  },
+  "sticker-7474": {
+      "id": "sticker-7474",
+      "name": "Sticker | sh1ro (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sh1ro_gold_png.png"
+  },
+  "sticker-7475": {
+      "id": "sticker-7475",
+      "name": "Sticker | zont1x | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_zont1x_png.png"
+  },
+  "sticker-7476": {
+      "id": "sticker-7476",
+      "name": "Sticker | zont1x (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_zont1x_glitter_png.png"
+  },
+  "sticker-7477": {
+      "id": "sticker-7477",
+      "name": "Sticker | zont1x (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_zont1x_holo_png.png"
+  },
+  "sticker-7478": {
+      "id": "sticker-7478",
+      "name": "Sticker | zont1x (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_zont1x_gold_png.png"
+  },
+  "sticker-7479": {
+      "id": "sticker-7479",
+      "name": "Sticker | apEX | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_apex_png.png"
+  },
+  "sticker-7480": {
+      "id": "sticker-7480",
+      "name": "Sticker | apEX (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_apex_glitter_png.png"
+  },
+  "sticker-7481": {
+      "id": "sticker-7481",
+      "name": "Sticker | apEX (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_apex_holo_png.png"
+  },
+  "sticker-7482": {
+      "id": "sticker-7482",
+      "name": "Sticker | apEX (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_apex_gold_png.png"
+  },
+  "sticker-7483": {
+      "id": "sticker-7483",
+      "name": "Sticker | FlameZ | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_flamez_png.png"
+  },
+  "sticker-7484": {
+      "id": "sticker-7484",
+      "name": "Sticker | FlameZ (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_flamez_glitter_png.png"
+  },
+  "sticker-7485": {
+      "id": "sticker-7485",
+      "name": "Sticker | FlameZ (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_flamez_holo_png.png"
+  },
+  "sticker-7486": {
+      "id": "sticker-7486",
+      "name": "Sticker | FlameZ (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_flamez_gold_png.png"
+  },
+  "sticker-7487": {
+      "id": "sticker-7487",
+      "name": "Sticker | mezii | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mezii_png.png"
+  },
+  "sticker-7488": {
+      "id": "sticker-7488",
+      "name": "Sticker | mezii (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mezii_glitter_png.png"
+  },
+  "sticker-7489": {
+      "id": "sticker-7489",
+      "name": "Sticker | mezii (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mezii_holo_png.png"
+  },
+  "sticker-7490": {
+      "id": "sticker-7490",
+      "name": "Sticker | mezii (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mezii_gold_png.png"
+  },
+  "sticker-7491": {
+      "id": "sticker-7491",
+      "name": "Sticker | Spinx | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_spinx_png.png"
+  },
+  "sticker-7492": {
+      "id": "sticker-7492",
+      "name": "Sticker | Spinx (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_spinx_glitter_png.png"
+  },
+  "sticker-7493": {
+      "id": "sticker-7493",
+      "name": "Sticker | Spinx (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_spinx_holo_png.png"
+  },
+  "sticker-7494": {
+      "id": "sticker-7494",
+      "name": "Sticker | Spinx (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_spinx_gold_png.png"
+  },
+  "sticker-7495": {
+      "id": "sticker-7495",
+      "name": "Sticker | ZywOo | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_zywoo_png.png"
+  },
+  "sticker-7496": {
+      "id": "sticker-7496",
+      "name": "Sticker | ZywOo (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_zywoo_glitter_png.png"
+  },
+  "sticker-7497": {
+      "id": "sticker-7497",
+      "name": "Sticker | ZywOo (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_zywoo_holo_png.png"
+  },
+  "sticker-7498": {
+      "id": "sticker-7498",
+      "name": "Sticker | ZywOo (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_zywoo_gold_png.png"
+  },
+  "sticker-7499": {
+      "id": "sticker-7499",
+      "name": "Sticker | Brollan | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_brollan_png.png"
+  },
+  "sticker-7500": {
+      "id": "sticker-7500",
+      "name": "Sticker | Brollan (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_brollan_glitter_png.png"
+  },
+  "sticker-7501": {
+      "id": "sticker-7501",
+      "name": "Sticker | Brollan (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_brollan_holo_png.png"
+  },
+  "sticker-7502": {
+      "id": "sticker-7502",
+      "name": "Sticker | Brollan (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_brollan_gold_png.png"
+  },
+  "sticker-7503": {
+      "id": "sticker-7503",
+      "name": "Sticker | Jimpphat | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jimpphat_png.png"
+  },
+  "sticker-7504": {
+      "id": "sticker-7504",
+      "name": "Sticker | Jimpphat (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jimpphat_glitter_png.png"
+  },
+  "sticker-7505": {
+      "id": "sticker-7505",
+      "name": "Sticker | Jimpphat (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jimpphat_holo_png.png"
+  },
+  "sticker-7506": {
+      "id": "sticker-7506",
+      "name": "Sticker | Jimpphat (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jimpphat_gold_png.png"
+  },
+  "sticker-7507": {
+      "id": "sticker-7507",
+      "name": "Sticker | siuhy | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_siuhy_png.png"
+  },
+  "sticker-7508": {
+      "id": "sticker-7508",
+      "name": "Sticker | siuhy (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_siuhy_glitter_png.png"
+  },
+  "sticker-7509": {
+      "id": "sticker-7509",
+      "name": "Sticker | siuhy (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_siuhy_holo_png.png"
+  },
+  "sticker-7510": {
+      "id": "sticker-7510",
+      "name": "Sticker | siuhy (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_siuhy_gold_png.png"
+  },
+  "sticker-7511": {
+      "id": "sticker-7511",
+      "name": "Sticker | torzsi | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_torzsi_png.png"
+  },
+  "sticker-7512": {
+      "id": "sticker-7512",
+      "name": "Sticker | torzsi (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_torzsi_glitter_png.png"
+  },
+  "sticker-7513": {
+      "id": "sticker-7513",
+      "name": "Sticker | torzsi (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_torzsi_holo_png.png"
+  },
+  "sticker-7514": {
+      "id": "sticker-7514",
+      "name": "Sticker | torzsi (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_torzsi_gold_png.png"
+  },
+  "sticker-7515": {
+      "id": "sticker-7515",
+      "name": "Sticker | xertioN | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_xertion_png.png"
+  },
+  "sticker-7516": {
+      "id": "sticker-7516",
+      "name": "Sticker | xertioN (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_xertion_glitter_png.png"
+  },
+  "sticker-7517": {
+      "id": "sticker-7517",
+      "name": "Sticker | xertioN (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_xertion_holo_png.png"
+  },
+  "sticker-7518": {
+      "id": "sticker-7518",
+      "name": "Sticker | xertioN (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_xertion_gold_png.png"
+  },
+  "sticker-7519": {
+      "id": "sticker-7519",
+      "name": "Sticker | hallzerk | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hallzerk_png.png"
+  },
+  "sticker-7520": {
+      "id": "sticker-7520",
+      "name": "Sticker | hallzerk (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hallzerk_glitter_png.png"
+  },
+  "sticker-7521": {
+      "id": "sticker-7521",
+      "name": "Sticker | hallzerk (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hallzerk_holo_png.png"
+  },
+  "sticker-7522": {
+      "id": "sticker-7522",
+      "name": "Sticker | hallzerk (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hallzerk_gold_png.png"
+  },
+  "sticker-7523": {
+      "id": "sticker-7523",
+      "name": "Sticker | EliGE | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_elige_png.png"
+  },
+  "sticker-7524": {
+      "id": "sticker-7524",
+      "name": "Sticker | EliGE (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_elige_glitter_png.png"
+  },
+  "sticker-7525": {
+      "id": "sticker-7525",
+      "name": "Sticker | EliGE (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_elige_holo_png.png"
+  },
+  "sticker-7526": {
+      "id": "sticker-7526",
+      "name": "Sticker | EliGE (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_elige_gold_png.png"
+  },
+  "sticker-7527": {
+      "id": "sticker-7527",
+      "name": "Sticker | floppy | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_floppy_png.png"
+  },
+  "sticker-7528": {
+      "id": "sticker-7528",
+      "name": "Sticker | floppy (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_floppy_glitter_png.png"
+  },
+  "sticker-7529": {
+      "id": "sticker-7529",
+      "name": "Sticker | floppy (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_floppy_holo_png.png"
+  },
+  "sticker-7530": {
+      "id": "sticker-7530",
+      "name": "Sticker | floppy (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_floppy_gold_png.png"
+  },
+  "sticker-7531": {
+      "id": "sticker-7531",
+      "name": "Sticker | Grim | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_grim_png.png"
+  },
+  "sticker-7532": {
+      "id": "sticker-7532",
+      "name": "Sticker | Grim (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_grim_glitter_png.png"
+  },
+  "sticker-7533": {
+      "id": "sticker-7533",
+      "name": "Sticker | Grim (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_grim_holo_png.png"
+  },
+  "sticker-7534": {
+      "id": "sticker-7534",
+      "name": "Sticker | Grim (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_grim_gold_png.png"
+  },
+  "sticker-7535": {
+      "id": "sticker-7535",
+      "name": "Sticker | JT | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jt_png.png"
+  },
+  "sticker-7536": {
+      "id": "sticker-7536",
+      "name": "Sticker | JT (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jt_glitter_png.png"
+  },
+  "sticker-7537": {
+      "id": "sticker-7537",
+      "name": "Sticker | JT (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jt_holo_png.png"
+  },
+  "sticker-7538": {
+      "id": "sticker-7538",
+      "name": "Sticker | JT (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jt_gold_png.png"
+  },
+  "sticker-7539": {
+      "id": "sticker-7539",
+      "name": "Sticker | Ax1Le | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ax1le_png.png"
+  },
+  "sticker-7540": {
+      "id": "sticker-7540",
+      "name": "Sticker | Ax1Le (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ax1le_glitter_png.png"
+  },
+  "sticker-7541": {
+      "id": "sticker-7541",
+      "name": "Sticker | Ax1Le (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ax1le_holo_png.png"
+  },
+  "sticker-7542": {
+      "id": "sticker-7542",
+      "name": "Sticker | Ax1Le (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ax1le_gold_png.png"
+  },
+  "sticker-7543": {
+      "id": "sticker-7543",
+      "name": "Sticker | Boombl4 | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_boombl4_png.png"
+  },
+  "sticker-7544": {
+      "id": "sticker-7544",
+      "name": "Sticker | Boombl4 (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_boombl4_glitter_png.png"
+  },
+  "sticker-7545": {
+      "id": "sticker-7545",
+      "name": "Sticker | Boombl4 (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_boombl4_holo_png.png"
+  },
+  "sticker-7546": {
+      "id": "sticker-7546",
+      "name": "Sticker | Boombl4 (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_boombl4_gold_png.png"
+  },
+  "sticker-7547": {
+      "id": "sticker-7547",
+      "name": "Sticker | electronic | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_electronic_png.png"
+  },
+  "sticker-7548": {
+      "id": "sticker-7548",
+      "name": "Sticker | electronic (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_electronic_glitter_png.png"
+  },
+  "sticker-7549": {
+      "id": "sticker-7549",
+      "name": "Sticker | electronic (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_electronic_holo_png.png"
+  },
+  "sticker-7550": {
+      "id": "sticker-7550",
+      "name": "Sticker | electronic (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_electronic_gold_png.png"
+  },
+  "sticker-7551": {
+      "id": "sticker-7551",
+      "name": "Sticker | Hobbit | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hobbit_png.png"
+  },
+  "sticker-7552": {
+      "id": "sticker-7552",
+      "name": "Sticker | Hobbit (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hobbit_glitter_png.png"
+  },
+  "sticker-7553": {
+      "id": "sticker-7553",
+      "name": "Sticker | Hobbit (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hobbit_holo_png.png"
+  },
+  "sticker-7554": {
+      "id": "sticker-7554",
+      "name": "Sticker | Hobbit (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hobbit_gold_png.png"
+  },
+  "sticker-7555": {
+      "id": "sticker-7555",
+      "name": "Sticker | Perfecto | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_perfecto_png.png"
+  },
+  "sticker-7556": {
+      "id": "sticker-7556",
+      "name": "Sticker | Perfecto (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_perfecto_glitter_png.png"
+  },
+  "sticker-7557": {
+      "id": "sticker-7557",
+      "name": "Sticker | Perfecto (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_perfecto_holo_png.png"
+  },
+  "sticker-7558": {
+      "id": "sticker-7558",
+      "name": "Sticker | Perfecto (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_perfecto_gold_png.png"
+  },
+  "sticker-7559": {
+      "id": "sticker-7559",
+      "name": "Sticker | Goofy | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_goofy_png.png"
+  },
+  "sticker-7560": {
+      "id": "sticker-7560",
+      "name": "Sticker | Goofy (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_goofy_glitter_png.png"
+  },
+  "sticker-7561": {
+      "id": "sticker-7561",
+      "name": "Sticker | Goofy (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_goofy_holo_png.png"
+  },
+  "sticker-7562": {
+      "id": "sticker-7562",
+      "name": "Sticker | Goofy (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_goofy_gold_png.png"
+  },
+  "sticker-7563": {
+      "id": "sticker-7563",
+      "name": "Sticker | Kylar | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kylar_png.png"
+  },
+  "sticker-7564": {
+      "id": "sticker-7564",
+      "name": "Sticker | Kylar (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kylar_glitter_png.png"
+  },
+  "sticker-7565": {
+      "id": "sticker-7565",
+      "name": "Sticker | Kylar (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kylar_holo_png.png"
+  },
+  "sticker-7566": {
+      "id": "sticker-7566",
+      "name": "Sticker | Kylar (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kylar_gold_png.png"
+  },
+  "sticker-7567": {
+      "id": "sticker-7567",
+      "name": "Sticker | Dycha | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dycha_png.png"
+  },
+  "sticker-7568": {
+      "id": "sticker-7568",
+      "name": "Sticker | Dycha (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dycha_glitter_png.png"
+  },
+  "sticker-7569": {
+      "id": "sticker-7569",
+      "name": "Sticker | Dycha (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dycha_holo_png.png"
+  },
+  "sticker-7570": {
+      "id": "sticker-7570",
+      "name": "Sticker | Dycha (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dycha_gold_png.png"
+  },
+  "sticker-7571": {
+      "id": "sticker-7571",
+      "name": "Sticker | gla1ve | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_gla1ve_png.png"
+  },
+  "sticker-7572": {
+      "id": "sticker-7572",
+      "name": "Sticker | gla1ve (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_gla1ve_glitter_png.png"
+  },
+  "sticker-7573": {
+      "id": "sticker-7573",
+      "name": "Sticker | gla1ve (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_gla1ve_holo_png.png"
+  },
+  "sticker-7574": {
+      "id": "sticker-7574",
+      "name": "Sticker | gla1ve (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_gla1ve_gold_png.png"
+  },
+  "sticker-7575": {
+      "id": "sticker-7575",
+      "name": "Sticker | hades | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hades_png.png"
+  },
+  "sticker-7576": {
+      "id": "sticker-7576",
+      "name": "Sticker | hades (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hades_glitter_png.png"
+  },
+  "sticker-7577": {
+      "id": "sticker-7577",
+      "name": "Sticker | hades (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hades_holo_png.png"
+  },
+  "sticker-7578": {
+      "id": "sticker-7578",
+      "name": "Sticker | hades (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hades_gold_png.png"
+  },
+  "sticker-7579": {
+      "id": "sticker-7579",
+      "name": "Sticker | arT | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_art_png.png"
+  },
+  "sticker-7580": {
+      "id": "sticker-7580",
+      "name": "Sticker | arT (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_art_glitter_png.png"
+  },
+  "sticker-7581": {
+      "id": "sticker-7581",
+      "name": "Sticker | arT (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_art_holo_png.png"
+  },
+  "sticker-7582": {
+      "id": "sticker-7582",
+      "name": "Sticker | arT (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_art_gold_png.png"
+  },
+  "sticker-7583": {
+      "id": "sticker-7583",
+      "name": "Sticker | chelo | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chelo_png.png"
+  },
+  "sticker-7584": {
+      "id": "sticker-7584",
+      "name": "Sticker | chelo (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chelo_glitter_png.png"
+  },
+  "sticker-7585": {
+      "id": "sticker-7585",
+      "name": "Sticker | chelo (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chelo_holo_png.png"
+  },
+  "sticker-7586": {
+      "id": "sticker-7586",
+      "name": "Sticker | chelo (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chelo_gold_png.png"
+  },
+  "sticker-7587": {
+      "id": "sticker-7587",
+      "name": "Sticker | FalleN | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fallen_png.png"
+  },
+  "sticker-7588": {
+      "id": "sticker-7588",
+      "name": "Sticker | FalleN (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fallen_glitter_png.png"
+  },
+  "sticker-7589": {
+      "id": "sticker-7589",
+      "name": "Sticker | FalleN (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fallen_holo_png.png"
+  },
+  "sticker-7590": {
+      "id": "sticker-7590",
+      "name": "Sticker | FalleN (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_fallen_gold_png.png"
+  },
+  "sticker-7591": {
+      "id": "sticker-7591",
+      "name": "Sticker | KSCERATO | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kscerato_png.png"
+  },
+  "sticker-7592": {
+      "id": "sticker-7592",
+      "name": "Sticker | KSCERATO (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kscerato_glitter_png.png"
+  },
+  "sticker-7593": {
+      "id": "sticker-7593",
+      "name": "Sticker | KSCERATO (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kscerato_holo_png.png"
+  },
+  "sticker-7594": {
+      "id": "sticker-7594",
+      "name": "Sticker | KSCERATO (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kscerato_gold_png.png"
+  },
+  "sticker-7595": {
+      "id": "sticker-7595",
+      "name": "Sticker | yuurih | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_yuurih_png.png"
+  },
+  "sticker-7596": {
+      "id": "sticker-7596",
+      "name": "Sticker | yuurih (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_yuurih_glitter_png.png"
+  },
+  "sticker-7597": {
+      "id": "sticker-7597",
+      "name": "Sticker | yuurih (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_yuurih_holo_png.png"
+  },
+  "sticker-7598": {
+      "id": "sticker-7598",
+      "name": "Sticker | yuurih (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_yuurih_gold_png.png"
+  },
+  "sticker-7599": {
+      "id": "sticker-7599",
+      "name": "Sticker | kyxsan | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kyxsan_png.png"
+  },
+  "sticker-7600": {
+      "id": "sticker-7600",
+      "name": "Sticker | kyxsan (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kyxsan_glitter_png.png"
+  },
+  "sticker-7601": {
+      "id": "sticker-7601",
+      "name": "Sticker | kyxsan (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kyxsan_holo_png.png"
+  },
+  "sticker-7602": {
+      "id": "sticker-7602",
+      "name": "Sticker | kyxsan (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kyxsan_gold_png.png"
+  },
+  "sticker-7603": {
+      "id": "sticker-7603",
+      "name": "Sticker | NertZ | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nertz_png.png"
+  },
+  "sticker-7604": {
+      "id": "sticker-7604",
+      "name": "Sticker | NertZ (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nertz_glitter_png.png"
+  },
+  "sticker-7605": {
+      "id": "sticker-7605",
+      "name": "Sticker | NertZ (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nertz_holo_png.png"
+  },
+  "sticker-7606": {
+      "id": "sticker-7606",
+      "name": "Sticker | NertZ (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nertz_gold_png.png"
+  },
+  "sticker-7607": {
+      "id": "sticker-7607",
+      "name": "Sticker | nicoodoz | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nicoodoz_png.png"
+  },
+  "sticker-7608": {
+      "id": "sticker-7608",
+      "name": "Sticker | nicoodoz (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nicoodoz_glitter_png.png"
+  },
+  "sticker-7609": {
+      "id": "sticker-7609",
+      "name": "Sticker | nicoodoz (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nicoodoz_holo_png.png"
+  },
+  "sticker-7610": {
+      "id": "sticker-7610",
+      "name": "Sticker | nicoodoz (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nicoodoz_gold_png.png"
+  },
+  "sticker-7611": {
+      "id": "sticker-7611",
+      "name": "Sticker | sjuush | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sjuush_png.png"
+  },
+  "sticker-7612": {
+      "id": "sticker-7612",
+      "name": "Sticker | sjuush (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sjuush_glitter_png.png"
+  },
+  "sticker-7613": {
+      "id": "sticker-7613",
+      "name": "Sticker | sjuush (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sjuush_holo_png.png"
+  },
+  "sticker-7614": {
+      "id": "sticker-7614",
+      "name": "Sticker | sjuush (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sjuush_gold_png.png"
+  },
+  "sticker-7615": {
+      "id": "sticker-7615",
+      "name": "Sticker | TeSeS | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_teses_png.png"
+  },
+  "sticker-7616": {
+      "id": "sticker-7616",
+      "name": "Sticker | TeSeS (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_teses_glitter_png.png"
+  },
+  "sticker-7617": {
+      "id": "sticker-7617",
+      "name": "Sticker | TeSeS (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_teses_holo_png.png"
+  },
+  "sticker-7618": {
+      "id": "sticker-7618",
+      "name": "Sticker | TeSeS (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_teses_gold_png.png"
+  },
+  "sticker-7619": {
+      "id": "sticker-7619",
+      "name": "Sticker | Calyx | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_calyx_png.png"
+  },
+  "sticker-7620": {
+      "id": "sticker-7620",
+      "name": "Sticker | Calyx (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_calyx_glitter_png.png"
+  },
+  "sticker-7621": {
+      "id": "sticker-7621",
+      "name": "Sticker | Calyx (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_calyx_holo_png.png"
+  },
+  "sticker-7622": {
+      "id": "sticker-7622",
+      "name": "Sticker | Calyx (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_calyx_gold_png.png"
+  },
+  "sticker-7623": {
+      "id": "sticker-7623",
+      "name": "Sticker | MAJ3R | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_maj3r_png.png"
+  },
+  "sticker-7624": {
+      "id": "sticker-7624",
+      "name": "Sticker | MAJ3R (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_maj3r_glitter_png.png"
+  },
+  "sticker-7625": {
+      "id": "sticker-7625",
+      "name": "Sticker | MAJ3R (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_maj3r_holo_png.png"
+  },
+  "sticker-7626": {
+      "id": "sticker-7626",
+      "name": "Sticker | MAJ3R (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_maj3r_gold_png.png"
+  },
+  "sticker-7627": {
+      "id": "sticker-7627",
+      "name": "Sticker | Wicadia | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_wicadia_png.png"
+  },
+  "sticker-7628": {
+      "id": "sticker-7628",
+      "name": "Sticker | Wicadia (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_wicadia_glitter_png.png"
+  },
+  "sticker-7629": {
+      "id": "sticker-7629",
+      "name": "Sticker | Wicadia (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_wicadia_holo_png.png"
+  },
+  "sticker-7630": {
+      "id": "sticker-7630",
+      "name": "Sticker | Wicadia (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_wicadia_gold_png.png"
+  },
+  "sticker-7631": {
+      "id": "sticker-7631",
+      "name": "Sticker | woxic | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_woxic_png.png"
+  },
+  "sticker-7632": {
+      "id": "sticker-7632",
+      "name": "Sticker | woxic (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_woxic_glitter_png.png"
+  },
+  "sticker-7633": {
+      "id": "sticker-7633",
+      "name": "Sticker | woxic (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_woxic_holo_png.png"
+  },
+  "sticker-7634": {
+      "id": "sticker-7634",
+      "name": "Sticker | woxic (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_woxic_gold_png.png"
+  },
+  "sticker-7635": {
+      "id": "sticker-7635",
+      "name": "Sticker | XANTARES | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_xantares_png.png"
+  },
+  "sticker-7636": {
+      "id": "sticker-7636",
+      "name": "Sticker | XANTARES (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_xantares_glitter_png.png"
+  },
+  "sticker-7637": {
+      "id": "sticker-7637",
+      "name": "Sticker | XANTARES (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_xantares_holo_png.png"
+  },
+  "sticker-7638": {
+      "id": "sticker-7638",
+      "name": "Sticker | XANTARES (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_xantares_gold_png.png"
+  },
+  "sticker-7639": {
+      "id": "sticker-7639",
+      "name": "Sticker | nawwk | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nawwk_png.png"
+  },
+  "sticker-7640": {
+      "id": "sticker-7640",
+      "name": "Sticker | nawwk (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nawwk_glitter_png.png"
+  },
+  "sticker-7641": {
+      "id": "sticker-7641",
+      "name": "Sticker | nawwk (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nawwk_holo_png.png"
+  },
+  "sticker-7642": {
+      "id": "sticker-7642",
+      "name": "Sticker | nawwk (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nawwk_gold_png.png"
+  },
+  "sticker-7643": {
+      "id": "sticker-7643",
+      "name": "Sticker | CacaNito | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_cacanito_png.png"
+  },
+  "sticker-7644": {
+      "id": "sticker-7644",
+      "name": "Sticker | CacaNito (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_cacanito_glitter_png.png"
+  },
+  "sticker-7645": {
+      "id": "sticker-7645",
+      "name": "Sticker | CacaNito (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_cacanito_holo_png.png"
+  },
+  "sticker-7646": {
+      "id": "sticker-7646",
+      "name": "Sticker | CacaNito (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_cacanito_gold_png.png"
+  },
+  "sticker-7647": {
+      "id": "sticker-7647",
+      "name": "Sticker | jkaem | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jkaem_png.png"
+  },
+  "sticker-7648": {
+      "id": "sticker-7648",
+      "name": "Sticker | jkaem (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jkaem_glitter_png.png"
+  },
+  "sticker-7649": {
+      "id": "sticker-7649",
+      "name": "Sticker | jkaem (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jkaem_holo_png.png"
+  },
+  "sticker-7650": {
+      "id": "sticker-7650",
+      "name": "Sticker | jkaem (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jkaem_gold_png.png"
+  },
+  "sticker-7651": {
+      "id": "sticker-7651",
+      "name": "Sticker | sense | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sense_png.png"
+  },
+  "sticker-7652": {
+      "id": "sticker-7652",
+      "name": "Sticker | sense (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sense_glitter_png.png"
+  },
+  "sticker-7653": {
+      "id": "sticker-7653",
+      "name": "Sticker | sense (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sense_holo_png.png"
+  },
+  "sticker-7654": {
+      "id": "sticker-7654",
+      "name": "Sticker | sense (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_sense_gold_png.png"
+  },
+  "sticker-7655": {
+      "id": "sticker-7655",
+      "name": "Sticker | STYKO | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_styko_png.png"
+  },
+  "sticker-7656": {
+      "id": "sticker-7656",
+      "name": "Sticker | STYKO (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_styko_glitter_png.png"
+  },
+  "sticker-7657": {
+      "id": "sticker-7657",
+      "name": "Sticker | STYKO (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_styko_holo_png.png"
+  },
+  "sticker-7658": {
+      "id": "sticker-7658",
+      "name": "Sticker | STYKO (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_styko_gold_png.png"
+  },
+  "sticker-7659": {
+      "id": "sticker-7659",
+      "name": "Sticker | acoR | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_acor_png.png"
+  },
+  "sticker-7660": {
+      "id": "sticker-7660",
+      "name": "Sticker | acoR (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_acor_glitter_png.png"
+  },
+  "sticker-7661": {
+      "id": "sticker-7661",
+      "name": "Sticker | acoR (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_acor_holo_png.png"
+  },
+  "sticker-7662": {
+      "id": "sticker-7662",
+      "name": "Sticker | acoR (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_acor_gold_png.png"
+  },
+  "sticker-7663": {
+      "id": "sticker-7663",
+      "name": "Sticker | isak | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_isak_png.png"
+  },
+  "sticker-7664": {
+      "id": "sticker-7664",
+      "name": "Sticker | isak (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_isak_glitter_png.png"
+  },
+  "sticker-7665": {
+      "id": "sticker-7665",
+      "name": "Sticker | isak (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_isak_holo_png.png"
+  },
+  "sticker-7666": {
+      "id": "sticker-7666",
+      "name": "Sticker | isak (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_isak_gold_png.png"
+  },
+  "sticker-7667": {
+      "id": "sticker-7667",
+      "name": "Sticker | Keoz | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_keoz_png.png"
+  },
+  "sticker-7668": {
+      "id": "sticker-7668",
+      "name": "Sticker | Keoz (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_keoz_glitter_png.png"
+  },
+  "sticker-7669": {
+      "id": "sticker-7669",
+      "name": "Sticker | Keoz (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_keoz_holo_png.png"
+  },
+  "sticker-7670": {
+      "id": "sticker-7670",
+      "name": "Sticker | Keoz (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_keoz_gold_png.png"
+  },
+  "sticker-7671": {
+      "id": "sticker-7671",
+      "name": "Sticker | Snax | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_snax_png.png"
+  },
+  "sticker-7672": {
+      "id": "sticker-7672",
+      "name": "Sticker | Snax (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_snax_glitter_png.png"
+  },
+  "sticker-7673": {
+      "id": "sticker-7673",
+      "name": "Sticker | Snax (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_snax_holo_png.png"
+  },
+  "sticker-7674": {
+      "id": "sticker-7674",
+      "name": "Sticker | Snax (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_snax_gold_png.png"
+  },
+  "sticker-7675": {
+      "id": "sticker-7675",
+      "name": "Sticker | volt | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_volt_png.png"
+  },
+  "sticker-7676": {
+      "id": "sticker-7676",
+      "name": "Sticker | volt (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_volt_glitter_png.png"
+  },
+  "sticker-7677": {
+      "id": "sticker-7677",
+      "name": "Sticker | volt (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_volt_holo_png.png"
+  },
+  "sticker-7678": {
+      "id": "sticker-7678",
+      "name": "Sticker | volt (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_volt_gold_png.png"
+  },
+  "sticker-7679": {
+      "id": "sticker-7679",
+      "name": "Sticker | arrozdoce | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_arrozdoce_png.png"
+  },
+  "sticker-7680": {
+      "id": "sticker-7680",
+      "name": "Sticker | arrozdoce (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_arrozdoce_glitter_png.png"
+  },
+  "sticker-7681": {
+      "id": "sticker-7681",
+      "name": "Sticker | arrozdoce (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_arrozdoce_holo_png.png"
+  },
+  "sticker-7682": {
+      "id": "sticker-7682",
+      "name": "Sticker | arrozdoce (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_arrozdoce_gold_png.png"
+  },
+  "sticker-7683": {
+      "id": "sticker-7683",
+      "name": "Sticker | ewjerkz | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ewjerkz_png.png"
+  },
+  "sticker-7684": {
+      "id": "sticker-7684",
+      "name": "Sticker | ewjerkz (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ewjerkz_glitter_png.png"
+  },
+  "sticker-7685": {
+      "id": "sticker-7685",
+      "name": "Sticker | ewjerkz (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ewjerkz_holo_png.png"
+  },
+  "sticker-7686": {
+      "id": "sticker-7686",
+      "name": "Sticker | ewjerkz (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_ewjerkz_gold_png.png"
+  },
+  "sticker-7687": {
+      "id": "sticker-7687",
+      "name": "Sticker | MUTiRiS | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mutiris_png.png"
+  },
+  "sticker-7688": {
+      "id": "sticker-7688",
+      "name": "Sticker | MUTiRiS (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mutiris_glitter_png.png"
+  },
+  "sticker-7689": {
+      "id": "sticker-7689",
+      "name": "Sticker | MUTiRiS (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mutiris_holo_png.png"
+  },
+  "sticker-7690": {
+      "id": "sticker-7690",
+      "name": "Sticker | MUTiRiS (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mutiris_gold_png.png"
+  },
+  "sticker-7691": {
+      "id": "sticker-7691",
+      "name": "Sticker | roman | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_roman_png.png"
+  },
+  "sticker-7692": {
+      "id": "sticker-7692",
+      "name": "Sticker | roman (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_roman_glitter_png.png"
+  },
+  "sticker-7693": {
+      "id": "sticker-7693",
+      "name": "Sticker | roman (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_roman_holo_png.png"
+  },
+  "sticker-7694": {
+      "id": "sticker-7694",
+      "name": "Sticker | roman (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_roman_gold_png.png"
+  },
+  "sticker-7695": {
+      "id": "sticker-7695",
+      "name": "Sticker | story | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_story_png.png"
+  },
+  "sticker-7696": {
+      "id": "sticker-7696",
+      "name": "Sticker | story (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_story_glitter_png.png"
+  },
+  "sticker-7697": {
+      "id": "sticker-7697",
+      "name": "Sticker | story (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_story_holo_png.png"
+  },
+  "sticker-7698": {
+      "id": "sticker-7698",
+      "name": "Sticker | story (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_story_gold_png.png"
+  },
+  "sticker-7699": {
+      "id": "sticker-7699",
+      "name": "Sticker | biguzera | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_biguzera_png.png"
+  },
+  "sticker-7700": {
+      "id": "sticker-7700",
+      "name": "Sticker | biguzera (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_biguzera_glitter_png.png"
+  },
+  "sticker-7701": {
+      "id": "sticker-7701",
+      "name": "Sticker | biguzera (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_biguzera_holo_png.png"
+  },
+  "sticker-7702": {
+      "id": "sticker-7702",
+      "name": "Sticker | biguzera (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_biguzera_gold_png.png"
+  },
+  "sticker-7703": {
+      "id": "sticker-7703",
+      "name": "Sticker | kauez | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kauez_png.png"
+  },
+  "sticker-7704": {
+      "id": "sticker-7704",
+      "name": "Sticker | kauez (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kauez_glitter_png.png"
+  },
+  "sticker-7705": {
+      "id": "sticker-7705",
+      "name": "Sticker | kauez (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kauez_holo_png.png"
+  },
+  "sticker-7706": {
+      "id": "sticker-7706",
+      "name": "Sticker | kauez (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kauez_gold_png.png"
+  },
+  "sticker-7707": {
+      "id": "sticker-7707",
+      "name": "Sticker | lux | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_lux_png.png"
+  },
+  "sticker-7708": {
+      "id": "sticker-7708",
+      "name": "Sticker | lux (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_lux_glitter_png.png"
+  },
+  "sticker-7709": {
+      "id": "sticker-7709",
+      "name": "Sticker | lux (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_lux_holo_png.png"
+  },
+  "sticker-7710": {
+      "id": "sticker-7710",
+      "name": "Sticker | lux (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_lux_gold_png.png"
+  },
+  "sticker-7711": {
+      "id": "sticker-7711",
+      "name": "Sticker | n1ssim | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_n1ssim_png.png"
+  },
+  "sticker-7712": {
+      "id": "sticker-7712",
+      "name": "Sticker | n1ssim (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_n1ssim_glitter_png.png"
+  },
+  "sticker-7713": {
+      "id": "sticker-7713",
+      "name": "Sticker | n1ssim (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_n1ssim_holo_png.png"
+  },
+  "sticker-7714": {
+      "id": "sticker-7714",
+      "name": "Sticker | n1ssim (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_n1ssim_gold_png.png"
+  },
+  "sticker-7715": {
+      "id": "sticker-7715",
+      "name": "Sticker | NQZ | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nqz_png.png"
+  },
+  "sticker-7716": {
+      "id": "sticker-7716",
+      "name": "Sticker | NQZ (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nqz_glitter_png.png"
+  },
+  "sticker-7717": {
+      "id": "sticker-7717",
+      "name": "Sticker | NQZ (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nqz_holo_png.png"
+  },
+  "sticker-7718": {
+      "id": "sticker-7718",
+      "name": "Sticker | NQZ (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nqz_gold_png.png"
+  },
+  "sticker-7719": {
+      "id": "sticker-7719",
+      "name": "Sticker | decenty | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_decenty_png.png"
+  },
+  "sticker-7720": {
+      "id": "sticker-7720",
+      "name": "Sticker | decenty (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_decenty_glitter_png.png"
+  },
+  "sticker-7721": {
+      "id": "sticker-7721",
+      "name": "Sticker | decenty (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_decenty_holo_png.png"
+  },
+  "sticker-7722": {
+      "id": "sticker-7722",
+      "name": "Sticker | decenty (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_decenty_gold_png.png"
+  },
+  "sticker-7723": {
+      "id": "sticker-7723",
+      "name": "Sticker | felps | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_felps_png.png"
+  },
+  "sticker-7724": {
+      "id": "sticker-7724",
+      "name": "Sticker | felps (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_felps_glitter_png.png"
+  },
+  "sticker-7725": {
+      "id": "sticker-7725",
+      "name": "Sticker | felps (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_felps_holo_png.png"
+  },
+  "sticker-7726": {
+      "id": "sticker-7726",
+      "name": "Sticker | felps (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_felps_gold_png.png"
+  },
+  "sticker-7727": {
+      "id": "sticker-7727",
+      "name": "Sticker | HEN1 | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hen1_png.png"
+  },
+  "sticker-7728": {
+      "id": "sticker-7728",
+      "name": "Sticker | HEN1 (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hen1_glitter_png.png"
+  },
+  "sticker-7729": {
+      "id": "sticker-7729",
+      "name": "Sticker | HEN1 (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hen1_holo_png.png"
+  },
+  "sticker-7730": {
+      "id": "sticker-7730",
+      "name": "Sticker | HEN1 (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_hen1_gold_png.png"
+  },
+  "sticker-7731": {
+      "id": "sticker-7731",
+      "name": "Sticker | noway | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_noway_png.png"
+  },
+  "sticker-7732": {
+      "id": "sticker-7732",
+      "name": "Sticker | noway (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_noway_glitter_png.png"
+  },
+  "sticker-7733": {
+      "id": "sticker-7733",
+      "name": "Sticker | noway (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_noway_holo_png.png"
+  },
+  "sticker-7734": {
+      "id": "sticker-7734",
+      "name": "Sticker | noway (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_noway_gold_png.png"
+  },
+  "sticker-7735": {
+      "id": "sticker-7735",
+      "name": "Sticker | VINI | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_vini_png.png"
+  },
+  "sticker-7736": {
+      "id": "sticker-7736",
+      "name": "Sticker | VINI (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_vini_glitter_png.png"
+  },
+  "sticker-7737": {
+      "id": "sticker-7737",
+      "name": "Sticker | VINI (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_vini_holo_png.png"
+  },
+  "sticker-7738": {
+      "id": "sticker-7738",
+      "name": "Sticker | VINI (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_vini_gold_png.png"
+  },
+  "sticker-7739": {
+      "id": "sticker-7739",
+      "name": "Sticker | 910 | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_910_png.png"
+  },
+  "sticker-7740": {
+      "id": "sticker-7740",
+      "name": "Sticker | 910 (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_910_glitter_png.png"
+  },
+  "sticker-7741": {
+      "id": "sticker-7741",
+      "name": "Sticker | 910 (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_910_holo_png.png"
+  },
+  "sticker-7742": {
+      "id": "sticker-7742",
+      "name": "Sticker | 910 (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_910_gold_png.png"
+  },
+  "sticker-7743": {
+      "id": "sticker-7743",
+      "name": "Sticker | bLitz | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_blitz_png.png"
+  },
+  "sticker-7744": {
+      "id": "sticker-7744",
+      "name": "Sticker | bLitz (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_blitz_glitter_png.png"
+  },
+  "sticker-7745": {
+      "id": "sticker-7745",
+      "name": "Sticker | bLitz (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_blitz_holo_png.png"
+  },
+  "sticker-7746": {
+      "id": "sticker-7746",
+      "name": "Sticker | bLitz (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_blitz_gold_png.png"
+  },
+  "sticker-7747": {
+      "id": "sticker-7747",
+      "name": "Sticker | mzinho | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mzinho_png.png"
+  },
+  "sticker-7748": {
+      "id": "sticker-7748",
+      "name": "Sticker | mzinho (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mzinho_glitter_png.png"
+  },
+  "sticker-7749": {
+      "id": "sticker-7749",
+      "name": "Sticker | mzinho (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mzinho_holo_png.png"
+  },
+  "sticker-7750": {
+      "id": "sticker-7750",
+      "name": "Sticker | mzinho (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mzinho_gold_png.png"
+  },
+  "sticker-7751": {
+      "id": "sticker-7751",
+      "name": "Sticker | Senzu | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_senzu_png.png"
+  },
+  "sticker-7752": {
+      "id": "sticker-7752",
+      "name": "Sticker | Senzu (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_senzu_glitter_png.png"
+  },
+  "sticker-7753": {
+      "id": "sticker-7753",
+      "name": "Sticker | Senzu (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_senzu_holo_png.png"
+  },
+  "sticker-7754": {
+      "id": "sticker-7754",
+      "name": "Sticker | Senzu (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_senzu_gold_png.png"
+  },
+  "sticker-7755": {
+      "id": "sticker-7755",
+      "name": "Sticker | Techno4K | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_techno4k_png.png"
+  },
+  "sticker-7756": {
+      "id": "sticker-7756",
+      "name": "Sticker | Techno4K (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_techno4k_glitter_png.png"
+  },
+  "sticker-7757": {
+      "id": "sticker-7757",
+      "name": "Sticker | Techno4K (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_techno4k_holo_png.png"
+  },
+  "sticker-7758": {
+      "id": "sticker-7758",
+      "name": "Sticker | Techno4K (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_techno4k_gold_png.png"
+  },
+  "sticker-7759": {
+      "id": "sticker-7759",
+      "name": "Sticker | Forester | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_forester_png.png"
+  },
+  "sticker-7760": {
+      "id": "sticker-7760",
+      "name": "Sticker | Forester (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_forester_glitter_png.png"
+  },
+  "sticker-7761": {
+      "id": "sticker-7761",
+      "name": "Sticker | Forester (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_forester_holo_png.png"
+  },
+  "sticker-7762": {
+      "id": "sticker-7762",
+      "name": "Sticker | Forester (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_forester_gold_png.png"
+  },
+  "sticker-7763": {
+      "id": "sticker-7763",
+      "name": "Sticker | ICY | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_icy_png.png"
+  },
+  "sticker-7764": {
+      "id": "sticker-7764",
+      "name": "Sticker | ICY (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_icy_glitter_png.png"
+  },
+  "sticker-7765": {
+      "id": "sticker-7765",
+      "name": "Sticker | ICY (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_icy_holo_png.png"
+  },
+  "sticker-7766": {
+      "id": "sticker-7766",
+      "name": "Sticker | ICY (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_icy_gold_png.png"
+  },
+  "sticker-7767": {
+      "id": "sticker-7767",
+      "name": "Sticker | Krad | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_krad_png.png"
+  },
+  "sticker-7768": {
+      "id": "sticker-7768",
+      "name": "Sticker | Krad (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_krad_glitter_png.png"
+  },
+  "sticker-7769": {
+      "id": "sticker-7769",
+      "name": "Sticker | Krad (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_krad_holo_png.png"
+  },
+  "sticker-7770": {
+      "id": "sticker-7770",
+      "name": "Sticker | Krad (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_krad_gold_png.png"
+  },
+  "sticker-7771": {
+      "id": "sticker-7771",
+      "name": "Sticker | NickelBack | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nickelback_png.png"
+  },
+  "sticker-7772": {
+      "id": "sticker-7772",
+      "name": "Sticker | NickelBack (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nickelback_glitter_png.png"
+  },
+  "sticker-7773": {
+      "id": "sticker-7773",
+      "name": "Sticker | NickelBack (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nickelback_holo_png.png"
+  },
+  "sticker-7774": {
+      "id": "sticker-7774",
+      "name": "Sticker | NickelBack (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nickelback_gold_png.png"
+  },
+  "sticker-7775": {
+      "id": "sticker-7775",
+      "name": "Sticker | TRAVIS | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_travis_png.png"
+  },
+  "sticker-7776": {
+      "id": "sticker-7776",
+      "name": "Sticker | TRAVIS (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_travis_glitter_png.png"
+  },
+  "sticker-7777": {
+      "id": "sticker-7777",
+      "name": "Sticker | TRAVIS (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_travis_holo_png.png"
+  },
+  "sticker-7778": {
+      "id": "sticker-7778",
+      "name": "Sticker | TRAVIS (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_travis_gold_png.png"
+  },
+  "sticker-7779": {
+      "id": "sticker-7779",
+      "name": "Sticker | kraghen | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kraghen_png.png"
+  },
+  "sticker-7780": {
+      "id": "sticker-7780",
+      "name": "Sticker | kraghen (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kraghen_glitter_png.png"
+  },
+  "sticker-7781": {
+      "id": "sticker-7781",
+      "name": "Sticker | kraghen (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kraghen_holo_png.png"
+  },
+  "sticker-7782": {
+      "id": "sticker-7782",
+      "name": "Sticker | kraghen (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_kraghen_gold_png.png"
+  },
+  "sticker-7783": {
+      "id": "sticker-7783",
+      "name": "Sticker | Nodios | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nodios_png.png"
+  },
+  "sticker-7784": {
+      "id": "sticker-7784",
+      "name": "Sticker | Nodios (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nodios_glitter_png.png"
+  },
+  "sticker-7785": {
+      "id": "sticker-7785",
+      "name": "Sticker | Nodios (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nodios_holo_png.png"
+  },
+  "sticker-7786": {
+      "id": "sticker-7786",
+      "name": "Sticker | Nodios (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nodios_gold_png.png"
+  },
+  "sticker-7787": {
+      "id": "sticker-7787",
+      "name": "Sticker | Patti | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_patti_png.png"
+  },
+  "sticker-7788": {
+      "id": "sticker-7788",
+      "name": "Sticker | Patti (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_patti_glitter_png.png"
+  },
+  "sticker-7789": {
+      "id": "sticker-7789",
+      "name": "Sticker | Patti (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_patti_holo_png.png"
+  },
+  "sticker-7790": {
+      "id": "sticker-7790",
+      "name": "Sticker | Patti (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_patti_gold_png.png"
+  },
+  "sticker-7791": {
+      "id": "sticker-7791",
+      "name": "Sticker | Queenix | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_queenix_png.png"
+  },
+  "sticker-7792": {
+      "id": "sticker-7792",
+      "name": "Sticker | Queenix (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_queenix_glitter_png.png"
+  },
+  "sticker-7793": {
+      "id": "sticker-7793",
+      "name": "Sticker | Queenix (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_queenix_holo_png.png"
+  },
+  "sticker-7794": {
+      "id": "sticker-7794",
+      "name": "Sticker | Queenix (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_queenix_gold_png.png"
+  },
+  "sticker-7795": {
+      "id": "sticker-7795",
+      "name": "Sticker | salazar | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_salazar_png.png"
+  },
+  "sticker-7796": {
+      "id": "sticker-7796",
+      "name": "Sticker | salazar (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_salazar_glitter_png.png"
+  },
+  "sticker-7797": {
+      "id": "sticker-7797",
+      "name": "Sticker | salazar (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_salazar_holo_png.png"
+  },
+  "sticker-7798": {
+      "id": "sticker-7798",
+      "name": "Sticker | salazar (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_salazar_gold_png.png"
+  },
+  "sticker-7799": {
+      "id": "sticker-7799",
+      "name": "Sticker | adamS | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_adams_png.png"
+  },
+  "sticker-7800": {
+      "id": "sticker-7800",
+      "name": "Sticker | adamS (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_adams_glitter_png.png"
+  },
+  "sticker-7801": {
+      "id": "sticker-7801",
+      "name": "Sticker | adamS (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_adams_holo_png.png"
+  },
+  "sticker-7802": {
+      "id": "sticker-7802",
+      "name": "Sticker | adamS (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_adams_gold_png.png"
+  },
+  "sticker-7803": {
+      "id": "sticker-7803",
+      "name": "Sticker | dav1g | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dav1g_png.png"
+  },
+  "sticker-7804": {
+      "id": "sticker-7804",
+      "name": "Sticker | dav1g (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dav1g_glitter_png.png"
+  },
+  "sticker-7805": {
+      "id": "sticker-7805",
+      "name": "Sticker | dav1g (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dav1g_holo_png.png"
+  },
+  "sticker-7806": {
+      "id": "sticker-7806",
+      "name": "Sticker | dav1g (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dav1g_gold_png.png"
+  },
+  "sticker-7807": {
+      "id": "sticker-7807",
+      "name": "Sticker | JUST | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_just_png.png"
+  },
+  "sticker-7808": {
+      "id": "sticker-7808",
+      "name": "Sticker | JUST (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_just_glitter_png.png"
+  },
+  "sticker-7809": {
+      "id": "sticker-7809",
+      "name": "Sticker | JUST (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_just_holo_png.png"
+  },
+  "sticker-7810": {
+      "id": "sticker-7810",
+      "name": "Sticker | JUST (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_just_gold_png.png"
+  },
+  "sticker-7811": {
+      "id": "sticker-7811",
+      "name": "Sticker | mopoz | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mopoz_png.png"
+  },
+  "sticker-7812": {
+      "id": "sticker-7812",
+      "name": "Sticker | mopoz (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mopoz_glitter_png.png"
+  },
+  "sticker-7813": {
+      "id": "sticker-7813",
+      "name": "Sticker | mopoz (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mopoz_holo_png.png"
+  },
+  "sticker-7814": {
+      "id": "sticker-7814",
+      "name": "Sticker | mopoz (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_mopoz_gold_png.png"
+  },
+  "sticker-7815": {
+      "id": "sticker-7815",
+      "name": "Sticker | stadodo | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_stadodo_png.png"
+  },
+  "sticker-7816": {
+      "id": "sticker-7816",
+      "name": "Sticker | stadodo (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_stadodo_glitter_png.png"
+  },
+  "sticker-7817": {
+      "id": "sticker-7817",
+      "name": "Sticker | stadodo (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_stadodo_holo_png.png"
+  },
+  "sticker-7818": {
+      "id": "sticker-7818",
+      "name": "Sticker | stadodo (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_stadodo_gold_png.png"
+  },
+  "sticker-7819": {
+      "id": "sticker-7819",
+      "name": "Sticker | b4rtiN | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b4rtin_png.png"
+  },
+  "sticker-7820": {
+      "id": "sticker-7820",
+      "name": "Sticker | b4rtiN (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b4rtin_glitter_png.png"
+  },
+  "sticker-7821": {
+      "id": "sticker-7821",
+      "name": "Sticker | b4rtiN (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b4rtin_holo_png.png"
+  },
+  "sticker-7822": {
+      "id": "sticker-7822",
+      "name": "Sticker | b4rtiN (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_b4rtin_gold_png.png"
+  },
+  "sticker-7823": {
+      "id": "sticker-7823",
+      "name": "Sticker | coldzera | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_coldzera_png.png"
+  },
+  "sticker-7824": {
+      "id": "sticker-7824",
+      "name": "Sticker | coldzera (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_coldzera_glitter_png.png"
+  },
+  "sticker-7825": {
+      "id": "sticker-7825",
+      "name": "Sticker | coldzera (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_coldzera_holo_png.png"
+  },
+  "sticker-7826": {
+      "id": "sticker-7826",
+      "name": "Sticker | coldzera (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_coldzera_gold_png.png"
+  },
+  "sticker-7827": {
+      "id": "sticker-7827",
+      "name": "Sticker | dumau | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dumau_png.png"
+  },
+  "sticker-7828": {
+      "id": "sticker-7828",
+      "name": "Sticker | dumau (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dumau_glitter_png.png"
+  },
+  "sticker-7829": {
+      "id": "sticker-7829",
+      "name": "Sticker | dumau (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dumau_holo_png.png"
+  },
+  "sticker-7830": {
+      "id": "sticker-7830",
+      "name": "Sticker | dumau (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_dumau_gold_png.png"
+  },
+  "sticker-7831": {
+      "id": "sticker-7831",
+      "name": "Sticker | latto | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_latto_png.png"
+  },
+  "sticker-7832": {
+      "id": "sticker-7832",
+      "name": "Sticker | latto (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_latto_glitter_png.png"
+  },
+  "sticker-7833": {
+      "id": "sticker-7833",
+      "name": "Sticker | latto (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_latto_holo_png.png"
+  },
+  "sticker-7834": {
+      "id": "sticker-7834",
+      "name": "Sticker | latto (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_latto_gold_png.png"
+  },
+  "sticker-7835": {
+      "id": "sticker-7835",
+      "name": "Sticker | NEKiZ | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nekiz_png.png"
+  },
+  "sticker-7836": {
+      "id": "sticker-7836",
+      "name": "Sticker | NEKiZ (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nekiz_glitter_png.png"
+  },
+  "sticker-7837": {
+      "id": "sticker-7837",
+      "name": "Sticker | NEKiZ (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nekiz_holo_png.png"
+  },
+  "sticker-7838": {
+      "id": "sticker-7838",
+      "name": "Sticker | NEKiZ (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_nekiz_gold_png.png"
+  },
+  "sticker-7839": {
+      "id": "sticker-7839",
+      "name": "Sticker | EmiliaQAQ | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_emiliaqaq_png.png"
+  },
+  "sticker-7840": {
+      "id": "sticker-7840",
+      "name": "Sticker | EmiliaQAQ (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_emiliaqaq_glitter_png.png"
+  },
+  "sticker-7841": {
+      "id": "sticker-7841",
+      "name": "Sticker | EmiliaQAQ (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_emiliaqaq_holo_png.png"
+  },
+  "sticker-7842": {
+      "id": "sticker-7842",
+      "name": "Sticker | EmiliaQAQ (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_emiliaqaq_gold_png.png"
+  },
+  "sticker-7843": {
+      "id": "sticker-7843",
+      "name": "Sticker | Jee | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jee_png.png"
+  },
+  "sticker-7844": {
+      "id": "sticker-7844",
+      "name": "Sticker | Jee (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jee_glitter_png.png"
+  },
+  "sticker-7845": {
+      "id": "sticker-7845",
+      "name": "Sticker | Jee (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jee_holo_png.png"
+  },
+  "sticker-7846": {
+      "id": "sticker-7846",
+      "name": "Sticker | Jee (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_jee_gold_png.png"
+  },
+  "sticker-7847": {
+      "id": "sticker-7847",
+      "name": "Sticker | Starry | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_starry_png.png"
+  },
+  "sticker-7848": {
+      "id": "sticker-7848",
+      "name": "Sticker | Starry (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_starry_glitter_png.png"
+  },
+  "sticker-7849": {
+      "id": "sticker-7849",
+      "name": "Sticker | Starry (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_starry_holo_png.png"
+  },
+  "sticker-7850": {
+      "id": "sticker-7850",
+      "name": "Sticker | Starry (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_starry_gold_png.png"
+  },
+  "sticker-7851": {
+      "id": "sticker-7851",
+      "name": "Sticker | westmelon | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_westmelon_png.png"
+  },
+  "sticker-7852": {
+      "id": "sticker-7852",
+      "name": "Sticker | westmelon (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_westmelon_glitter_png.png"
+  },
+  "sticker-7853": {
+      "id": "sticker-7853",
+      "name": "Sticker | westmelon (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_westmelon_holo_png.png"
+  },
+  "sticker-7854": {
+      "id": "sticker-7854",
+      "name": "Sticker | westmelon (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_westmelon_gold_png.png"
+  },
+  "sticker-7855": {
+      "id": "sticker-7855",
+      "name": "Sticker | z4KR | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_z4kr_png.png"
+  },
+  "sticker-7856": {
+      "id": "sticker-7856",
+      "name": "Sticker | z4KR (Glitter) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_z4kr_glitter_png.png"
+  },
+  "sticker-7857": {
+      "id": "sticker-7857",
+      "name": "Sticker | z4KR (Holo) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_z4kr_holo_png.png"
+  },
+  "sticker-7858": {
+      "id": "sticker-7858",
+      "name": "Sticker | z4KR (Gold) | Copenhagen 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_z4kr_gold_png.png"
+  },
+  "sticker-7889": {
+      "id": "sticker-7889",
+      "name": "Sticker | Mirage (Gold)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/tournament_assets/de_mirage_cs2_gold_png.png"
+  },
+  "sticker-7890": {
+      "id": "sticker-7890",
+      "name": "Sticker | Overpass (Gold)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/tournament_assets/de_overpass_cs2_gold_png.png"
   }
 }
