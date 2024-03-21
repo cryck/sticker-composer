@@ -109,7 +109,7 @@ function loadImage(path, offSet) {
       element: image,
       x: canvas.width / 2 + offSet,
       y: canvas.height / 2,
-      width: 200,
+      width: auto,
       height: 200,
       rotation: 0,
     })
