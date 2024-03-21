@@ -103,19 +103,23 @@ function saveCanvas() {
 }
 
 function loadImage(path, offSet) {
-  const image = new Image()
-  image.onload = function () {
+  const image = new Image();
+  image.onload = function() {
+    // Calculate the new width while maintaining the aspect ratio
+    const aspectRatio = image.naturalWidth / image.naturalHeight;
+    const newWidth = aspectRatio * 200;
+
     images.push({
       element: image,
       x: canvas.width / 2 + offSet,
       y: canvas.height / 2,
-      width: auto,
+      width: newWidth, 
       height: 200,
       rotation: 0,
-    })
-    drawImages()
+    });
+    drawImages();
   }
-  image.src = path
+  image.src = path;
 }
 
 function handleMouseDown(event) {
