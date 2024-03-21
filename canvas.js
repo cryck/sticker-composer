@@ -109,8 +109,8 @@ function loadImage(path, offSet) {
       element: image,
       x: canvas.width / 2 + offSet,
       y: canvas.height / 2,
-      width: image.width,
-      height: image.height,
+      width: 200,
+      height: 200,
       rotation: 0,
     })
     drawImages()
