@@ -483,11 +483,19 @@ footer p {
   font-size: 19px;
 }
 
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+}
+
 .navigation .blog-btn {
   background: linear-gradient(45deg, green, rgb(0, 204, 0));
   box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.2);
   text-wrap: nowrap;
-  width: 100%;
   height: 35px;
   color: #fff;
   padding: 8px 16px;
@@ -499,4 +507,9 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.navigation .blog-btn a {
+  text-decoration: none;
+  color: #fff;
 }
