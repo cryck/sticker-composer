@@ -498,7 +498,6 @@ footer p {
   text-wrap: nowrap;
   height: 35px;
   color: #fff;
-  padding: 8px 16px;
   border-radius: 5px;
   cursor: pointer;
   font-size: 0.75rem;
@@ -512,4 +511,6 @@ footer p {
 .navigation .blog-btn a {
   text-decoration: none;
   color: #fff;
+  padding: 15px 40px;
+  font-size: 14px;
 }
