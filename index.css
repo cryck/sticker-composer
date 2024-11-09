@@ -188,7 +188,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: hsla(0, 0%, 100%, 0.15);
   padding: 6px 4px;
   -webkit-user-select: text;
   -moz-user-select: text;
@@ -255,7 +254,7 @@ button:hover {
 }
 
 .sticker-image {
-  width: 100px;
+  width: 100%;
   height: auto;
   margin-bottom: 5px;
   cursor: pointer;
@@ -513,4 +512,42 @@ footer p {
   color: #fff;
   padding: 15px 40px;
   font-size: 14px;
+}
+
+.selected-sticker-header:first-of-type{
+  border-radius: 5px 5px 0 0;
+}
+
+.selected-sticker-header {
+  width: 100%;
+  background: hsla(0, 0%, 100%, 0.15);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.selected-sticker-info {
+  color: rgb(96 165 250);
+}
+
+.selected-sticker-price {
+  margin-top: 5px;
+  color: rgb(74 222 128);
+}
+
+.selected-sticker-total {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  background: hsla(0, 0%, 100%, 0.15);
+  padding: 10px 0;
+  border-radius: 0 0 5px 5px;
+}
+
+
+.selected-sticker-total div {
+  margin: 0 10px;
+}
+
+.selected-sticker-total-price {
+  color: rgb(74 222 128);
 }

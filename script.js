@@ -36,6 +36,7 @@ function incrementResultIndex() {
 
 function populateResults(resultIndex = 0) {
   let inputVal = document.getElementById("stickerInput").value
+  inputVal = inputVal.replace(/[^a-zA-Z0-9]/g, "")
   let results = currentResultsList[resultIndex]
 
   selectedStickers = []
@@ -47,9 +48,7 @@ function populateResults(resultIndex = 0) {
     resultIndexControls.style.display = "none"
   }
 
-  indexLabel.innerText = `${currentResultIndex + 1}/${
-    currentResultsList.length
-  }`
+  indexLabel.innerText = `${currentResultIndex + 1}/${currentResultsList.length}`
   const resultsDiv = document.getElementById("results")
   resultsDiv.innerHTML = ""
 
@@ -66,28 +65,46 @@ function populateResults(resultIndex = 0) {
 
     groupDiv.appendChild(matchedPartSpan)
 
+    // Add a check to see if this position already has a selected sticker
+    const hasSelectedSticker = selectedStickers[i]?.sticker
+
     result.stickers.forEach((sticker) => {
       const stickerWrapper = document.createElement("div")
       stickerWrapper.classList.add("sticker-wrapper")
-      stickerWrapper.setAttribute("data-name", sticker.name) // Set the tooltip text in data attribute
+      stickerWrapper.setAttribute("data-name", sticker.name)
+
+      // If there's already a sticker selected for this position, add a visual indicator
+      if (hasSelectedSticker) {
+        stickerWrapper.style.opacity = "0.5"
+        stickerWrapper.style.cursor = "not-allowed"
+      }
 
       const image = document.createElement("img")
       image.src = sticker.image
       image.alt = sticker.name
       image.classList.add("sticker-image")
 
-      stickerWrapper.onclick = () => {
-        // Add sticker info to selectedStickers
+      let isAdding = false
+
+      stickerWrapper.onclick = async () => {
+        // If we're already adding this sticker or there's a sticker already selected, ignore the click
+        if (isAdding || hasSelectedSticker) return
+
+        isAdding = true
+        stickerWrapper.style.opacity = "0.5"
+
         selectedStickers[i].sticker = sticker
         selectedStickers[i].index = i
-        renderSelectedStickers(selectedStickers)
+        await renderSelectedStickers(selectedStickers)
+
+        isAdding = false
       }
 
       stickerWrapper.appendChild(image)
       groupDiv.appendChild(stickerWrapper)
     })
 
-    selectedStickers.push({ matchedPart: result.matchedPart }) // Create object for each matched part
+    selectedStickers.push({ matchedPart: result.matchedPart })
     resultsDiv.appendChild(groupDiv)
   })
 
@@ -127,8 +144,8 @@ function rotateResults(direction) {
 
 async function callWorker() {
   let inputVal = document.getElementById("stickerInput").value
-  // Remove spaces from the input
-  inputVal = inputVal.replace(/\s+/g, "")
+  // Remove spaces and special characters, keeping only letters and numbers
+  inputVal = inputVal.replace(/[^a-zA-Z0-9]/g, "")
   const isBackwards = document.getElementById("isBackwards").checked
   const isDepth = document.getElementById("isDepth").checked
 
@@ -187,48 +204,84 @@ document
     }
   })
 
-function renderSelectedStickers(selectedStickers) {
-  const selectedStickersList = document.getElementById("selectedStickers")
-  selectedStickersList.innerHTML = ""
-  if (!selectedStickers.length) return
-
-  const title = document.createElement("li")
-  title.classList.add("selected-sticker-item")
-  title.textContent = "Selected:"
-  selectedStickersList.appendChild(title)
-
-  selectedStickers.forEach((selected) => {
-    const selectedStickerItem = document.createElement("li")
-    selectedStickerItem.classList.add("selected-sticker-item")
-    selectedStickerItem.textContent = selected.matchedPart.toUpperCase()
-
-    if (selected.sticker) {
-      const image = document.createElement("img")
-      image.src = selected.sticker.image
-      image.alt = selected.sticker.name
-      image.classList.add("sticker-image")
-
-      // Remove sticker from selectedStickers on click
-      image.onclick = () => {
-        selectedStickers[selected.index].sticker = null
-        renderSelectedStickers(selectedStickers)
+  async function renderSelectedStickers(selectedStickers) {
+    const selectedStickersList = document.getElementById("selectedStickers")
+    selectedStickersList.innerHTML = ""
+    if (!selectedStickers.length) return
+  
+    const title = document.createElement("li")
+    title.classList.add("selected-sticker-item")
+    title.textContent = "Selected:"
+    selectedStickersList.appendChild(title)
+  
+    let totalPrice = 0
+  
+    // Process each sticker
+    for (const selected of selectedStickers) {
+      const selectedStickerItem = document.createElement("li")
+      selectedStickerItem.classList.add("selected-sticker-item")
+      const selectedStickerHeader = document.createElement("div")
+      selectedStickerHeader.classList.add("selected-sticker-header")
+      selectedStickerHeader.textContent = selected.matchedPart.toUpperCase()
+      selectedStickerItem.appendChild(selectedStickerHeader)
+  
+      if (selected.sticker) {
+        const image = document.createElement("img")
+        image.src = selected.sticker.image
+        image.alt = selected.sticker.name
+        image.classList.add("sticker-image")
+  
+        // Remove sticker from selectedStickers on click
+        image.onclick = () => {
+          selectedStickers[selected.index].sticker = null
+          renderSelectedStickers(selectedStickers)
+        }
+        selectedStickerItem.appendChild(image)
+  
+        const selectedStickerInfo = document.createElement("a")
+        selectedStickerInfo.classList.add("selected-sticker-info")
+        selectedStickerInfo.textContent = selected.sticker.name
+        selectedStickerInfo.href = `https://steamcommunity.com/market/listings/730/${encodeURIComponent(
+          selected.sticker.name
+        )}`
+        selectedStickerInfo.target = "_blank"
+        selectedStickerInfo.draggable = false
+        selectedStickerItem.appendChild(selectedStickerInfo)
+  
+        // Fetch and add price
+        try {
+          const response = await fetch(`https://de.cryck.me/get_sticker_price.php?pattern=${encodeURIComponent(selected.sticker.name)}`)
+          const data = await response.json()
+          
+          if (data.success && data.data && data.data[0]) {
+            const price = parseFloat(data.data[0].price)
+            
+            const priceElement = document.createElement("div")
+            priceElement.classList.add("selected-sticker-price")
+            priceElement.textContent = `$${price.toFixed(2)}`
+            selectedStickerItem.appendChild(priceElement)
+            
+            totalPrice += price
+          }
+        } catch (error) {
+          console.error('Error fetching price:', error)
+        }
       }
-      selectedStickerItem.appendChild(image)
-
-      const selectedStickerInfo = document.createElement("a")
-      selectedStickerInfo.classList.add("selected-sticker-info")
-      selectedStickerInfo.textContent = selected.sticker.name
-      selectedStickerInfo.href = `https://steamcommunity.com/market/listings/730/${encodeURIComponent(
-        selected.sticker.name
-      )}`
-      selectedStickerInfo.target = "_blank"
-      selectedStickerInfo.draggable = false
-      selectedStickerItem.appendChild(selectedStickerInfo)
+  
+      selectedStickersList.appendChild(selectedStickerItem)
     }
-
-    selectedStickersList.appendChild(selectedStickerItem)
-  })
-}
+  
+    // Add total price if there are any prices
+    if (totalPrice > 0) {
+      const totalElement = document.createElement("li")
+      totalElement.classList.add("selected-sticker-total")
+      totalElement.innerHTML = `
+        <div>Total</div>
+        <div class="selected-sticker-total-price">$${totalPrice.toFixed(2)}</div>
+      `
+      selectedStickersList.appendChild(totalElement)
+    }
+  }
 
 document.addEventListener("DOMContentLoaded", function () {
   const params = new URLSearchParams(window.location.search)
