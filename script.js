@@ -132,7 +132,7 @@ async function callWorker() {
   const isBackwards = document.getElementById("isBackwards").checked
   const isDepth = document.getElementById("isDepth").checked
 
-  const apiUrl = `https://worker-jolly-frost-2e50.cryck.workers.dev/?input=${encodeURIComponent(
+  const apiUrl = `https://sticker-craft.cryck.workers.dev/?input=${encodeURIComponent(
     inputVal
   )}&isBackwards=${isBackwards}&isDepth=${isDepth}`
 
