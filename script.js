@@ -127,8 +127,8 @@ function rotateResults(direction) {
 
 async function callWorker() {
   let inputVal = document.getElementById("stickerInput").value
-  // Remove spaces from the input
-  inputVal = inputVal.replace(/\s+/g, "")
+  // Remove spaces and special characters, keeping only letters and numbers
+  inputVal = inputVal.replace(/[^a-zA-Z0-9]/g, "")
   const isBackwards = document.getElementById("isBackwards").checked
   const isDepth = document.getElementById("isDepth").checked
 
