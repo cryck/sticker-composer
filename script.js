@@ -36,6 +36,7 @@ function incrementResultIndex() {
 
 function populateResults(resultIndex = 0) {
   let inputVal = document.getElementById("stickerInput").value
+  // Apply the same sanitization here
   inputVal = inputVal.replace(/[^a-zA-Z0-9]/g, "")
   let results = currentResultsList[resultIndex]
 
@@ -48,9 +49,7 @@ function populateResults(resultIndex = 0) {
     resultIndexControls.style.display = "none"
   }
 
-  indexLabel.innerText = `${currentResultIndex + 1}/${
-    currentResultsList.length
-  }`
+  indexLabel.innerText = `${currentResultIndex + 1}/${currentResultsList.length}`
   const resultsDiv = document.getElementById("results")
   resultsDiv.innerHTML = ""
 
@@ -70,25 +69,39 @@ function populateResults(resultIndex = 0) {
     result.stickers.forEach((sticker) => {
       const stickerWrapper = document.createElement("div")
       stickerWrapper.classList.add("sticker-wrapper")
-      stickerWrapper.setAttribute("data-name", sticker.name) // Set the tooltip text in data attribute
+      stickerWrapper.setAttribute("data-name", sticker.name)
 
       const image = document.createElement("img")
       image.src = sticker.image
       image.alt = sticker.name
       image.classList.add("sticker-image")
 
-      stickerWrapper.onclick = () => {
+      // Track if we're currently adding this sticker
+      let isAdding = false
+
+      stickerWrapper.onclick = async () => {
+        // If we're already adding this sticker or a sticker is already selected, ignore the click
+        if (isAdding || selectedStickers[i].sticker) return
+
+        isAdding = true
+        // Add visual feedback that it's being added (optional)
+        stickerWrapper.style.opacity = "0.5"
+
         // Add sticker info to selectedStickers
         selectedStickers[i].sticker = sticker
         selectedStickers[i].index = i
-        renderSelectedStickers(selectedStickers)
+        await renderSelectedStickers(selectedStickers)
+
+        // Reset the loading state
+        isAdding = false
+        stickerWrapper.style.opacity = "1"
       }
 
       stickerWrapper.appendChild(image)
       groupDiv.appendChild(stickerWrapper)
     })
 
-    selectedStickers.push({ matchedPart: result.matchedPart }) // Create object for each matched part
+    selectedStickers.push({ matchedPart: result.matchedPart })
     resultsDiv.appendChild(groupDiv)
   })
 
