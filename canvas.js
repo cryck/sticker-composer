@@ -17,7 +17,6 @@ let offsetX, offsetY
 let rotationPrecision = 1
 
 function handleSearchStickerChange(e) {
-  console.log("CALLED")
   const searchValue = stickerSearchInput.value.toLowerCase()
 
   if (searchValue && searchValue !== null && searchValue !== "") {
@@ -195,7 +194,7 @@ function getStickerIdsFromUrl() {
 }
 
 async function findStickersById(idsToFind) {
-  const response = await fetch("https://cs-sticker.com/stickers_by_id.json")
+  const response = await fetch("https://cs-sticker.com/data/stickers_by_id.json")
   stickersById = await response.json()
 
   return idsToFind.map((_id) => stickersById[_id])

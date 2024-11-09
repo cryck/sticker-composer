@@ -2,6 +2,8 @@ addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request))
 })
 
+const dataBaseURL = 'https://cs-sticker.com/data/';
+
 async function handleRequest(request) {
   // Set CORS headers
   const corsHeaders = {
@@ -343,9 +345,9 @@ async function depthSearch(input) {
 
 async function getTokenizations(Token) {
   const neededJSONUrls = [
-    "https://cs-sticker.com/inverted_dict.json",
-    "https://cs-sticker.com/sticker_ids_by_matched_full_word.json",
-    "https://cs-sticker.com/stickers_by_id.json",
+    dataBaseURL + "inverted_dict.json",
+    dataBaseURL + "sticker_ids_by_matched_full_word.json",
+    dataBaseURL + "stickers_by_id.json",
   ]
 
   const responses = await Promise.all(neededJSONUrls.map((url) => fetch(url)))
@@ -373,7 +375,7 @@ async function getTokenizations(Token) {
 }
 
 async function getStickers() {
-  const response = await fetch("https://cs-sticker.com/stickers.json")
+  const response = await fetch(dataBaseURL + "stickers.json")
 
   const allStickers = await response.json()
   return allStickers
