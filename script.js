@@ -133,31 +133,6 @@ function populateResults(resultIndex = 0) {
   renderSelectedStickers(selectedStickers)
 }
 
-  const selectedStickersList = document.getElementById("selectedStickers")
-  const addToCanvasButton = document.getElementById("add-selected-to-canvas")
-  const inputValLower = inputVal.toLowerCase()
-
-  if (results.length <= 0) {
-    displayInfoMessage("No matches found for your input.", inputVal)
-    selectedStickersList.style.display = "none"
-    addToCanvasButton.style.display = "none"
-  } else if (
-    results
-      .flat()
-      .map((x) => x.matchedPart)
-      .join("") !== inputValLower
-  ) {
-    displayInfoMessage("Could not match the entire input.", inputVal)
-    selectedStickersList.style.display = "none"
-    addToCanvasButton.style.display = "none"
-  } else {
-    selectedStickersList.style.display = "flex"
-    addToCanvasButton.style.display = "flex"
-    clearInfoMessage()
-  }
-  renderSelectedStickers(selectedStickers)
-}
-
 function rotateResults(direction) {
   // direction is +-1
   const newIndex = currentResultIndex + direction
