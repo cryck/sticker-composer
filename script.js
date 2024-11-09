@@ -206,6 +206,7 @@ document
       const selectedStickerHeader = document.createElement("div")
       selectedStickerHeader.classList.add("selected-sticker-header")
       selectedStickerHeader.textContent = selected.matchedPart.toUpperCase()
+      selectedStickerItem.appendChild(selectedStickerHeader)
   
       if (selected.sticker) {
         const image = document.createElement("img")
@@ -237,11 +238,10 @@ document
           
           if (data.success && data.data && data.data[0]) {
             const price = parseFloat(data.data[0].price)
-            const listings = data.data[0].listings
             
             const priceElement = document.createElement("div")
             priceElement.classList.add("selected-sticker-price")
-            priceElement.textContent = `$${price.toFixed(2)} (${listings} listings)`
+            priceElement.textContent = `$${price.toFixed(2)}`
             selectedStickerItem.appendChild(priceElement)
             
             totalPrice += price
