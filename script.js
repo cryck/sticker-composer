@@ -258,16 +258,12 @@ document
     // Add total price if there are any prices
     if (totalPrice > 0) {
       const totalElement = document.createElement("li")
-      totalElement.classList.add("selected-sticker-item", "selected-sticker-total")
+      totalElement.classList.add("selected-sticker-total")
       totalElement.innerHTML = `
         <div>Total</div>
         <div class="selected-sticker-total-price">$${totalPrice.toFixed(2)}</div>
       `
-      // Only append total if we have at least all stickers selected
-      const selectedCount = selectedStickers.filter(s => s.sticker).length
-      if (selectedCount === selectedStickers.length) {
-        selectedStickersList.appendChild(totalElement)
-      }
+      selectedStickersList.appendChild(totalElement)
     }
   }
 
