@@ -36,6 +36,7 @@ function incrementResultIndex() {
 
 function populateResults(resultIndex = 0) {
   let inputVal = document.getElementById("stickerInput").value
+  inputVal = inputVal.replace(/[^a-zA-Z0-9]/g, "")
   let results = currentResultsList[resultIndex]
 
   selectedStickers = []
