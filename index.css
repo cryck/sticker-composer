@@ -254,7 +254,7 @@ button:hover {
 }
 
 .sticker-image {
-  width: 100px;
+  width: 100%;
   height: auto;
   margin-bottom: 5px;
   cursor: pointer;
