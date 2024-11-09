@@ -36,7 +36,6 @@ function incrementResultIndex() {
 
 function populateResults(resultIndex = 0) {
   let inputVal = document.getElementById("stickerInput").value
-  // Apply the same sanitization here
   inputVal = inputVal.replace(/[^a-zA-Z0-9]/g, "")
   let results = currentResultsList[resultIndex]
 
@@ -66,35 +65,39 @@ function populateResults(resultIndex = 0) {
 
     groupDiv.appendChild(matchedPartSpan)
 
+    // Add a check to see if this position already has a selected sticker
+    const hasSelectedSticker = selectedStickers[i]?.sticker
+
     result.stickers.forEach((sticker) => {
       const stickerWrapper = document.createElement("div")
       stickerWrapper.classList.add("sticker-wrapper")
       stickerWrapper.setAttribute("data-name", sticker.name)
+
+      // If there's already a sticker selected for this position, add a visual indicator
+      if (hasSelectedSticker) {
+        stickerWrapper.style.opacity = "0.5"
+        stickerWrapper.style.cursor = "not-allowed"
+      }
 
       const image = document.createElement("img")
       image.src = sticker.image
       image.alt = sticker.name
       image.classList.add("sticker-image")
 
-      // Track if we're currently adding this sticker
       let isAdding = false
 
       stickerWrapper.onclick = async () => {
-        // If we're already adding this sticker or a sticker is already selected, ignore the click
-        if (isAdding || selectedStickers[i].sticker) return
+        // If we're already adding this sticker or there's a sticker already selected, ignore the click
+        if (isAdding || hasSelectedSticker) return
 
         isAdding = true
-        // Add visual feedback that it's being added (optional)
         stickerWrapper.style.opacity = "0.5"
 
-        // Add sticker info to selectedStickers
         selectedStickers[i].sticker = sticker
         selectedStickers[i].index = i
         await renderSelectedStickers(selectedStickers)
 
-        // Reset the loading state
         isAdding = false
-        stickerWrapper.style.opacity = "1"
       }
 
       stickerWrapper.appendChild(image)
@@ -104,6 +107,31 @@ function populateResults(resultIndex = 0) {
     selectedStickers.push({ matchedPart: result.matchedPart })
     resultsDiv.appendChild(groupDiv)
   })
+
+  const selectedStickersList = document.getElementById("selectedStickers")
+  const addToCanvasButton = document.getElementById("add-selected-to-canvas")
+  const inputValLower = inputVal.toLowerCase()
+
+  if (results.length <= 0) {
+    displayInfoMessage("No matches found for your input.", inputVal)
+    selectedStickersList.style.display = "none"
+    addToCanvasButton.style.display = "none"
+  } else if (
+    results
+      .flat()
+      .map((x) => x.matchedPart)
+      .join("") !== inputValLower
+  ) {
+    displayInfoMessage("Could not match the entire input.", inputVal)
+    selectedStickersList.style.display = "none"
+    addToCanvasButton.style.display = "none"
+  } else {
+    selectedStickersList.style.display = "flex"
+    addToCanvasButton.style.display = "flex"
+    clearInfoMessage()
+  }
+  renderSelectedStickers(selectedStickers)
+}
 
   const selectedStickersList = document.getElementById("selectedStickers")
   const addToCanvasButton = document.getElementById("add-selected-to-canvas")
