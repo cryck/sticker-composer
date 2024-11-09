@@ -92,7 +92,7 @@ async function mainSearch(input, isBackwards) {
           name: item.name,
           image: item.image,
           id: item.id,
-        })),
+        })).reverse(),
       })
     }
 
