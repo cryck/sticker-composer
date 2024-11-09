@@ -539,8 +539,13 @@ footer p {
   display: flex;
   justify-content: space-between;
   background: hsla(0, 0%, 100%, 0.15);
-  padding: 10px;
+  padding: 10px 0;
   border-radius: 0 0 5px 5px;
+}
+
+
+.selected-sticker-total div {
+  margin: 0 5px;
 }
 
 .selected-sticker-total-price {
