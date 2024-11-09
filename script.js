@@ -233,13 +233,18 @@ document
         // Fetch and add price
         try {
           const response = await fetch(`https://de.cryck.me/get_sticker_price.php?pattern=${encodeURIComponent(selected.sticker.name)}`)
-          const price = await response.text()
-          if (price) {
+          const data = await response.json()
+          
+          if (data.success && data.data && data.data[0]) {
+            const price = parseFloat(data.data[0].price)
+            const listings = data.data[0].listings
+            
             const priceElement = document.createElement("div")
             priceElement.classList.add("selected-sticker-price")
-            priceElement.textContent = `$${price}`
+            priceElement.textContent = `$${price.toFixed(2)} (${listings} listings)`
             selectedStickerItem.appendChild(priceElement)
-            totalPrice += parseFloat(price)
+            
+            totalPrice += price
           }
         } catch (error) {
           console.error('Error fetching price:', error)
