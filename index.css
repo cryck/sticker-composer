@@ -530,11 +530,17 @@ footer p {
 }
 
 .selected-sticker-price {
+  margin-top: 5px;
   color: rgb(74 222 128);
 }
 
 .selected-sticker-total {
   font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  background: hsla(0, 0%, 100%, 0.15);
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
 }
 
 .selected-sticker-total-price {
