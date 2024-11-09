@@ -188,7 +188,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: hsla(0, 0%, 100%, 0.15);
   padding: 6px 4px;
   -webkit-user-select: text;
   -moz-user-select: text;
@@ -513,4 +512,30 @@ footer p {
   color: #fff;
   padding: 15px 40px;
   font-size: 14px;
+}
+
+.selected-sticker-header:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.selected-sticker-header {
+  background: hsla(0, 0%, 100%, 0.15);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.selected-sticker-info a {
+  color: rgb(96 165 250);
+}
+
+.selected-sticker-price {
+  color: rgb(74 222 128);
+}
+
+.selected-sticker-total {
+  
+}
+
+.selected-sticker-total-price {
+  color: rgb(74 222 128);
 }

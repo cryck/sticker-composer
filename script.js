@@ -187,48 +187,79 @@ document
     }
   })
 
-function renderSelectedStickers(selectedStickers) {
-  const selectedStickersList = document.getElementById("selectedStickers")
-  selectedStickersList.innerHTML = ""
-  if (!selectedStickers.length) return
-
-  const title = document.createElement("li")
-  title.classList.add("selected-sticker-item")
-  title.textContent = "Selected:"
-  selectedStickersList.appendChild(title)
-
-  selectedStickers.forEach((selected) => {
-    const selectedStickerItem = document.createElement("li")
-    selectedStickerItem.classList.add("selected-sticker-item")
-    selectedStickerItem.textContent = selected.matchedPart.toUpperCase()
-
-    if (selected.sticker) {
-      const image = document.createElement("img")
-      image.src = selected.sticker.image
-      image.alt = selected.sticker.name
-      image.classList.add("sticker-image")
-
-      // Remove sticker from selectedStickers on click
-      image.onclick = () => {
-        selectedStickers[selected.index].sticker = null
-        renderSelectedStickers(selectedStickers)
+  async function renderSelectedStickers(selectedStickers) {
+    const selectedStickersList = document.getElementById("selectedStickers")
+    selectedStickersList.innerHTML = ""
+    if (!selectedStickers.length) return
+  
+    const title = document.createElement("li")
+    title.classList.add("selected-sticker-item")
+    title.textContent = "Selected:"
+    selectedStickersList.appendChild(title)
+  
+    let totalPrice = 0
+  
+    // Process each sticker
+    for (const selected of selectedStickers) {
+      const selectedStickerItem = document.createElement("li")
+      selectedStickerItem.classList.add("selected-sticker-item")
+      const selectedStickerHeader = document.createElement("div")
+      selectedStickerHeader.classList.add("selected-sticker-header")
+      selectedStickerHeader.textContent = selected.matchedPart.toUpperCase()
+  
+      if (selected.sticker) {
+        const image = document.createElement("img")
+        image.src = selected.sticker.image
+        image.alt = selected.sticker.name
+        image.classList.add("sticker-image")
+  
+        // Remove sticker from selectedStickers on click
+        image.onclick = () => {
+          selectedStickers[selected.index].sticker = null
+          renderSelectedStickers(selectedStickers)
+        }
+        selectedStickerItem.appendChild(image)
+  
+        const selectedStickerInfo = document.createElement("a")
+        selectedStickerInfo.classList.add("selected-sticker-info")
+        selectedStickerInfo.textContent = selected.sticker.name
+        selectedStickerInfo.href = `https://steamcommunity.com/market/listings/730/${encodeURIComponent(
+          selected.sticker.name
+        )}`
+        selectedStickerInfo.target = "_blank"
+        selectedStickerInfo.draggable = false
+        selectedStickerItem.appendChild(selectedStickerInfo)
+  
+        // Fetch and add price
+        try {
+          const response = await fetch(`https://de.cryck.me/get_sticker_price.php?pattern=${encodeURIComponent(selected.sticker.name)}`)
+          const price = await response.text()
+          if (price) {
+            const priceElement = document.createElement("div")
+            priceElement.classList.add("selected-sticker-price")
+            priceElement.textContent = `$${price}`
+            selectedStickerItem.appendChild(priceElement)
+            totalPrice += parseFloat(price)
+          }
+        } catch (error) {
+          console.error('Error fetching price:', error)
+        }
       }
-      selectedStickerItem.appendChild(image)
-
-      const selectedStickerInfo = document.createElement("a")
-      selectedStickerInfo.classList.add("selected-sticker-info")
-      selectedStickerInfo.textContent = selected.sticker.name
-      selectedStickerInfo.href = `https://steamcommunity.com/market/listings/730/${encodeURIComponent(
-        selected.sticker.name
-      )}`
-      selectedStickerInfo.target = "_blank"
-      selectedStickerInfo.draggable = false
-      selectedStickerItem.appendChild(selectedStickerInfo)
+  
+      selectedStickersList.appendChild(selectedStickerItem)
     }
-
-    selectedStickersList.appendChild(selectedStickerItem)
-  })
-}
+  
+    // Add total price if there are any prices
+    if (totalPrice > 0) {
+      const totalElement = document.createElement("li")
+      totalElement.classList.add("selected-sticker-item", "selected-sticker-total")
+      totalElement.innerHTML = `
+        <div>Total</div>
+        <div class="selected-sticker-total-price">$${totalPrice.toFixed(2)}</div>
+      `
+      selectedStickersList.appendChild(totalElement)
+    }
+  }
 
 document.addEventListener("DOMContentLoaded", function () {
   const params = new URLSearchParams(window.location.search)
