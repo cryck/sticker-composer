@@ -262,7 +262,11 @@ document
         <div>Total</div>
         <div class="selected-sticker-total-price">$${totalPrice.toFixed(2)}</div>
       `
-      selectedStickersList.appendChild(totalElement)
+      // Only append total if we have at least all stickers selected
+      const selectedCount = selectedStickers.filter(s => s.sticker).length
+      if (selectedCount === selectedStickers.length) {
+        selectedStickersList.appendChild(totalElement)
+      }
     }
   }
 
