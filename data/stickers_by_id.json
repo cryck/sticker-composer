@@ -41428,5 +41428,3080 @@
       "id": "sticker-7890",
       "name": "Sticker | Overpass (Gold)",
       "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/tournament_assets/de_overpass_cs2_gold_png.png"
+  },
+  "sticker-7891": {
+      "id": "sticker-7891",
+      "name": "Sticker | Scorch Loop",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_fire_one_png.png"
+  },
+  "sticker-7892": {
+      "id": "sticker-7892",
+      "name": "Sticker | Boom Detonation",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_two_png.png"
+  },
+  "sticker-7893": {
+      "id": "sticker-7893",
+      "name": "Sticker | Boom Epicenter",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_three_png.png"
+  },
+  "sticker-7894": {
+      "id": "sticker-7894",
+      "name": "Sticker | Boom Blast",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_one_png.png"
+  },
+  "sticker-7895": {
+      "id": "sticker-7895",
+      "name": "Sticker | Boom Trail",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_explosion_four_png.png"
+  },
+  "sticker-7896": {
+      "id": "sticker-7896",
+      "name": "Sticker | Rainbow Route (Holo)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/holo_rainbow_trail_png.png"
+  },
+  "sticker-7897": {
+      "id": "sticker-7897",
+      "name": "Sticker | Boom Detonation (Glitter)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_two_png.png"
+  },
+  "sticker-7898": {
+      "id": "sticker-7898",
+      "name": "Sticker | Boom Epicenter (Glitter)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_three_png.png"
+  },
+  "sticker-7899": {
+      "id": "sticker-7899",
+      "name": "Sticker | Boom Blast (Glitter)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_one_png.png"
+  },
+  "sticker-7900": {
+      "id": "sticker-7900",
+      "name": "Sticker | Boom Trail (Glitter)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/glitter_explosion_four_png.png"
+  },
+  "sticker-7901": {
+      "id": "sticker-7901",
+      "name": "Sticker | Bolt Strike (Foil)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_two_png.png"
+  },
+  "sticker-7902": {
+      "id": "sticker-7902",
+      "name": "Sticker | Bolt Charge (Foil)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_three_png.png"
+  },
+  "sticker-7903": {
+      "id": "sticker-7903",
+      "name": "Sticker | Bolt Energy (Foil)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_lightning_one_png.png"
+  },
+  "sticker-7904": {
+      "id": "sticker-7904",
+      "name": "Sticker | Winding Scorch (Foil)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/foil_fire_three_png.png"
+  },
+  "sticker-7905": {
+      "id": "sticker-7905",
+      "name": "Sticker | Flex",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_arm_flex_png.png"
+  },
+  "sticker-7906": {
+      "id": "sticker-7906",
+      "name": "Sticker | Clown Nose",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_clown_nose_png.png"
+  },
+  "sticker-7907": {
+      "id": "sticker-7907",
+      "name": "Sticker | Clown Wig",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_clown_wig_png.png"
+  },
+  "sticker-7909": {
+      "id": "sticker-7909",
+      "name": "Sticker | Quick Peek",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_googly_eye_small_png.png"
+  },
+  "sticker-7910": {
+      "id": "sticker-7910",
+      "name": "Sticker | XD",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_mouth_png.png"
+  },
+  "sticker-7911": {
+      "id": "sticker-7911",
+      "name": "Sticker | Ribbon Tie",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_ribbon_png.png"
+  },
+  "sticker-7912": {
+      "id": "sticker-7912",
+      "name": "Sticker | Taste Bud",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_tongue_png.png"
+  },
+  "sticker-7913": {
+      "id": "sticker-7913",
+      "name": "Sticker | Kawaii Eyes (Glitter)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/glitter_kawaii_eyes_png.png"
+  },
+  "sticker-7914": {
+      "id": "sticker-7914",
+      "name": "Sticker | From The Deep (Glitter)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/glitter_tentacle_png.png"
+  },
+  "sticker-7915": {
+      "id": "sticker-7915",
+      "name": "Sticker | Say Cheese (Holo)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/holo_mouth_png.png"
+  },
+  "sticker-7916": {
+      "id": "sticker-7916",
+      "name": "Sticker | Taste Buddy (Holo)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/holo_tongue_png.png"
+  },
+  "sticker-7917": {
+      "id": "sticker-7917",
+      "name": "Sticker | Gold Teef (Foil)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/foil_mouth_png.png"
+  },
+  "sticker-7918": {
+      "id": "sticker-7918",
+      "name": "Sticker | Side Eyes (Lenticular)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_cheeky_eyes_png.png"
+  },
+  "sticker-7919": {
+      "id": "sticker-7919",
+      "name": "Sticker | Googly Eye (Lenticular)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_googly_eye_png.png"
+  },
+  "sticker-7921": {
+      "id": "sticker-7921",
+      "name": "Sticker | Hypnoteyes (Holo)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/lenticular_angry_eyes_png.png"
+  },
+  "sticker-7922": {
+      "id": "sticker-7922",
+      "name": "Sticker | Hydro Geyser",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_two_png.png"
+  },
+  "sticker-7923": {
+      "id": "sticker-7923",
+      "name": "Sticker | Hydro Stream",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_three_png.png"
+  },
+  "sticker-7924": {
+      "id": "sticker-7924",
+      "name": "Sticker | Hydro Wave",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/paper_water_one_png.png"
+  },
+  "sticker-7925": {
+      "id": "sticker-7925",
+      "name": "Sticker | Ruby Stream (Lenticular)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/lenticular_blood_one_png.png"
+  },
+  "sticker-7926": {
+      "id": "sticker-7926",
+      "name": "Sticker | Ruby Wave (Lenticular)",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/elemental_craft/lenticular_blood_two_png.png"
+  },
+  "sticker-7927": {
+      "id": "sticker-7927",
+      "name": "Sticker | Strike A Pose",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community/sticker_craft/paper_male_anime_face_png.png"
+  },
+  "sticker-7928": {
+      "id": "sticker-7928",
+      "name": "Sticker | G2 Esports | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/g2_png.png"
+  },
+  "sticker-7929": {
+      "id": "sticker-7929",
+      "name": "Sticker | G2 Esports (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/g2_glitter_png.png"
+  },
+  "sticker-7930": {
+      "id": "sticker-7930",
+      "name": "Sticker | G2 Esports (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/g2_holo_png.png"
+  },
+  "sticker-7931": {
+      "id": "sticker-7931",
+      "name": "Sticker | G2 Esports (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/g2_gold_png.png"
+  },
+  "sticker-7932": {
+      "id": "sticker-7932",
+      "name": "Sticker | Natus Vincere | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/navi_png.png"
+  },
+  "sticker-7933": {
+      "id": "sticker-7933",
+      "name": "Sticker | Natus Vincere (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/navi_glitter_png.png"
+  },
+  "sticker-7934": {
+      "id": "sticker-7934",
+      "name": "Sticker | Natus Vincere (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/navi_holo_png.png"
+  },
+  "sticker-7935": {
+      "id": "sticker-7935",
+      "name": "Sticker | Natus Vincere (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/navi_gold_png.png"
+  },
+  "sticker-7936": {
+      "id": "sticker-7936",
+      "name": "Sticker | Vitality | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vita_png.png"
+  },
+  "sticker-7937": {
+      "id": "sticker-7937",
+      "name": "Sticker | Vitality (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vita_glitter_png.png"
+  },
+  "sticker-7938": {
+      "id": "sticker-7938",
+      "name": "Sticker | Vitality (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vita_holo_png.png"
+  },
+  "sticker-7939": {
+      "id": "sticker-7939",
+      "name": "Sticker | Vitality (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vita_gold_png.png"
+  },
+  "sticker-7940": {
+      "id": "sticker-7940",
+      "name": "Sticker | Team Spirit | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/spir_png.png"
+  },
+  "sticker-7941": {
+      "id": "sticker-7941",
+      "name": "Sticker | Team Spirit (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/spir_glitter_png.png"
+  },
+  "sticker-7942": {
+      "id": "sticker-7942",
+      "name": "Sticker | Team Spirit (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/spir_holo_png.png"
+  },
+  "sticker-7943": {
+      "id": "sticker-7943",
+      "name": "Sticker | Team Spirit (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/spir_gold_png.png"
+  },
+  "sticker-7944": {
+      "id": "sticker-7944",
+      "name": "Sticker | MOUZ | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mouz_png.png"
+  },
+  "sticker-7945": {
+      "id": "sticker-7945",
+      "name": "Sticker | MOUZ (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mouz_glitter_png.png"
+  },
+  "sticker-7946": {
+      "id": "sticker-7946",
+      "name": "Sticker | MOUZ (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mouz_holo_png.png"
+  },
+  "sticker-7947": {
+      "id": "sticker-7947",
+      "name": "Sticker | MOUZ (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mouz_gold_png.png"
+  },
+  "sticker-7948": {
+      "id": "sticker-7948",
+      "name": "Sticker | FaZe Clan | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/faze_png.png"
+  },
+  "sticker-7949": {
+      "id": "sticker-7949",
+      "name": "Sticker | FaZe Clan (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/faze_glitter_png.png"
+  },
+  "sticker-7950": {
+      "id": "sticker-7950",
+      "name": "Sticker | FaZe Clan (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/faze_holo_png.png"
+  },
+  "sticker-7951": {
+      "id": "sticker-7951",
+      "name": "Sticker | FaZe Clan (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/faze_gold_png.png"
+  },
+  "sticker-7952": {
+      "id": "sticker-7952",
+      "name": "Sticker | HEROIC | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/hero_png.png"
+  },
+  "sticker-7953": {
+      "id": "sticker-7953",
+      "name": "Sticker | HEROIC (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/hero_glitter_png.png"
+  },
+  "sticker-7954": {
+      "id": "sticker-7954",
+      "name": "Sticker | HEROIC (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/hero_holo_png.png"
+  },
+  "sticker-7955": {
+      "id": "sticker-7955",
+      "name": "Sticker | HEROIC (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/hero_gold_png.png"
+  },
+  "sticker-7956": {
+      "id": "sticker-7956",
+      "name": "Sticker | 3DMAX | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/3dm_png.png"
+  },
+  "sticker-7957": {
+      "id": "sticker-7957",
+      "name": "Sticker | 3DMAX (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/3dm_glitter_png.png"
+  },
+  "sticker-7958": {
+      "id": "sticker-7958",
+      "name": "Sticker | 3DMAX (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/3dm_holo_png.png"
+  },
+  "sticker-7959": {
+      "id": "sticker-7959",
+      "name": "Sticker | 3DMAX (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/3dm_gold_png.png"
+  },
+  "sticker-7960": {
+      "id": "sticker-7960",
+      "name": "Sticker | FURIA | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/furi_png.png"
+  },
+  "sticker-7961": {
+      "id": "sticker-7961",
+      "name": "Sticker | FURIA (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/furi_glitter_png.png"
+  },
+  "sticker-7962": {
+      "id": "sticker-7962",
+      "name": "Sticker | FURIA (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/furi_holo_png.png"
+  },
+  "sticker-7963": {
+      "id": "sticker-7963",
+      "name": "Sticker | FURIA (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/furi_gold_png.png"
+  },
+  "sticker-7964": {
+      "id": "sticker-7964",
+      "name": "Sticker | Virtus.pro | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vp_png.png"
+  },
+  "sticker-7965": {
+      "id": "sticker-7965",
+      "name": "Sticker | Virtus.pro (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vp_glitter_png.png"
+  },
+  "sticker-7966": {
+      "id": "sticker-7966",
+      "name": "Sticker | Virtus.pro (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vp_holo_png.png"
+  },
+  "sticker-7967": {
+      "id": "sticker-7967",
+      "name": "Sticker | Virtus.pro (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/vp_gold_png.png"
+  },
+  "sticker-7968": {
+      "id": "sticker-7968",
+      "name": "Sticker | Team Liquid | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/liq_png.png"
+  },
+  "sticker-7969": {
+      "id": "sticker-7969",
+      "name": "Sticker | Team Liquid (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/liq_glitter_png.png"
+  },
+  "sticker-7970": {
+      "id": "sticker-7970",
+      "name": "Sticker | Team Liquid (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/liq_holo_png.png"
+  },
+  "sticker-7971": {
+      "id": "sticker-7971",
+      "name": "Sticker | Team Liquid (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/liq_gold_png.png"
+  },
+  "sticker-7972": {
+      "id": "sticker-7972",
+      "name": "Sticker | Complexity Gaming | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/cplx_png.png"
+  },
+  "sticker-7973": {
+      "id": "sticker-7973",
+      "name": "Sticker | Complexity Gaming (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/cplx_glitter_png.png"
+  },
+  "sticker-7974": {
+      "id": "sticker-7974",
+      "name": "Sticker | Complexity Gaming (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/cplx_holo_png.png"
+  },
+  "sticker-7975": {
+      "id": "sticker-7975",
+      "name": "Sticker | Complexity Gaming (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/cplx_gold_png.png"
+  },
+  "sticker-7976": {
+      "id": "sticker-7976",
+      "name": "Sticker | BIG | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/big_png.png"
+  },
+  "sticker-7977": {
+      "id": "sticker-7977",
+      "name": "Sticker | BIG (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/big_glitter_png.png"
+  },
+  "sticker-7978": {
+      "id": "sticker-7978",
+      "name": "Sticker | BIG (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/big_holo_png.png"
+  },
+  "sticker-7979": {
+      "id": "sticker-7979",
+      "name": "Sticker | BIG (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/big_gold_png.png"
+  },
+  "sticker-7980": {
+      "id": "sticker-7980",
+      "name": "Sticker | Fnatic | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fntc_png.png"
+  },
+  "sticker-7981": {
+      "id": "sticker-7981",
+      "name": "Sticker | Fnatic (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fntc_glitter_png.png"
+  },
+  "sticker-7982": {
+      "id": "sticker-7982",
+      "name": "Sticker | Fnatic (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fntc_holo_png.png"
+  },
+  "sticker-7983": {
+      "id": "sticker-7983",
+      "name": "Sticker | Fnatic (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fntc_gold_png.png"
+  },
+  "sticker-7984": {
+      "id": "sticker-7984",
+      "name": "Sticker | The MongolZ | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mngz_png.png"
+  },
+  "sticker-7985": {
+      "id": "sticker-7985",
+      "name": "Sticker | The MongolZ (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mngz_glitter_png.png"
+  },
+  "sticker-7986": {
+      "id": "sticker-7986",
+      "name": "Sticker | The MongolZ (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mngz_holo_png.png"
+  },
+  "sticker-7987": {
+      "id": "sticker-7987",
+      "name": "Sticker | The MongolZ (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mngz_gold_png.png"
+  },
+  "sticker-7988": {
+      "id": "sticker-7988",
+      "name": "Sticker | paiN Gaming | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pain_png.png"
+  },
+  "sticker-7989": {
+      "id": "sticker-7989",
+      "name": "Sticker | paiN Gaming (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pain_glitter_png.png"
+  },
+  "sticker-7990": {
+      "id": "sticker-7990",
+      "name": "Sticker | paiN Gaming (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pain_holo_png.png"
+  },
+  "sticker-7991": {
+      "id": "sticker-7991",
+      "name": "Sticker | paiN Gaming (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pain_gold_png.png"
+  },
+  "sticker-7992": {
+      "id": "sticker-7992",
+      "name": "Sticker | GamerLegion | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/gl_png.png"
+  },
+  "sticker-7993": {
+      "id": "sticker-7993",
+      "name": "Sticker | GamerLegion (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/gl_glitter_png.png"
+  },
+  "sticker-7994": {
+      "id": "sticker-7994",
+      "name": "Sticker | GamerLegion (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/gl_holo_png.png"
+  },
+  "sticker-7995": {
+      "id": "sticker-7995",
+      "name": "Sticker | GamerLegion (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/gl_gold_png.png"
+  },
+  "sticker-7996": {
+      "id": "sticker-7996",
+      "name": "Sticker | MIBR | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mibr_png.png"
+  },
+  "sticker-7997": {
+      "id": "sticker-7997",
+      "name": "Sticker | MIBR (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mibr_glitter_png.png"
+  },
+  "sticker-7998": {
+      "id": "sticker-7998",
+      "name": "Sticker | MIBR (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mibr_holo_png.png"
+  },
+  "sticker-7999": {
+      "id": "sticker-7999",
+      "name": "Sticker | MIBR (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/mibr_gold_png.png"
+  },
+  "sticker-8000": {
+      "id": "sticker-8000",
+      "name": "Sticker | Cloud9 | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/c9_png.png"
+  },
+  "sticker-8001": {
+      "id": "sticker-8001",
+      "name": "Sticker | Cloud9 (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/c9_glitter_png.png"
+  },
+  "sticker-8002": {
+      "id": "sticker-8002",
+      "name": "Sticker | Cloud9 (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/c9_holo_png.png"
+  },
+  "sticker-8003": {
+      "id": "sticker-8003",
+      "name": "Sticker | Cloud9 (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/c9_gold_png.png"
+  },
+  "sticker-8004": {
+      "id": "sticker-8004",
+      "name": "Sticker | FlyQuest | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fq_png.png"
+  },
+  "sticker-8005": {
+      "id": "sticker-8005",
+      "name": "Sticker | FlyQuest (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fq_glitter_png.png"
+  },
+  "sticker-8006": {
+      "id": "sticker-8006",
+      "name": "Sticker | FlyQuest (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fq_holo_png.png"
+  },
+  "sticker-8007": {
+      "id": "sticker-8007",
+      "name": "Sticker | FlyQuest (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/fq_gold_png.png"
+  },
+  "sticker-8008": {
+      "id": "sticker-8008",
+      "name": "Sticker | Passion UA | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/psnu_png.png"
+  },
+  "sticker-8009": {
+      "id": "sticker-8009",
+      "name": "Sticker | Passion UA (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/psnu_glitter_png.png"
+  },
+  "sticker-8010": {
+      "id": "sticker-8010",
+      "name": "Sticker | Passion UA (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/psnu_holo_png.png"
+  },
+  "sticker-8011": {
+      "id": "sticker-8011",
+      "name": "Sticker | Passion UA (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/psnu_gold_png.png"
+  },
+  "sticker-8012": {
+      "id": "sticker-8012",
+      "name": "Sticker | Wildcard | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/wcrd_png.png"
+  },
+  "sticker-8013": {
+      "id": "sticker-8013",
+      "name": "Sticker | Wildcard (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/wcrd_glitter_png.png"
+  },
+  "sticker-8014": {
+      "id": "sticker-8014",
+      "name": "Sticker | Wildcard (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/wcrd_holo_png.png"
+  },
+  "sticker-8015": {
+      "id": "sticker-8015",
+      "name": "Sticker | Wildcard (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/wcrd_gold_png.png"
+  },
+  "sticker-8016": {
+      "id": "sticker-8016",
+      "name": "Sticker | Rare Atom | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/ratm_png.png"
+  },
+  "sticker-8017": {
+      "id": "sticker-8017",
+      "name": "Sticker | Rare Atom (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/ratm_glitter_png.png"
+  },
+  "sticker-8018": {
+      "id": "sticker-8018",
+      "name": "Sticker | Rare Atom (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/ratm_holo_png.png"
+  },
+  "sticker-8019": {
+      "id": "sticker-8019",
+      "name": "Sticker | Rare Atom (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/ratm_gold_png.png"
+  },
+  "sticker-8020": {
+      "id": "sticker-8020",
+      "name": "Sticker | Imperial Esports | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/imp_png.png"
+  },
+  "sticker-8021": {
+      "id": "sticker-8021",
+      "name": "Sticker | Imperial Esports (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/imp_glitter_png.png"
+  },
+  "sticker-8022": {
+      "id": "sticker-8022",
+      "name": "Sticker | Imperial Esports (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/imp_holo_png.png"
+  },
+  "sticker-8023": {
+      "id": "sticker-8023",
+      "name": "Sticker | Imperial Esports (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/imp_gold_png.png"
+  },
+  "sticker-8024": {
+      "id": "sticker-8024",
+      "name": "Sticker | Perfect World | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_png.png"
+  },
+  "sticker-8025": {
+      "id": "sticker-8025",
+      "name": "Sticker | Perfect World (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_glitter_png.png"
+  },
+  "sticker-8026": {
+      "id": "sticker-8026",
+      "name": "Sticker | Perfect World (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_holo_png.png"
+  },
+  "sticker-8027": {
+      "id": "sticker-8027",
+      "name": "Sticker | Perfect World (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/pw_gold_png.png"
+  },
+  "sticker-8053": {
+      "id": "sticker-8053",
+      "name": "Sticker | Snax | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snax_png.png"
+  },
+  "sticker-8054": {
+      "id": "sticker-8054",
+      "name": "Sticker | Snax (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snax_glitter_png.png"
+  },
+  "sticker-8055": {
+      "id": "sticker-8055",
+      "name": "Sticker | Snax (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snax_holo_png.png"
+  },
+  "sticker-8056": {
+      "id": "sticker-8056",
+      "name": "Sticker | Snax (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snax_gold_png.png"
+  },
+  "sticker-8057": {
+      "id": "sticker-8057",
+      "name": "Sticker | huNter- | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hunter_png.png"
+  },
+  "sticker-8058": {
+      "id": "sticker-8058",
+      "name": "Sticker | huNter- (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hunter_glitter_png.png"
+  },
+  "sticker-8059": {
+      "id": "sticker-8059",
+      "name": "Sticker | huNter- (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hunter_holo_png.png"
+  },
+  "sticker-8060": {
+      "id": "sticker-8060",
+      "name": "Sticker | huNter- (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hunter_gold_png.png"
+  },
+  "sticker-8061": {
+      "id": "sticker-8061",
+      "name": "Sticker | malbsMd | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_malbsmd_png.png"
+  },
+  "sticker-8062": {
+      "id": "sticker-8062",
+      "name": "Sticker | malbsMd (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_malbsmd_glitter_png.png"
+  },
+  "sticker-8063": {
+      "id": "sticker-8063",
+      "name": "Sticker | malbsMd (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_malbsmd_holo_png.png"
+  },
+  "sticker-8064": {
+      "id": "sticker-8064",
+      "name": "Sticker | malbsMd (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_malbsmd_gold_png.png"
+  },
+  "sticker-8065": {
+      "id": "sticker-8065",
+      "name": "Sticker | m0NESY | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_png.png"
+  },
+  "sticker-8066": {
+      "id": "sticker-8066",
+      "name": "Sticker | m0NESY (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_glitter_png.png"
+  },
+  "sticker-8067": {
+      "id": "sticker-8067",
+      "name": "Sticker | m0NESY (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_holo_png.png"
+  },
+  "sticker-8068": {
+      "id": "sticker-8068",
+      "name": "Sticker | m0NESY (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_gold_png.png"
+  },
+  "sticker-8069": {
+      "id": "sticker-8069",
+      "name": "Sticker | NiKo | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_niko_png.png"
+  },
+  "sticker-8070": {
+      "id": "sticker-8070",
+      "name": "Sticker | NiKo (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_niko_glitter_png.png"
+  },
+  "sticker-8071": {
+      "id": "sticker-8071",
+      "name": "Sticker | NiKo (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_niko_holo_png.png"
+  },
+  "sticker-8072": {
+      "id": "sticker-8072",
+      "name": "Sticker | NiKo (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_niko_gold_png.png"
+  },
+  "sticker-8073": {
+      "id": "sticker-8073",
+      "name": "Sticker | w0nderful | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_w0nderful_png.png"
+  },
+  "sticker-8074": {
+      "id": "sticker-8074",
+      "name": "Sticker | w0nderful (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_w0nderful_glitter_png.png"
+  },
+  "sticker-8075": {
+      "id": "sticker-8075",
+      "name": "Sticker | w0nderful (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_w0nderful_holo_png.png"
+  },
+  "sticker-8076": {
+      "id": "sticker-8076",
+      "name": "Sticker | w0nderful (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_w0nderful_gold_png.png"
+  },
+  "sticker-8077": {
+      "id": "sticker-8077",
+      "name": "Sticker | Aleksib | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_aleksib_png.png"
+  },
+  "sticker-8078": {
+      "id": "sticker-8078",
+      "name": "Sticker | Aleksib (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_aleksib_glitter_png.png"
+  },
+  "sticker-8079": {
+      "id": "sticker-8079",
+      "name": "Sticker | Aleksib (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_aleksib_holo_png.png"
+  },
+  "sticker-8080": {
+      "id": "sticker-8080",
+      "name": "Sticker | Aleksib (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_aleksib_gold_png.png"
+  },
+  "sticker-8081": {
+      "id": "sticker-8081",
+      "name": "Sticker | jL | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jl_png.png"
+  },
+  "sticker-8082": {
+      "id": "sticker-8082",
+      "name": "Sticker | jL (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jl_glitter_png.png"
+  },
+  "sticker-8083": {
+      "id": "sticker-8083",
+      "name": "Sticker | jL (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jl_holo_png.png"
+  },
+  "sticker-8084": {
+      "id": "sticker-8084",
+      "name": "Sticker | jL (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jl_gold_png.png"
+  },
+  "sticker-8085": {
+      "id": "sticker-8085",
+      "name": "Sticker | b1t | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_b1t_png.png"
+  },
+  "sticker-8086": {
+      "id": "sticker-8086",
+      "name": "Sticker | b1t (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_b1t_glitter_png.png"
+  },
+  "sticker-8087": {
+      "id": "sticker-8087",
+      "name": "Sticker | b1t (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_b1t_holo_png.png"
+  },
+  "sticker-8088": {
+      "id": "sticker-8088",
+      "name": "Sticker | b1t (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_b1t_gold_png.png"
+  },
+  "sticker-8089": {
+      "id": "sticker-8089",
+      "name": "Sticker | iM | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_im_png.png"
+  },
+  "sticker-8090": {
+      "id": "sticker-8090",
+      "name": "Sticker | iM (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_im_glitter_png.png"
+  },
+  "sticker-8091": {
+      "id": "sticker-8091",
+      "name": "Sticker | iM (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_im_holo_png.png"
+  },
+  "sticker-8092": {
+      "id": "sticker-8092",
+      "name": "Sticker | iM (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_im_gold_png.png"
+  },
+  "sticker-8093": {
+      "id": "sticker-8093",
+      "name": "Sticker | ZywOo | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zywoo_png.png"
+  },
+  "sticker-8094": {
+      "id": "sticker-8094",
+      "name": "Sticker | ZywOo (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zywoo_glitter_png.png"
+  },
+  "sticker-8095": {
+      "id": "sticker-8095",
+      "name": "Sticker | ZywOo (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zywoo_holo_png.png"
+  },
+  "sticker-8096": {
+      "id": "sticker-8096",
+      "name": "Sticker | ZywOo (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zywoo_gold_png.png"
+  },
+  "sticker-8097": {
+      "id": "sticker-8097",
+      "name": "Sticker | apEX | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_apex_png.png"
+  },
+  "sticker-8098": {
+      "id": "sticker-8098",
+      "name": "Sticker | apEX (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_apex_glitter_png.png"
+  },
+  "sticker-8099": {
+      "id": "sticker-8099",
+      "name": "Sticker | apEX (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_apex_holo_png.png"
+  },
+  "sticker-8100": {
+      "id": "sticker-8100",
+      "name": "Sticker | apEX (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_apex_gold_png.png"
+  },
+  "sticker-8101": {
+      "id": "sticker-8101",
+      "name": "Sticker | mezii | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mezii_png.png"
+  },
+  "sticker-8102": {
+      "id": "sticker-8102",
+      "name": "Sticker | mezii (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mezii_glitter_png.png"
+  },
+  "sticker-8103": {
+      "id": "sticker-8103",
+      "name": "Sticker | mezii (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mezii_holo_png.png"
+  },
+  "sticker-8104": {
+      "id": "sticker-8104",
+      "name": "Sticker | mezii (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mezii_gold_png.png"
+  },
+  "sticker-8105": {
+      "id": "sticker-8105",
+      "name": "Sticker | FlameZ | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_flamez_png.png"
+  },
+  "sticker-8106": {
+      "id": "sticker-8106",
+      "name": "Sticker | FlameZ (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_flamez_glitter_png.png"
+  },
+  "sticker-8107": {
+      "id": "sticker-8107",
+      "name": "Sticker | FlameZ (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_flamez_holo_png.png"
+  },
+  "sticker-8108": {
+      "id": "sticker-8108",
+      "name": "Sticker | FlameZ (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_flamez_gold_png.png"
+  },
+  "sticker-8109": {
+      "id": "sticker-8109",
+      "name": "Sticker | Spinx | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_spinx_png.png"
+  },
+  "sticker-8110": {
+      "id": "sticker-8110",
+      "name": "Sticker | Spinx (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_spinx_glitter_png.png"
+  },
+  "sticker-8111": {
+      "id": "sticker-8111",
+      "name": "Sticker | Spinx (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_spinx_holo_png.png"
+  },
+  "sticker-8112": {
+      "id": "sticker-8112",
+      "name": "Sticker | Spinx (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_spinx_gold_png.png"
+  },
+  "sticker-8113": {
+      "id": "sticker-8113",
+      "name": "Sticker | chopper | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_png.png"
+  },
+  "sticker-8114": {
+      "id": "sticker-8114",
+      "name": "Sticker | chopper (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_glitter_png.png"
+  },
+  "sticker-8115": {
+      "id": "sticker-8115",
+      "name": "Sticker | chopper (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_holo_png.png"
+  },
+  "sticker-8116": {
+      "id": "sticker-8116",
+      "name": "Sticker | chopper (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_gold_png.png"
+  },
+  "sticker-8117": {
+      "id": "sticker-8117",
+      "name": "Sticker | magixx | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_png.png"
+  },
+  "sticker-8118": {
+      "id": "sticker-8118",
+      "name": "Sticker | magixx (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_glitter_png.png"
+  },
+  "sticker-8119": {
+      "id": "sticker-8119",
+      "name": "Sticker | magixx (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_holo_png.png"
+  },
+  "sticker-8120": {
+      "id": "sticker-8120",
+      "name": "Sticker | magixx (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_magixx_gold_png.png"
+  },
+  "sticker-8121": {
+      "id": "sticker-8121",
+      "name": "Sticker | donk | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_png.png"
+  },
+  "sticker-8122": {
+      "id": "sticker-8122",
+      "name": "Sticker | donk (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_glitter_png.png"
+  },
+  "sticker-8123": {
+      "id": "sticker-8123",
+      "name": "Sticker | donk (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_holo_png.png"
+  },
+  "sticker-8124": {
+      "id": "sticker-8124",
+      "name": "Sticker | donk (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_gold_png.png"
+  },
+  "sticker-8125": {
+      "id": "sticker-8125",
+      "name": "Sticker | sh1ro | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_png.png"
+  },
+  "sticker-8126": {
+      "id": "sticker-8126",
+      "name": "Sticker | sh1ro (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_glitter_png.png"
+  },
+  "sticker-8127": {
+      "id": "sticker-8127",
+      "name": "Sticker | sh1ro (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_holo_png.png"
+  },
+  "sticker-8128": {
+      "id": "sticker-8128",
+      "name": "Sticker | sh1ro (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sh1ro_gold_png.png"
+  },
+  "sticker-8129": {
+      "id": "sticker-8129",
+      "name": "Sticker | zont1x | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_png.png"
+  },
+  "sticker-8130": {
+      "id": "sticker-8130",
+      "name": "Sticker | zont1x (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_glitter_png.png"
+  },
+  "sticker-8131": {
+      "id": "sticker-8131",
+      "name": "Sticker | zont1x (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_holo_png.png"
+  },
+  "sticker-8132": {
+      "id": "sticker-8132",
+      "name": "Sticker | zont1x (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zont1x_gold_png.png"
+  },
+  "sticker-8133": {
+      "id": "sticker-8133",
+      "name": "Sticker | torzsi | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_torzsi_png.png"
+  },
+  "sticker-8134": {
+      "id": "sticker-8134",
+      "name": "Sticker | torzsi (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_torzsi_glitter_png.png"
+  },
+  "sticker-8135": {
+      "id": "sticker-8135",
+      "name": "Sticker | torzsi (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_torzsi_holo_png.png"
+  },
+  "sticker-8136": {
+      "id": "sticker-8136",
+      "name": "Sticker | torzsi (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_torzsi_gold_png.png"
+  },
+  "sticker-8137": {
+      "id": "sticker-8137",
+      "name": "Sticker | xertioN | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_xertion_png.png"
+  },
+  "sticker-8138": {
+      "id": "sticker-8138",
+      "name": "Sticker | xertioN (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_xertion_glitter_png.png"
+  },
+  "sticker-8139": {
+      "id": "sticker-8139",
+      "name": "Sticker | xertioN (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_xertion_holo_png.png"
+  },
+  "sticker-8140": {
+      "id": "sticker-8140",
+      "name": "Sticker | xertioN (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_xertion_gold_png.png"
+  },
+  "sticker-8141": {
+      "id": "sticker-8141",
+      "name": "Sticker | Brollan | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_brollan_png.png"
+  },
+  "sticker-8142": {
+      "id": "sticker-8142",
+      "name": "Sticker | Brollan (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_brollan_glitter_png.png"
+  },
+  "sticker-8143": {
+      "id": "sticker-8143",
+      "name": "Sticker | Brollan (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_brollan_holo_png.png"
+  },
+  "sticker-8144": {
+      "id": "sticker-8144",
+      "name": "Sticker | Brollan (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_brollan_gold_png.png"
+  },
+  "sticker-8145": {
+      "id": "sticker-8145",
+      "name": "Sticker | Jimpphat | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jimpphat_png.png"
+  },
+  "sticker-8146": {
+      "id": "sticker-8146",
+      "name": "Sticker | Jimpphat (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jimpphat_glitter_png.png"
+  },
+  "sticker-8147": {
+      "id": "sticker-8147",
+      "name": "Sticker | Jimpphat (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jimpphat_holo_png.png"
+  },
+  "sticker-8148": {
+      "id": "sticker-8148",
+      "name": "Sticker | Jimpphat (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jimpphat_gold_png.png"
+  },
+  "sticker-8149": {
+      "id": "sticker-8149",
+      "name": "Sticker | siuhy | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_siuhy_png.png"
+  },
+  "sticker-8150": {
+      "id": "sticker-8150",
+      "name": "Sticker | siuhy (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_siuhy_glitter_png.png"
+  },
+  "sticker-8151": {
+      "id": "sticker-8151",
+      "name": "Sticker | siuhy (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_siuhy_holo_png.png"
+  },
+  "sticker-8152": {
+      "id": "sticker-8152",
+      "name": "Sticker | siuhy (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_siuhy_gold_png.png"
+  },
+  "sticker-8153": {
+      "id": "sticker-8153",
+      "name": "Sticker | karrigan | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_karrigan_png.png"
+  },
+  "sticker-8154": {
+      "id": "sticker-8154",
+      "name": "Sticker | karrigan (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_karrigan_glitter_png.png"
+  },
+  "sticker-8155": {
+      "id": "sticker-8155",
+      "name": "Sticker | karrigan (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_karrigan_holo_png.png"
+  },
+  "sticker-8156": {
+      "id": "sticker-8156",
+      "name": "Sticker | karrigan (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_karrigan_gold_png.png"
+  },
+  "sticker-8157": {
+      "id": "sticker-8157",
+      "name": "Sticker | rain | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rain_png.png"
+  },
+  "sticker-8158": {
+      "id": "sticker-8158",
+      "name": "Sticker | rain (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rain_glitter_png.png"
+  },
+  "sticker-8159": {
+      "id": "sticker-8159",
+      "name": "Sticker | rain (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rain_holo_png.png"
+  },
+  "sticker-8160": {
+      "id": "sticker-8160",
+      "name": "Sticker | rain (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rain_gold_png.png"
+  },
+  "sticker-8161": {
+      "id": "sticker-8161",
+      "name": "Sticker | ropz | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ropz_png.png"
+  },
+  "sticker-8162": {
+      "id": "sticker-8162",
+      "name": "Sticker | ropz (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ropz_glitter_png.png"
+  },
+  "sticker-8163": {
+      "id": "sticker-8163",
+      "name": "Sticker | ropz (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ropz_holo_png.png"
+  },
+  "sticker-8164": {
+      "id": "sticker-8164",
+      "name": "Sticker | ropz (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ropz_gold_png.png"
+  },
+  "sticker-8165": {
+      "id": "sticker-8165",
+      "name": "Sticker | broky | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_broky_png.png"
+  },
+  "sticker-8166": {
+      "id": "sticker-8166",
+      "name": "Sticker | broky (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_broky_glitter_png.png"
+  },
+  "sticker-8167": {
+      "id": "sticker-8167",
+      "name": "Sticker | broky (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_broky_holo_png.png"
+  },
+  "sticker-8168": {
+      "id": "sticker-8168",
+      "name": "Sticker | broky (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_broky_gold_png.png"
+  },
+  "sticker-8169": {
+      "id": "sticker-8169",
+      "name": "Sticker | frozen | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_frozen_png.png"
+  },
+  "sticker-8170": {
+      "id": "sticker-8170",
+      "name": "Sticker | frozen (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_frozen_glitter_png.png"
+  },
+  "sticker-8171": {
+      "id": "sticker-8171",
+      "name": "Sticker | frozen (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_frozen_holo_png.png"
+  },
+  "sticker-8172": {
+      "id": "sticker-8172",
+      "name": "Sticker | frozen (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_frozen_gold_png.png"
+  },
+  "sticker-8173": {
+      "id": "sticker-8173",
+      "name": "Sticker | TeSeS | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_teses_png.png"
+  },
+  "sticker-8174": {
+      "id": "sticker-8174",
+      "name": "Sticker | TeSeS (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_teses_glitter_png.png"
+  },
+  "sticker-8175": {
+      "id": "sticker-8175",
+      "name": "Sticker | TeSeS (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_teses_holo_png.png"
+  },
+  "sticker-8176": {
+      "id": "sticker-8176",
+      "name": "Sticker | TeSeS (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_teses_gold_png.png"
+  },
+  "sticker-8177": {
+      "id": "sticker-8177",
+      "name": "Sticker | sjuush | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sjuush_png.png"
+  },
+  "sticker-8178": {
+      "id": "sticker-8178",
+      "name": "Sticker | sjuush (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sjuush_glitter_png.png"
+  },
+  "sticker-8179": {
+      "id": "sticker-8179",
+      "name": "Sticker | sjuush (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sjuush_holo_png.png"
+  },
+  "sticker-8180": {
+      "id": "sticker-8180",
+      "name": "Sticker | sjuush (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sjuush_gold_png.png"
+  },
+  "sticker-8181": {
+      "id": "sticker-8181",
+      "name": "Sticker | kyxsan | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kyxsan_png.png"
+  },
+  "sticker-8182": {
+      "id": "sticker-8182",
+      "name": "Sticker | kyxsan (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kyxsan_glitter_png.png"
+  },
+  "sticker-8183": {
+      "id": "sticker-8183",
+      "name": "Sticker | kyxsan (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kyxsan_holo_png.png"
+  },
+  "sticker-8184": {
+      "id": "sticker-8184",
+      "name": "Sticker | kyxsan (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kyxsan_gold_png.png"
+  },
+  "sticker-8185": {
+      "id": "sticker-8185",
+      "name": "Sticker | NertZ | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nertz_png.png"
+  },
+  "sticker-8186": {
+      "id": "sticker-8186",
+      "name": "Sticker | NertZ (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nertz_glitter_png.png"
+  },
+  "sticker-8187": {
+      "id": "sticker-8187",
+      "name": "Sticker | NertZ (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nertz_holo_png.png"
+  },
+  "sticker-8188": {
+      "id": "sticker-8188",
+      "name": "Sticker | NertZ (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nertz_gold_png.png"
+  },
+  "sticker-8189": {
+      "id": "sticker-8189",
+      "name": "Sticker | degster | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_degster_png.png"
+  },
+  "sticker-8190": {
+      "id": "sticker-8190",
+      "name": "Sticker | degster (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_degster_glitter_png.png"
+  },
+  "sticker-8191": {
+      "id": "sticker-8191",
+      "name": "Sticker | degster (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_degster_holo_png.png"
+  },
+  "sticker-8192": {
+      "id": "sticker-8192",
+      "name": "Sticker | degster (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_degster_gold_png.png"
+  },
+  "sticker-8193": {
+      "id": "sticker-8193",
+      "name": "Sticker | Ex3rcice | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ex3rcice_png.png"
+  },
+  "sticker-8194": {
+      "id": "sticker-8194",
+      "name": "Sticker | Ex3rcice (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ex3rcice_glitter_png.png"
+  },
+  "sticker-8195": {
+      "id": "sticker-8195",
+      "name": "Sticker | Ex3rcice (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ex3rcice_holo_png.png"
+  },
+  "sticker-8196": {
+      "id": "sticker-8196",
+      "name": "Sticker | Ex3rcice (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ex3rcice_gold_png.png"
+  },
+  "sticker-8197": {
+      "id": "sticker-8197",
+      "name": "Sticker | Djoko | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_djoko_png.png"
+  },
+  "sticker-8198": {
+      "id": "sticker-8198",
+      "name": "Sticker | Djoko (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_djoko_glitter_png.png"
+  },
+  "sticker-8199": {
+      "id": "sticker-8199",
+      "name": "Sticker | Djoko (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_djoko_holo_png.png"
+  },
+  "sticker-8200": {
+      "id": "sticker-8200",
+      "name": "Sticker | Djoko (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_djoko_gold_png.png"
+  },
+  "sticker-8201": {
+      "id": "sticker-8201",
+      "name": "Sticker | Maka | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_maka_png.png"
+  },
+  "sticker-8202": {
+      "id": "sticker-8202",
+      "name": "Sticker | Maka (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_maka_glitter_png.png"
+  },
+  "sticker-8203": {
+      "id": "sticker-8203",
+      "name": "Sticker | Maka (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_maka_holo_png.png"
+  },
+  "sticker-8204": {
+      "id": "sticker-8204",
+      "name": "Sticker | Maka (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_maka_gold_png.png"
+  },
+  "sticker-8205": {
+      "id": "sticker-8205",
+      "name": "Sticker | Lucky | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucky_png.png"
+  },
+  "sticker-8206": {
+      "id": "sticker-8206",
+      "name": "Sticker | Lucky (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucky_glitter_png.png"
+  },
+  "sticker-8207": {
+      "id": "sticker-8207",
+      "name": "Sticker | Lucky (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucky_holo_png.png"
+  },
+  "sticker-8208": {
+      "id": "sticker-8208",
+      "name": "Sticker | Lucky (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucky_gold_png.png"
+  },
+  "sticker-8209": {
+      "id": "sticker-8209",
+      "name": "Sticker | Graviti | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_graviti_png.png"
+  },
+  "sticker-8210": {
+      "id": "sticker-8210",
+      "name": "Sticker | Graviti (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_graviti_glitter_png.png"
+  },
+  "sticker-8211": {
+      "id": "sticker-8211",
+      "name": "Sticker | Graviti (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_graviti_holo_png.png"
+  },
+  "sticker-8212": {
+      "id": "sticker-8212",
+      "name": "Sticker | Graviti (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_graviti_gold_png.png"
+  },
+  "sticker-8213": {
+      "id": "sticker-8213",
+      "name": "Sticker | FalleN | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fallen_png.png"
+  },
+  "sticker-8214": {
+      "id": "sticker-8214",
+      "name": "Sticker | FalleN (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fallen_glitter_png.png"
+  },
+  "sticker-8215": {
+      "id": "sticker-8215",
+      "name": "Sticker | FalleN (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fallen_holo_png.png"
+  },
+  "sticker-8216": {
+      "id": "sticker-8216",
+      "name": "Sticker | FalleN (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fallen_gold_png.png"
+  },
+  "sticker-8217": {
+      "id": "sticker-8217",
+      "name": "Sticker | chelo | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chelo_png.png"
+  },
+  "sticker-8218": {
+      "id": "sticker-8218",
+      "name": "Sticker | chelo (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chelo_glitter_png.png"
+  },
+  "sticker-8219": {
+      "id": "sticker-8219",
+      "name": "Sticker | chelo (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chelo_holo_png.png"
+  },
+  "sticker-8220": {
+      "id": "sticker-8220",
+      "name": "Sticker | chelo (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chelo_gold_png.png"
+  },
+  "sticker-8221": {
+      "id": "sticker-8221",
+      "name": "Sticker | yuurih | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yuurih_png.png"
+  },
+  "sticker-8222": {
+      "id": "sticker-8222",
+      "name": "Sticker | yuurih (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yuurih_glitter_png.png"
+  },
+  "sticker-8223": {
+      "id": "sticker-8223",
+      "name": "Sticker | yuurih (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yuurih_holo_png.png"
+  },
+  "sticker-8224": {
+      "id": "sticker-8224",
+      "name": "Sticker | yuurih (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yuurih_gold_png.png"
+  },
+  "sticker-8225": {
+      "id": "sticker-8225",
+      "name": "Sticker | KSCERATO | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kscerato_png.png"
+  },
+  "sticker-8226": {
+      "id": "sticker-8226",
+      "name": "Sticker | KSCERATO (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kscerato_glitter_png.png"
+  },
+  "sticker-8227": {
+      "id": "sticker-8227",
+      "name": "Sticker | KSCERATO (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kscerato_holo_png.png"
+  },
+  "sticker-8228": {
+      "id": "sticker-8228",
+      "name": "Sticker | KSCERATO (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kscerato_gold_png.png"
+  },
+  "sticker-8229": {
+      "id": "sticker-8229",
+      "name": "Sticker | skullz | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_skullz_png.png"
+  },
+  "sticker-8230": {
+      "id": "sticker-8230",
+      "name": "Sticker | skullz (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_skullz_glitter_png.png"
+  },
+  "sticker-8231": {
+      "id": "sticker-8231",
+      "name": "Sticker | skullz (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_skullz_holo_png.png"
+  },
+  "sticker-8232": {
+      "id": "sticker-8232",
+      "name": "Sticker | skullz (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_skullz_gold_png.png"
+  },
+  "sticker-8233": {
+      "id": "sticker-8233",
+      "name": "Sticker | FL1T | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl1t_png.png"
+  },
+  "sticker-8234": {
+      "id": "sticker-8234",
+      "name": "Sticker | FL1T (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl1t_glitter_png.png"
+  },
+  "sticker-8235": {
+      "id": "sticker-8235",
+      "name": "Sticker | FL1T (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl1t_holo_png.png"
+  },
+  "sticker-8236": {
+      "id": "sticker-8236",
+      "name": "Sticker | FL1T (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl1t_gold_png.png"
+  },
+  "sticker-8237": {
+      "id": "sticker-8237",
+      "name": "Sticker | Jame | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jame_png.png"
+  },
+  "sticker-8238": {
+      "id": "sticker-8238",
+      "name": "Sticker | Jame (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jame_glitter_png.png"
+  },
+  "sticker-8239": {
+      "id": "sticker-8239",
+      "name": "Sticker | Jame (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jame_holo_png.png"
+  },
+  "sticker-8240": {
+      "id": "sticker-8240",
+      "name": "Sticker | Jame (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jame_gold_png.png"
+  },
+  "sticker-8241": {
+      "id": "sticker-8241",
+      "name": "Sticker | fame | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fame_png.png"
+  },
+  "sticker-8242": {
+      "id": "sticker-8242",
+      "name": "Sticker | fame (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fame_glitter_png.png"
+  },
+  "sticker-8243": {
+      "id": "sticker-8243",
+      "name": "Sticker | fame (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fame_holo_png.png"
+  },
+  "sticker-8244": {
+      "id": "sticker-8244",
+      "name": "Sticker | fame (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fame_gold_png.png"
+  },
+  "sticker-8245": {
+      "id": "sticker-8245",
+      "name": "Sticker | n0rb3r7 | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_n0rb3r7_png.png"
+  },
+  "sticker-8246": {
+      "id": "sticker-8246",
+      "name": "Sticker | n0rb3r7 (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_n0rb3r7_glitter_png.png"
+  },
+  "sticker-8247": {
+      "id": "sticker-8247",
+      "name": "Sticker | n0rb3r7 (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_n0rb3r7_holo_png.png"
+  },
+  "sticker-8248": {
+      "id": "sticker-8248",
+      "name": "Sticker | n0rb3r7 (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_n0rb3r7_gold_png.png"
+  },
+  "sticker-8249": {
+      "id": "sticker-8249",
+      "name": "Sticker | electronic | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_electronic_png.png"
+  },
+  "sticker-8250": {
+      "id": "sticker-8250",
+      "name": "Sticker | electronic (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_electronic_glitter_png.png"
+  },
+  "sticker-8251": {
+      "id": "sticker-8251",
+      "name": "Sticker | electronic (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_electronic_holo_png.png"
+  },
+  "sticker-8252": {
+      "id": "sticker-8252",
+      "name": "Sticker | electronic (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_electronic_gold_png.png"
+  },
+  "sticker-8253": {
+      "id": "sticker-8253",
+      "name": "Sticker | Twistzz | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_twistzz_png.png"
+  },
+  "sticker-8254": {
+      "id": "sticker-8254",
+      "name": "Sticker | Twistzz (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_twistzz_glitter_png.png"
+  },
+  "sticker-8255": {
+      "id": "sticker-8255",
+      "name": "Sticker | Twistzz (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_twistzz_holo_png.png"
+  },
+  "sticker-8256": {
+      "id": "sticker-8256",
+      "name": "Sticker | Twistzz (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_twistzz_gold_png.png"
+  },
+  "sticker-8257": {
+      "id": "sticker-8257",
+      "name": "Sticker | ultimate | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ultimate_png.png"
+  },
+  "sticker-8258": {
+      "id": "sticker-8258",
+      "name": "Sticker | ultimate (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ultimate_glitter_png.png"
+  },
+  "sticker-8259": {
+      "id": "sticker-8259",
+      "name": "Sticker | ultimate (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ultimate_holo_png.png"
+  },
+  "sticker-8260": {
+      "id": "sticker-8260",
+      "name": "Sticker | ultimate (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ultimate_gold_png.png"
+  },
+  "sticker-8261": {
+      "id": "sticker-8261",
+      "name": "Sticker | YEKINDAR | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yekindar_png.png"
+  },
+  "sticker-8262": {
+      "id": "sticker-8262",
+      "name": "Sticker | YEKINDAR (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yekindar_glitter_png.png"
+  },
+  "sticker-8263": {
+      "id": "sticker-8263",
+      "name": "Sticker | YEKINDAR (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yekindar_holo_png.png"
+  },
+  "sticker-8264": {
+      "id": "sticker-8264",
+      "name": "Sticker | YEKINDAR (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_yekindar_gold_png.png"
+  },
+  "sticker-8265": {
+      "id": "sticker-8265",
+      "name": "Sticker | jks | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jks_png.png"
+  },
+  "sticker-8266": {
+      "id": "sticker-8266",
+      "name": "Sticker | jks (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jks_glitter_png.png"
+  },
+  "sticker-8267": {
+      "id": "sticker-8267",
+      "name": "Sticker | jks (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jks_holo_png.png"
+  },
+  "sticker-8268": {
+      "id": "sticker-8268",
+      "name": "Sticker | jks (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jks_gold_png.png"
+  },
+  "sticker-8269": {
+      "id": "sticker-8269",
+      "name": "Sticker | NAF | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_naf_png.png"
+  },
+  "sticker-8270": {
+      "id": "sticker-8270",
+      "name": "Sticker | NAF (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_naf_glitter_png.png"
+  },
+  "sticker-8271": {
+      "id": "sticker-8271",
+      "name": "Sticker | NAF (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_naf_holo_png.png"
+  },
+  "sticker-8272": {
+      "id": "sticker-8272",
+      "name": "Sticker | NAF (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_naf_gold_png.png"
+  },
+  "sticker-8273": {
+      "id": "sticker-8273",
+      "name": "Sticker | EliGE | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_elige_png.png"
+  },
+  "sticker-8274": {
+      "id": "sticker-8274",
+      "name": "Sticker | EliGE (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_elige_glitter_png.png"
+  },
+  "sticker-8275": {
+      "id": "sticker-8275",
+      "name": "Sticker | EliGE (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_elige_holo_png.png"
+  },
+  "sticker-8276": {
+      "id": "sticker-8276",
+      "name": "Sticker | EliGE (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_elige_gold_png.png"
+  },
+  "sticker-8277": {
+      "id": "sticker-8277",
+      "name": "Sticker | floppy | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_floppy_png.png"
+  },
+  "sticker-8278": {
+      "id": "sticker-8278",
+      "name": "Sticker | floppy (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_floppy_glitter_png.png"
+  },
+  "sticker-8279": {
+      "id": "sticker-8279",
+      "name": "Sticker | floppy (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_floppy_holo_png.png"
+  },
+  "sticker-8280": {
+      "id": "sticker-8280",
+      "name": "Sticker | floppy (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_floppy_gold_png.png"
+  },
+  "sticker-8281": {
+      "id": "sticker-8281",
+      "name": "Sticker | Grim | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_grim_png.png"
+  },
+  "sticker-8282": {
+      "id": "sticker-8282",
+      "name": "Sticker | Grim (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_grim_glitter_png.png"
+  },
+  "sticker-8283": {
+      "id": "sticker-8283",
+      "name": "Sticker | Grim (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_grim_holo_png.png"
+  },
+  "sticker-8284": {
+      "id": "sticker-8284",
+      "name": "Sticker | Grim (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_grim_gold_png.png"
+  },
+  "sticker-8285": {
+      "id": "sticker-8285",
+      "name": "Sticker | hallzerk | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hallzerk_png.png"
+  },
+  "sticker-8286": {
+      "id": "sticker-8286",
+      "name": "Sticker | hallzerk (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hallzerk_glitter_png.png"
+  },
+  "sticker-8287": {
+      "id": "sticker-8287",
+      "name": "Sticker | hallzerk (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hallzerk_holo_png.png"
+  },
+  "sticker-8288": {
+      "id": "sticker-8288",
+      "name": "Sticker | hallzerk (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_hallzerk_gold_png.png"
+  },
+  "sticker-8289": {
+      "id": "sticker-8289",
+      "name": "Sticker | JT | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jt_png.png"
+  },
+  "sticker-8290": {
+      "id": "sticker-8290",
+      "name": "Sticker | JT (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jt_glitter_png.png"
+  },
+  "sticker-8291": {
+      "id": "sticker-8291",
+      "name": "Sticker | JT (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jt_holo_png.png"
+  },
+  "sticker-8292": {
+      "id": "sticker-8292",
+      "name": "Sticker | JT (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jt_gold_png.png"
+  },
+  "sticker-8293": {
+      "id": "sticker-8293",
+      "name": "Sticker | tabseN | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_tabsen_png.png"
+  },
+  "sticker-8294": {
+      "id": "sticker-8294",
+      "name": "Sticker | tabseN (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_tabsen_glitter_png.png"
+  },
+  "sticker-8295": {
+      "id": "sticker-8295",
+      "name": "Sticker | tabseN (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_tabsen_holo_png.png"
+  },
+  "sticker-8296": {
+      "id": "sticker-8296",
+      "name": "Sticker | tabseN (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_tabsen_gold_png.png"
+  },
+  "sticker-8297": {
+      "id": "sticker-8297",
+      "name": "Sticker | Krimbo | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimbo_png.png"
+  },
+  "sticker-8298": {
+      "id": "sticker-8298",
+      "name": "Sticker | Krimbo (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimbo_glitter_png.png"
+  },
+  "sticker-8299": {
+      "id": "sticker-8299",
+      "name": "Sticker | Krimbo (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimbo_holo_png.png"
+  },
+  "sticker-8300": {
+      "id": "sticker-8300",
+      "name": "Sticker | Krimbo (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimbo_gold_png.png"
+  },
+  "sticker-8301": {
+      "id": "sticker-8301",
+      "name": "Sticker | JDC | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jdc_png.png"
+  },
+  "sticker-8302": {
+      "id": "sticker-8302",
+      "name": "Sticker | JDC (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jdc_glitter_png.png"
+  },
+  "sticker-8303": {
+      "id": "sticker-8303",
+      "name": "Sticker | JDC (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jdc_holo_png.png"
+  },
+  "sticker-8304": {
+      "id": "sticker-8304",
+      "name": "Sticker | JDC (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jdc_gold_png.png"
+  },
+  "sticker-8305": {
+      "id": "sticker-8305",
+      "name": "Sticker | syrsoN | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_syrson_png.png"
+  },
+  "sticker-8306": {
+      "id": "sticker-8306",
+      "name": "Sticker | syrsoN (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_syrson_glitter_png.png"
+  },
+  "sticker-8307": {
+      "id": "sticker-8307",
+      "name": "Sticker | syrsoN (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_syrson_holo_png.png"
+  },
+  "sticker-8308": {
+      "id": "sticker-8308",
+      "name": "Sticker | syrsoN (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_syrson_gold_png.png"
+  },
+  "sticker-8309": {
+      "id": "sticker-8309",
+      "name": "Sticker | rigoN | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rigon_png.png"
+  },
+  "sticker-8310": {
+      "id": "sticker-8310",
+      "name": "Sticker | rigoN (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rigon_glitter_png.png"
+  },
+  "sticker-8311": {
+      "id": "sticker-8311",
+      "name": "Sticker | rigoN (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rigon_holo_png.png"
+  },
+  "sticker-8312": {
+      "id": "sticker-8312",
+      "name": "Sticker | rigoN (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_rigon_gold_png.png"
+  },
+  "sticker-8313": {
+      "id": "sticker-8313",
+      "name": "Sticker | KRIMZ | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimz_png.png"
+  },
+  "sticker-8314": {
+      "id": "sticker-8314",
+      "name": "Sticker | KRIMZ (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimz_glitter_png.png"
+  },
+  "sticker-8315": {
+      "id": "sticker-8315",
+      "name": "Sticker | KRIMZ (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimz_holo_png.png"
+  },
+  "sticker-8316": {
+      "id": "sticker-8316",
+      "name": "Sticker | KRIMZ (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_krimz_gold_png.png"
+  },
+  "sticker-8317": {
+      "id": "sticker-8317",
+      "name": "Sticker | bodyy | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_bodyy_png.png"
+  },
+  "sticker-8318": {
+      "id": "sticker-8318",
+      "name": "Sticker | bodyy (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_bodyy_glitter_png.png"
+  },
+  "sticker-8319": {
+      "id": "sticker-8319",
+      "name": "Sticker | bodyy (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_bodyy_holo_png.png"
+  },
+  "sticker-8320": {
+      "id": "sticker-8320",
+      "name": "Sticker | bodyy (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_bodyy_gold_png.png"
+  },
+  "sticker-8321": {
+      "id": "sticker-8321",
+      "name": "Sticker | MATYS | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_matys_png.png"
+  },
+  "sticker-8322": {
+      "id": "sticker-8322",
+      "name": "Sticker | MATYS (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_matys_glitter_png.png"
+  },
+  "sticker-8323": {
+      "id": "sticker-8323",
+      "name": "Sticker | MATYS (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_matys_holo_png.png"
+  },
+  "sticker-8324": {
+      "id": "sticker-8324",
+      "name": "Sticker | MATYS (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_matys_gold_png.png"
+  },
+  "sticker-8325": {
+      "id": "sticker-8325",
+      "name": "Sticker | blameF | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blamef_png.png"
+  },
+  "sticker-8326": {
+      "id": "sticker-8326",
+      "name": "Sticker | blameF (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blamef_glitter_png.png"
+  },
+  "sticker-8327": {
+      "id": "sticker-8327",
+      "name": "Sticker | blameF (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blamef_holo_png.png"
+  },
+  "sticker-8328": {
+      "id": "sticker-8328",
+      "name": "Sticker | blameF (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blamef_gold_png.png"
+  },
+  "sticker-8329": {
+      "id": "sticker-8329",
+      "name": "Sticker | afro | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_afro_png.png"
+  },
+  "sticker-8330": {
+      "id": "sticker-8330",
+      "name": "Sticker | afro (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_afro_glitter_png.png"
+  },
+  "sticker-8331": {
+      "id": "sticker-8331",
+      "name": "Sticker | afro (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_afro_holo_png.png"
+  },
+  "sticker-8332": {
+      "id": "sticker-8332",
+      "name": "Sticker | afro (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_afro_gold_png.png"
+  },
+  "sticker-8333": {
+      "id": "sticker-8333",
+      "name": "Sticker | bLitz | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blitz_png.png"
+  },
+  "sticker-8334": {
+      "id": "sticker-8334",
+      "name": "Sticker | bLitz (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blitz_glitter_png.png"
+  },
+  "sticker-8335": {
+      "id": "sticker-8335",
+      "name": "Sticker | bLitz (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blitz_holo_png.png"
+  },
+  "sticker-8336": {
+      "id": "sticker-8336",
+      "name": "Sticker | bLitz (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_blitz_gold_png.png"
+  },
+  "sticker-8337": {
+      "id": "sticker-8337",
+      "name": "Sticker | 910 | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_910_png.png"
+  },
+  "sticker-8338": {
+      "id": "sticker-8338",
+      "name": "Sticker | 910 (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_910_glitter_png.png"
+  },
+  "sticker-8339": {
+      "id": "sticker-8339",
+      "name": "Sticker | 910 (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_910_holo_png.png"
+  },
+  "sticker-8340": {
+      "id": "sticker-8340",
+      "name": "Sticker | 910 (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_910_gold_png.png"
+  },
+  "sticker-8341": {
+      "id": "sticker-8341",
+      "name": "Sticker | Techno4K | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_techno4k_png.png"
+  },
+  "sticker-8342": {
+      "id": "sticker-8342",
+      "name": "Sticker | Techno4K (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_techno4k_glitter_png.png"
+  },
+  "sticker-8343": {
+      "id": "sticker-8343",
+      "name": "Sticker | Techno4K (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_techno4k_holo_png.png"
+  },
+  "sticker-8344": {
+      "id": "sticker-8344",
+      "name": "Sticker | Techno4K (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_techno4k_gold_png.png"
+  },
+  "sticker-8345": {
+      "id": "sticker-8345",
+      "name": "Sticker | Senzu | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_senzu_png.png"
+  },
+  "sticker-8346": {
+      "id": "sticker-8346",
+      "name": "Sticker | Senzu (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_senzu_glitter_png.png"
+  },
+  "sticker-8347": {
+      "id": "sticker-8347",
+      "name": "Sticker | Senzu (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_senzu_holo_png.png"
+  },
+  "sticker-8348": {
+      "id": "sticker-8348",
+      "name": "Sticker | Senzu (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_senzu_gold_png.png"
+  },
+  "sticker-8349": {
+      "id": "sticker-8349",
+      "name": "Sticker | mzinho | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mzinho_png.png"
+  },
+  "sticker-8350": {
+      "id": "sticker-8350",
+      "name": "Sticker | mzinho (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mzinho_glitter_png.png"
+  },
+  "sticker-8351": {
+      "id": "sticker-8351",
+      "name": "Sticker | mzinho (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mzinho_holo_png.png"
+  },
+  "sticker-8352": {
+      "id": "sticker-8352",
+      "name": "Sticker | mzinho (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_mzinho_gold_png.png"
+  },
+  "sticker-8353": {
+      "id": "sticker-8353",
+      "name": "Sticker | biguzera | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_biguzera_png.png"
+  },
+  "sticker-8354": {
+      "id": "sticker-8354",
+      "name": "Sticker | biguzera (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_biguzera_glitter_png.png"
+  },
+  "sticker-8355": {
+      "id": "sticker-8355",
+      "name": "Sticker | biguzera (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_biguzera_holo_png.png"
+  },
+  "sticker-8356": {
+      "id": "sticker-8356",
+      "name": "Sticker | biguzera (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_biguzera_gold_png.png"
+  },
+  "sticker-8357": {
+      "id": "sticker-8357",
+      "name": "Sticker | lux | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lux_png.png"
+  },
+  "sticker-8358": {
+      "id": "sticker-8358",
+      "name": "Sticker | lux (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lux_glitter_png.png"
+  },
+  "sticker-8359": {
+      "id": "sticker-8359",
+      "name": "Sticker | lux (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lux_holo_png.png"
+  },
+  "sticker-8360": {
+      "id": "sticker-8360",
+      "name": "Sticker | lux (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lux_gold_png.png"
+  },
+  "sticker-8361": {
+      "id": "sticker-8361",
+      "name": "Sticker | kauez | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kauez_png.png"
+  },
+  "sticker-8362": {
+      "id": "sticker-8362",
+      "name": "Sticker | kauez (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kauez_glitter_png.png"
+  },
+  "sticker-8363": {
+      "id": "sticker-8363",
+      "name": "Sticker | kauez (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kauez_holo_png.png"
+  },
+  "sticker-8364": {
+      "id": "sticker-8364",
+      "name": "Sticker | kauez (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kauez_gold_png.png"
+  },
+  "sticker-8365": {
+      "id": "sticker-8365",
+      "name": "Sticker | NQZ | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nqz_png.png"
+  },
+  "sticker-8366": {
+      "id": "sticker-8366",
+      "name": "Sticker | NQZ (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nqz_glitter_png.png"
+  },
+  "sticker-8367": {
+      "id": "sticker-8367",
+      "name": "Sticker | NQZ (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nqz_holo_png.png"
+  },
+  "sticker-8368": {
+      "id": "sticker-8368",
+      "name": "Sticker | NQZ (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_nqz_gold_png.png"
+  },
+  "sticker-8369": {
+      "id": "sticker-8369",
+      "name": "Sticker | snow | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snow_png.png"
+  },
+  "sticker-8370": {
+      "id": "sticker-8370",
+      "name": "Sticker | snow (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snow_glitter_png.png"
+  },
+  "sticker-8371": {
+      "id": "sticker-8371",
+      "name": "Sticker | snow (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snow_holo_png.png"
+  },
+  "sticker-8372": {
+      "id": "sticker-8372",
+      "name": "Sticker | snow (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_snow_gold_png.png"
+  },
+  "sticker-8373": {
+      "id": "sticker-8373",
+      "name": "Sticker | ztr | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ztr_png.png"
+  },
+  "sticker-8374": {
+      "id": "sticker-8374",
+      "name": "Sticker | ztr (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ztr_glitter_png.png"
+  },
+  "sticker-8375": {
+      "id": "sticker-8375",
+      "name": "Sticker | ztr (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ztr_holo_png.png"
+  },
+  "sticker-8376": {
+      "id": "sticker-8376",
+      "name": "Sticker | ztr (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ztr_gold_png.png"
+  },
+  "sticker-8377": {
+      "id": "sticker-8377",
+      "name": "Sticker | sl3nd | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sl3nd_png.png"
+  },
+  "sticker-8378": {
+      "id": "sticker-8378",
+      "name": "Sticker | sl3nd (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sl3nd_glitter_png.png"
+  },
+  "sticker-8379": {
+      "id": "sticker-8379",
+      "name": "Sticker | sl3nd (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sl3nd_holo_png.png"
+  },
+  "sticker-8380": {
+      "id": "sticker-8380",
+      "name": "Sticker | sl3nd (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sl3nd_gold_png.png"
+  },
+  "sticker-8381": {
+      "id": "sticker-8381",
+      "name": "Sticker | Volt | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_volt_png.png"
+  },
+  "sticker-8382": {
+      "id": "sticker-8382",
+      "name": "Sticker | Volt (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_volt_glitter_png.png"
+  },
+  "sticker-8383": {
+      "id": "sticker-8383",
+      "name": "Sticker | Volt (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_volt_holo_png.png"
+  },
+  "sticker-8384": {
+      "id": "sticker-8384",
+      "name": "Sticker | Volt (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_volt_gold_png.png"
+  },
+  "sticker-8385": {
+      "id": "sticker-8385",
+      "name": "Sticker | FL4MUS | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl4mus_png.png"
+  },
+  "sticker-8386": {
+      "id": "sticker-8386",
+      "name": "Sticker | FL4MUS (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl4mus_glitter_png.png"
+  },
+  "sticker-8387": {
+      "id": "sticker-8387",
+      "name": "Sticker | FL4MUS (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl4mus_holo_png.png"
+  },
+  "sticker-8388": {
+      "id": "sticker-8388",
+      "name": "Sticker | FL4MUS (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fl4mus_gold_png.png"
+  },
+  "sticker-8389": {
+      "id": "sticker-8389",
+      "name": "Sticker | aNdu | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_andu_png.png"
+  },
+  "sticker-8390": {
+      "id": "sticker-8390",
+      "name": "Sticker | aNdu (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_andu_glitter_png.png"
+  },
+  "sticker-8391": {
+      "id": "sticker-8391",
+      "name": "Sticker | aNdu (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_andu_holo_png.png"
+  },
+  "sticker-8392": {
+      "id": "sticker-8392",
+      "name": "Sticker | aNdu (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_andu_gold_png.png"
+  },
+  "sticker-8393": {
+      "id": "sticker-8393",
+      "name": "Sticker | drop | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_drop_png.png"
+  },
+  "sticker-8394": {
+      "id": "sticker-8394",
+      "name": "Sticker | drop (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_drop_glitter_png.png"
+  },
+  "sticker-8395": {
+      "id": "sticker-8395",
+      "name": "Sticker | drop (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_drop_holo_png.png"
+  },
+  "sticker-8396": {
+      "id": "sticker-8396",
+      "name": "Sticker | drop (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_drop_gold_png.png"
+  },
+  "sticker-8397": {
+      "id": "sticker-8397",
+      "name": "Sticker | saffee | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_saffee_png.png"
+  },
+  "sticker-8398": {
+      "id": "sticker-8398",
+      "name": "Sticker | saffee (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_saffee_glitter_png.png"
+  },
+  "sticker-8399": {
+      "id": "sticker-8399",
+      "name": "Sticker | saffee (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_saffee_holo_png.png"
+  },
+  "sticker-8400": {
+      "id": "sticker-8400",
+      "name": "Sticker | saffee (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_saffee_gold_png.png"
+  },
+  "sticker-8401": {
+      "id": "sticker-8401",
+      "name": "Sticker | insani | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_insani_png.png"
+  },
+  "sticker-8402": {
+      "id": "sticker-8402",
+      "name": "Sticker | insani (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_insani_glitter_png.png"
+  },
+  "sticker-8403": {
+      "id": "sticker-8403",
+      "name": "Sticker | insani (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_insani_holo_png.png"
+  },
+  "sticker-8404": {
+      "id": "sticker-8404",
+      "name": "Sticker | insani (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_insani_gold_png.png"
+  },
+  "sticker-8405": {
+      "id": "sticker-8405",
+      "name": "Sticker | Lucaozy | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucaozy_png.png"
+  },
+  "sticker-8406": {
+      "id": "sticker-8406",
+      "name": "Sticker | Lucaozy (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucaozy_glitter_png.png"
+  },
+  "sticker-8407": {
+      "id": "sticker-8407",
+      "name": "Sticker | Lucaozy (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucaozy_holo_png.png"
+  },
+  "sticker-8408": {
+      "id": "sticker-8408",
+      "name": "Sticker | Lucaozy (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_lucaozy_gold_png.png"
+  },
+  "sticker-8409": {
+      "id": "sticker-8409",
+      "name": "Sticker | exit | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_exit_png.png"
+  },
+  "sticker-8410": {
+      "id": "sticker-8410",
+      "name": "Sticker | exit (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_exit_glitter_png.png"
+  },
+  "sticker-8411": {
+      "id": "sticker-8411",
+      "name": "Sticker | exit (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_exit_holo_png.png"
+  },
+  "sticker-8412": {
+      "id": "sticker-8412",
+      "name": "Sticker | exit (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_exit_gold_png.png"
+  },
+  "sticker-8413": {
+      "id": "sticker-8413",
+      "name": "Sticker | Boombl4 | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_boombl4_png.png"
+  },
+  "sticker-8414": {
+      "id": "sticker-8414",
+      "name": "Sticker | Boombl4 (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_boombl4_glitter_png.png"
+  },
+  "sticker-8415": {
+      "id": "sticker-8415",
+      "name": "Sticker | Boombl4 (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_boombl4_holo_png.png"
+  },
+  "sticker-8416": {
+      "id": "sticker-8416",
+      "name": "Sticker | Boombl4 (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_boombl4_gold_png.png"
+  },
+  "sticker-8417": {
+      "id": "sticker-8417",
+      "name": "Sticker | Ax1Le | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ax1le_png.png"
+  },
+  "sticker-8418": {
+      "id": "sticker-8418",
+      "name": "Sticker | Ax1Le (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ax1le_glitter_png.png"
+  },
+  "sticker-8419": {
+      "id": "sticker-8419",
+      "name": "Sticker | Ax1Le (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ax1le_holo_png.png"
+  },
+  "sticker-8420": {
+      "id": "sticker-8420",
+      "name": "Sticker | Ax1Le (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ax1le_gold_png.png"
+  },
+  "sticker-8421": {
+      "id": "sticker-8421",
+      "name": "Sticker | Heavygod | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_heavygod_png.png"
+  },
+  "sticker-8422": {
+      "id": "sticker-8422",
+      "name": "Sticker | Heavygod (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_heavygod_glitter_png.png"
+  },
+  "sticker-8423": {
+      "id": "sticker-8423",
+      "name": "Sticker | Heavygod (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_heavygod_holo_png.png"
+  },
+  "sticker-8424": {
+      "id": "sticker-8424",
+      "name": "Sticker | Heavygod (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_heavygod_gold_png.png"
+  },
+  "sticker-8425": {
+      "id": "sticker-8425",
+      "name": "Sticker | ICY | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_icy_png.png"
+  },
+  "sticker-8426": {
+      "id": "sticker-8426",
+      "name": "Sticker | ICY (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_icy_glitter_png.png"
+  },
+  "sticker-8427": {
+      "id": "sticker-8427",
+      "name": "Sticker | ICY (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_icy_holo_png.png"
+  },
+  "sticker-8428": {
+      "id": "sticker-8428",
+      "name": "Sticker | ICY (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_icy_gold_png.png"
+  },
+  "sticker-8429": {
+      "id": "sticker-8429",
+      "name": "Sticker | Perfecto | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_perfecto_png.png"
+  },
+  "sticker-8430": {
+      "id": "sticker-8430",
+      "name": "Sticker | Perfecto (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_perfecto_glitter_png.png"
+  },
+  "sticker-8431": {
+      "id": "sticker-8431",
+      "name": "Sticker | Perfecto (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_perfecto_holo_png.png"
+  },
+  "sticker-8432": {
+      "id": "sticker-8432",
+      "name": "Sticker | Perfecto (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_perfecto_gold_png.png"
+  },
+  "sticker-8433": {
+      "id": "sticker-8433",
+      "name": "Sticker | dexter | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_dexter_png.png"
+  },
+  "sticker-8434": {
+      "id": "sticker-8434",
+      "name": "Sticker | dexter (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_dexter_glitter_png.png"
+  },
+  "sticker-8435": {
+      "id": "sticker-8435",
+      "name": "Sticker | dexter (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_dexter_holo_png.png"
+  },
+  "sticker-8436": {
+      "id": "sticker-8436",
+      "name": "Sticker | dexter (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_dexter_gold_png.png"
+  },
+  "sticker-8437": {
+      "id": "sticker-8437",
+      "name": "Sticker | Liazz | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_liazz_png.png"
+  },
+  "sticker-8438": {
+      "id": "sticker-8438",
+      "name": "Sticker | Liazz (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_liazz_glitter_png.png"
+  },
+  "sticker-8439": {
+      "id": "sticker-8439",
+      "name": "Sticker | Liazz (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_liazz_holo_png.png"
+  },
+  "sticker-8440": {
+      "id": "sticker-8440",
+      "name": "Sticker | Liazz (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_liazz_gold_png.png"
+  },
+  "sticker-8441": {
+      "id": "sticker-8441",
+      "name": "Sticker | aliStair | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_alistair_png.png"
+  },
+  "sticker-8442": {
+      "id": "sticker-8442",
+      "name": "Sticker | aliStair (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_alistair_glitter_png.png"
+  },
+  "sticker-8443": {
+      "id": "sticker-8443",
+      "name": "Sticker | aliStair (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_alistair_holo_png.png"
+  },
+  "sticker-8444": {
+      "id": "sticker-8444",
+      "name": "Sticker | aliStair (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_alistair_gold_png.png"
+  },
+  "sticker-8445": {
+      "id": "sticker-8445",
+      "name": "Sticker | INS | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ins_png.png"
+  },
+  "sticker-8446": {
+      "id": "sticker-8446",
+      "name": "Sticker | INS (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ins_glitter_png.png"
+  },
+  "sticker-8447": {
+      "id": "sticker-8447",
+      "name": "Sticker | INS (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ins_holo_png.png"
+  },
+  "sticker-8448": {
+      "id": "sticker-8448",
+      "name": "Sticker | INS (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_ins_gold_png.png"
+  },
+  "sticker-8449": {
+      "id": "sticker-8449",
+      "name": "Sticker | vexite | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vexite_png.png"
+  },
+  "sticker-8450": {
+      "id": "sticker-8450",
+      "name": "Sticker | vexite (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vexite_glitter_png.png"
+  },
+  "sticker-8451": {
+      "id": "sticker-8451",
+      "name": "Sticker | vexite (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vexite_holo_png.png"
+  },
+  "sticker-8452": {
+      "id": "sticker-8452",
+      "name": "Sticker | vexite (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vexite_gold_png.png"
+  },
+  "sticker-8453": {
+      "id": "sticker-8453",
+      "name": "Sticker | fEAR | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fear_png.png"
+  },
+  "sticker-8454": {
+      "id": "sticker-8454",
+      "name": "Sticker | fEAR (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fear_glitter_png.png"
+  },
+  "sticker-8455": {
+      "id": "sticker-8455",
+      "name": "Sticker | fEAR (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fear_holo_png.png"
+  },
+  "sticker-8456": {
+      "id": "sticker-8456",
+      "name": "Sticker | fEAR (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_fear_gold_png.png"
+  },
+  "sticker-8457": {
+      "id": "sticker-8457",
+      "name": "Sticker | jambo | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jambo_png.png"
+  },
+  "sticker-8458": {
+      "id": "sticker-8458",
+      "name": "Sticker | jambo (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jambo_glitter_png.png"
+  },
+  "sticker-8459": {
+      "id": "sticker-8459",
+      "name": "Sticker | jambo (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jambo_holo_png.png"
+  },
+  "sticker-8460": {
+      "id": "sticker-8460",
+      "name": "Sticker | jambo (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jambo_gold_png.png"
+  },
+  "sticker-8461": {
+      "id": "sticker-8461",
+      "name": "Sticker | jackasmo | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jackasmo_png.png"
+  },
+  "sticker-8462": {
+      "id": "sticker-8462",
+      "name": "Sticker | jackasmo (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jackasmo_glitter_png.png"
+  },
+  "sticker-8463": {
+      "id": "sticker-8463",
+      "name": "Sticker | jackasmo (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jackasmo_holo_png.png"
+  },
+  "sticker-8464": {
+      "id": "sticker-8464",
+      "name": "Sticker | jackasmo (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jackasmo_gold_png.png"
+  },
+  "sticker-8465": {
+      "id": "sticker-8465",
+      "name": "Sticker | s-chilla | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_schilla_png.png"
+  },
+  "sticker-8466": {
+      "id": "sticker-8466",
+      "name": "Sticker | s-chilla (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_schilla_glitter_png.png"
+  },
+  "sticker-8467": {
+      "id": "sticker-8467",
+      "name": "Sticker | s-chilla (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_schilla_holo_png.png"
+  },
+  "sticker-8468": {
+      "id": "sticker-8468",
+      "name": "Sticker | s-chilla (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_schilla_gold_png.png"
+  },
+  "sticker-8469": {
+      "id": "sticker-8469",
+      "name": "Sticker | zeRRoFIX | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zerrofix_png.png"
+  },
+  "sticker-8470": {
+      "id": "sticker-8470",
+      "name": "Sticker | zeRRoFIX (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zerrofix_glitter_png.png"
+  },
+  "sticker-8471": {
+      "id": "sticker-8471",
+      "name": "Sticker | zeRRoFIX (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zerrofix_holo_png.png"
+  },
+  "sticker-8472": {
+      "id": "sticker-8472",
+      "name": "Sticker | zeRRoFIX (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_zerrofix_gold_png.png"
+  },
+  "sticker-8473": {
+      "id": "sticker-8473",
+      "name": "Sticker | stanislaw | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_stanislaw_png.png"
+  },
+  "sticker-8474": {
+      "id": "sticker-8474",
+      "name": "Sticker | stanislaw (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_stanislaw_glitter_png.png"
+  },
+  "sticker-8475": {
+      "id": "sticker-8475",
+      "name": "Sticker | stanislaw (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_stanislaw_holo_png.png"
+  },
+  "sticker-8476": {
+      "id": "sticker-8476",
+      "name": "Sticker | stanislaw (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_stanislaw_gold_png.png"
+  },
+  "sticker-8477": {
+      "id": "sticker-8477",
+      "name": "Sticker | Sonic | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sonic_png.png"
+  },
+  "sticker-8478": {
+      "id": "sticker-8478",
+      "name": "Sticker | Sonic (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sonic_glitter_png.png"
+  },
+  "sticker-8479": {
+      "id": "sticker-8479",
+      "name": "Sticker | Sonic (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sonic_holo_png.png"
+  },
+  "sticker-8480": {
+      "id": "sticker-8480",
+      "name": "Sticker | Sonic (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_sonic_gold_png.png"
+  },
+  "sticker-8481": {
+      "id": "sticker-8481",
+      "name": "Sticker | JBa | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jba_png.png"
+  },
+  "sticker-8482": {
+      "id": "sticker-8482",
+      "name": "Sticker | JBa (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jba_glitter_png.png"
+  },
+  "sticker-8483": {
+      "id": "sticker-8483",
+      "name": "Sticker | JBa (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jba_holo_png.png"
+  },
+  "sticker-8484": {
+      "id": "sticker-8484",
+      "name": "Sticker | JBa (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_jba_gold_png.png"
+  },
+  "sticker-8485": {
+      "id": "sticker-8485",
+      "name": "Sticker | phzy | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_phzy_png.png"
+  },
+  "sticker-8486": {
+      "id": "sticker-8486",
+      "name": "Sticker | phzy (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_phzy_glitter_png.png"
+  },
+  "sticker-8487": {
+      "id": "sticker-8487",
+      "name": "Sticker | phzy (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_phzy_holo_png.png"
+  },
+  "sticker-8488": {
+      "id": "sticker-8488",
+      "name": "Sticker | phzy (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_phzy_gold_png.png"
+  },
+  "sticker-8489": {
+      "id": "sticker-8489",
+      "name": "Sticker | susp | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_susp_png.png"
+  },
+  "sticker-8490": {
+      "id": "sticker-8490",
+      "name": "Sticker | susp (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_susp_glitter_png.png"
+  },
+  "sticker-8491": {
+      "id": "sticker-8491",
+      "name": "Sticker | susp (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_susp_holo_png.png"
+  },
+  "sticker-8492": {
+      "id": "sticker-8492",
+      "name": "Sticker | susp (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_susp_gold_png.png"
+  },
+  "sticker-8493": {
+      "id": "sticker-8493",
+      "name": "Sticker | Summer | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_summer_png.png"
+  },
+  "sticker-8494": {
+      "id": "sticker-8494",
+      "name": "Sticker | Summer (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_summer_glitter_png.png"
+  },
+  "sticker-8495": {
+      "id": "sticker-8495",
+      "name": "Sticker | Summer (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_summer_holo_png.png"
+  },
+  "sticker-8496": {
+      "id": "sticker-8496",
+      "name": "Sticker | Summer (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_summer_gold_png.png"
+  },
+  "sticker-8497": {
+      "id": "sticker-8497",
+      "name": "Sticker | ChildKing | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_childking_png.png"
+  },
+  "sticker-8498": {
+      "id": "sticker-8498",
+      "name": "Sticker | ChildKing (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_childking_glitter_png.png"
+  },
+  "sticker-8499": {
+      "id": "sticker-8499",
+      "name": "Sticker | ChildKing (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_childking_holo_png.png"
+  },
+  "sticker-8500": {
+      "id": "sticker-8500",
+      "name": "Sticker | ChildKing (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_childking_gold_png.png"
+  },
+  "sticker-8501": {
+      "id": "sticker-8501",
+      "name": "Sticker | somebody | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_somebody_png.png"
+  },
+  "sticker-8502": {
+      "id": "sticker-8502",
+      "name": "Sticker | somebody (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_somebody_glitter_png.png"
+  },
+  "sticker-8503": {
+      "id": "sticker-8503",
+      "name": "Sticker | somebody (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_somebody_holo_png.png"
+  },
+  "sticker-8504": {
+      "id": "sticker-8504",
+      "name": "Sticker | somebody (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_somebody_gold_png.png"
+  },
+  "sticker-8505": {
+      "id": "sticker-8505",
+      "name": "Sticker | L1haNg | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_l1hang_png.png"
+  },
+  "sticker-8506": {
+      "id": "sticker-8506",
+      "name": "Sticker | L1haNg (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_l1hang_glitter_png.png"
+  },
+  "sticker-8507": {
+      "id": "sticker-8507",
+      "name": "Sticker | L1haNg (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_l1hang_holo_png.png"
+  },
+  "sticker-8508": {
+      "id": "sticker-8508",
+      "name": "Sticker | L1haNg (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_l1hang_gold_png.png"
+  },
+  "sticker-8509": {
+      "id": "sticker-8509",
+      "name": "Sticker | Kaze | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kaze_png.png"
+  },
+  "sticker-8510": {
+      "id": "sticker-8510",
+      "name": "Sticker | Kaze (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kaze_glitter_png.png"
+  },
+  "sticker-8511": {
+      "id": "sticker-8511",
+      "name": "Sticker | Kaze (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kaze_holo_png.png"
+  },
+  "sticker-8512": {
+      "id": "sticker-8512",
+      "name": "Sticker | Kaze (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_kaze_gold_png.png"
+  },
+  "sticker-8513": {
+      "id": "sticker-8513",
+      "name": "Sticker | VINI | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vini_png.png"
+  },
+  "sticker-8514": {
+      "id": "sticker-8514",
+      "name": "Sticker | VINI (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vini_glitter_png.png"
+  },
+  "sticker-8515": {
+      "id": "sticker-8515",
+      "name": "Sticker | VINI (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vini_holo_png.png"
+  },
+  "sticker-8516": {
+      "id": "sticker-8516",
+      "name": "Sticker | VINI (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_vini_gold_png.png"
+  },
+  "sticker-8517": {
+      "id": "sticker-8517",
+      "name": "Sticker | felps | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_felps_png.png"
+  },
+  "sticker-8518": {
+      "id": "sticker-8518",
+      "name": "Sticker | felps (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_felps_glitter_png.png"
+  },
+  "sticker-8519": {
+      "id": "sticker-8519",
+      "name": "Sticker | felps (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_felps_holo_png.png"
+  },
+  "sticker-8520": {
+      "id": "sticker-8520",
+      "name": "Sticker | felps (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_felps_gold_png.png"
+  },
+  "sticker-8521": {
+      "id": "sticker-8521",
+      "name": "Sticker | TRY | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_try_png.png"
+  },
+  "sticker-8522": {
+      "id": "sticker-8522",
+      "name": "Sticker | TRY (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_try_glitter_png.png"
+  },
+  "sticker-8523": {
+      "id": "sticker-8523",
+      "name": "Sticker | TRY (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_try_holo_png.png"
+  },
+  "sticker-8524": {
+      "id": "sticker-8524",
+      "name": "Sticker | TRY (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_try_gold_png.png"
+  },
+  "sticker-8525": {
+      "id": "sticker-8525",
+      "name": "Sticker | decenty | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_decenty_png.png"
+  },
+  "sticker-8526": {
+      "id": "sticker-8526",
+      "name": "Sticker | decenty (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_decenty_glitter_png.png"
+  },
+  "sticker-8527": {
+      "id": "sticker-8527",
+      "name": "Sticker | decenty (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_decenty_holo_png.png"
+  },
+  "sticker-8528": {
+      "id": "sticker-8528",
+      "name": "Sticker | decenty (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_decenty_gold_png.png"
+  },
+  "sticker-8529": {
+      "id": "sticker-8529",
+      "name": "Sticker | noway | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_noway_png.png"
+  },
+  "sticker-8530": {
+      "id": "sticker-8530",
+      "name": "Sticker | noway (Glitter) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_noway_glitter_png.png"
+  },
+  "sticker-8531": {
+      "id": "sticker-8531",
+      "name": "Sticker | noway (Holo) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_noway_holo_png.png"
+  },
+  "sticker-8532": {
+      "id": "sticker-8532",
+      "name": "Sticker | noway (Gold) | Shanghai 2024",
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_noway_gold_png.png"
   }
 }
