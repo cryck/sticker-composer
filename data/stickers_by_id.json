@@ -29982,25 +29982,25 @@
     "id": "sticker-5736",
     "name": "Sticker | chopper | Antwerp 2022",
     "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/antwerp2022/sig_chopper_large.8d3c946a558f06bfa2827034ee8eaba62eb42dbf.png",
-    "matching": "chopper"
+    "matching": "чоппер"
   },
   "sticker-5737": {
     "id": "sticker-5737",
     "name": "Sticker | chopper (Glitter) | Antwerp 2022",
     "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/antwerp2022/sig_chopper_glitter_large.987ee754fe5b3c7e3d18ae2215786de68581f4f8.png",
-    "matching": "chopper"
+    "matching": "чоппер"
   },
   "sticker-5738": {
     "id": "sticker-5738",
     "name": "Sticker | chopper (Holo) | Antwerp 2022",
     "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/antwerp2022/sig_chopper_holo_large.a6d0fecd41c627a973276a80275360c800fedb66.png",
-    "matching": "chopper"
+    "matching": "чоппер"
   },
   "sticker-5739": {
     "id": "sticker-5739",
     "name": "Sticker | chopper (Gold) | Antwerp 2022",
     "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/antwerp2022/sig_chopper_gold_large.04fa90a6236df6b3f3da45ced5847dededc26d78.png",
-    "matching": "chopper"
+    "matching": "чоппер"
   },
   "sticker-5740": {
     "id": "sticker-5740",
@@ -32617,25 +32617,25 @@
     "id": "sticker-6226",
     "name": "Sticker | chopper | Rio 2022",
     "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_chopper_large.6b1b2a5e66b7f8c49f278d65d93f135a84ce0c8b.png",
-    "matching": "chopper"
+    "matching": "чоппер"
   },
   "sticker-6227": {
     "id": "sticker-6227",
     "name": "Sticker | chopper (Glitter) | Rio 2022",
     "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_chopper_glitter_large.877964f6109e8cc6eae87d1f3bb6d85345137f83.png",
-    "matching": "chopper"
+    "matching": "чоппер"
   },
   "sticker-6228": {
     "id": "sticker-6228",
     "name": "Sticker | chopper (Holo) | Rio 2022",
     "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_chopper_holo_large.d0cea6a106a79cc3e038dd751c18f7a9a1148d5a.png",
-    "matching": "chopper"
+    "matching": "чоппер"
   },
   "sticker-6229": {
     "id": "sticker-6229",
     "name": "Sticker | chopper (Gold) | Rio 2022",
     "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/rio2022/sig_chopper_gold_large.7e1a4735619a7a921bfd1c87b30e930c3a14e16c.png",
-    "matching": "chopper"
+    "matching": "чоппер"
   },
   "sticker-6230": {
     "id": "sticker-6230",
@@ -39422,22 +39422,26 @@
   "sticker-7459": {
       "id": "sticker-7459",
       "name": "Sticker | chopper | Copenhagen 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_png.png",
+      "matching": "chopp"
   },
   "sticker-7460": {
       "id": "sticker-7460",
       "name": "Sticker | chopper (Glitter) | Copenhagen 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_glitter_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_glitter_png.png",
+      "matching": "chopp"
   },
   "sticker-7461": {
       "id": "sticker-7461",
       "name": "Sticker | chopper (Holo) | Copenhagen 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_holo_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_holo_png.png",
+      "matching": "chopp"
   },
   "sticker-7462": {
       "id": "sticker-7462",
       "name": "Sticker | chopper (Gold) | Copenhagen 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_gold_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/cph2024/sig_chopper_gold_png.png",
+      "matching": "chopp"
   },
   "sticker-7463": {
       "id": "sticker-7463",
@@ -42167,22 +42171,26 @@
   "sticker-8065": {
       "id": "sticker-8065",
       "name": "Sticker | m0NESY | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_png.png",
+      "matching": "monesy"
   },
   "sticker-8066": {
       "id": "sticker-8066",
       "name": "Sticker | m0NESY (Glitter) | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_glitter_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_glitter_png.png",
+      "matching": "monesy"
   },
   "sticker-8067": {
       "id": "sticker-8067",
       "name": "Sticker | m0NESY (Holo) | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_holo_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_holo_png.png",
+      "matching": "monesy"
   },
   "sticker-8068": {
       "id": "sticker-8068",
       "name": "Sticker | m0NESY (Gold) | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_gold_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_m0nesy_gold_png.png",
+      "matching": "monesy"
   },
   "sticker-8069": {
       "id": "sticker-8069",
@@ -42407,22 +42415,26 @@
   "sticker-8113": {
       "id": "sticker-8113",
       "name": "Sticker | chopper | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_png.png",
+      "matching": "chopp"
   },
   "sticker-8114": {
       "id": "sticker-8114",
       "name": "Sticker | chopper (Glitter) | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_glitter_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_glitter_png.png",
+      "matching": "chopp"
   },
   "sticker-8115": {
       "id": "sticker-8115",
       "name": "Sticker | chopper (Holo) | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_holo_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_holo_png.png",
+      "matching": "chopp"
   },
   "sticker-8116": {
       "id": "sticker-8116",
       "name": "Sticker | chopper (Gold) | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_gold_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_chopper_gold_png.png",
+      "matching": "chopp"
   },
   "sticker-8117": {
       "id": "sticker-8117",
@@ -42447,22 +42459,26 @@
   "sticker-8121": {
       "id": "sticker-8121",
       "name": "Sticker | donk | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_png.png",
+      "matching": "donked"
   },
   "sticker-8122": {
       "id": "sticker-8122",
       "name": "Sticker | donk (Glitter) | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_glitter_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_glitter_png.png",
+      "matching": "donked"
   },
   "sticker-8123": {
       "id": "sticker-8123",
       "name": "Sticker | donk (Holo) | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_holo_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_holo_png.png",
+      "matching": "donked"
   },
   "sticker-8124": {
       "id": "sticker-8124",
       "name": "Sticker | donk (Gold) | Shanghai 2024",
-      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_gold_png.png"
+      "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/sha2024/sig_donk_gold_png.png",
+      "matching": "donked"
   },
   "sticker-8125": {
       "id": "sticker-8125",
