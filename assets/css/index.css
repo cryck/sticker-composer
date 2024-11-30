@@ -551,3 +551,53 @@ footer p {
 .selected-sticker-total-price {
   color: rgb(74 222 128);
 }
+
+.site-description {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  color: #e0e0e0;
+}
+
+.site-description h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: 'Kode Mono', monospace;
+}
+
+.site-description h3 {
+  font-size: 1.4rem;
+  color: #4CAF50;
+  margin: 2rem 0 1rem;
+  font-family: 'Kode Mono', monospace;
+}
+
+.site-description p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.site-description-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .site-description-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.feature-box {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
