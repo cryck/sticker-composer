@@ -601,3 +601,41 @@ footer p {
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+.result-index-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+#result-index-control-left,
+#result-index-control-right {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e0e0e0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Kode Mono', monospace;
+  transition: all 0.2s ease;
+}
+
+#result-index-control-left:hover,
+#result-index-control-right:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#result-index-control-left:active,
+#result-index-control-right:active {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(1px);
+}
+
+#result-index-label {
+  color: #e0e0e0;
+  font-family: 'Kode Mono', monospace;
+  min-width: 4rem;
+  text-align: center;
+}
