@@ -206,7 +206,7 @@ button:hover {
 }
 
 .selected-sticker-item:has(.sticker-image:hover) {
-  background-image: url("/assets/icons/trash-2.svg");
+  background-image: url("/assets/img/icons/trash-2.svg");
   background-repeat: no-repeat;
   background-size: 20px;
   background-position-x: 10px;
@@ -550,4 +550,92 @@ footer p {
 
 .selected-sticker-total-price {
   color: rgb(74 222 128);
+}
+
+.site-description {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  color: #e0e0e0;
+}
+
+.site-description h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: 'Kode Mono', monospace;
+}
+
+.site-description h3 {
+  font-size: 1.4rem;
+  color: #4CAF50;
+  margin: 2rem 0 1rem;
+  font-family: 'Kode Mono', monospace;
+}
+
+.site-description p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.site-description-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .site-description-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.feature-box {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.result-index-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+#result-index-control-left,
+#result-index-control-right {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #e0e0e0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Kode Mono', monospace;
+  transition: all 0.2s ease;
+}
+
+#result-index-control-left:hover,
+#result-index-control-right:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#result-index-control-left:active,
+#result-index-control-right:active {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(1px);
+}
+
+#result-index-label {
+  color: #e0e0e0;
+  font-family: 'Kode Mono', monospace;
+  min-width: 4rem;
+  text-align: center;
 }

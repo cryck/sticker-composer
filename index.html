@@ -1,95 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS-Sticker.com - Generate Custom Text for CS2 Skins | Counter-Strike 2 Sticker Generator</title>
+    
+    <!-- Meta tags -->
+    <meta name="description" content="Create unique Counter-Strike 2 sticker combinations with our intuitive CS2 sticker generator. Design custom text layouts for your CS2 skins and personalize your inventory easily." />
+    <meta name="keywords" content="CS2 sticker generator, Counter-Strike 2 stickers, CS2 skin customization, CSGO sticker maker, CS2 inventory personalization, Counter-Strike 2 skin editor, CS2 sticker text, CSGO sticker text generator, CS2 sticker combinations, Counter-Strike 2 weapon customization, CS2 skin stickers, CSGO inventory customization, CS2 sticker craft, Counter-Strike 2 skin personalization, CS2 sticker calculator, CSGO sticker designer, CS2 weapon stickers, Counter-Strike 2 inventory manager, CS2 sticker preview, CSGO sticker simulator" />
+    <meta name="author" content="cryck" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="CS-Sticker.com - CS2 Sticker Text Generator" />
+    <meta property="og:description" content="Create unique Counter-Strike 2 sticker combinations with our intuitive sticker generator. Personalize your CS2 inventory today!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cs-sticker.com" />
+    <meta property="og:image" content="/assets/img/preview.png" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CS-Sticker.com - CS2 Sticker Text Generator" />
+    <meta name="twitter:description" content="Create unique Counter-Strike 2 sticker combinations with our intuitive generator." />
+    <meta name="twitter:image" content="/assets/img/preview.png" />
+    
+    <!-- Fonts and Styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Discover and explore Counter-Strike 2 sticker combinations with this intuitive sticker generator. Find your favorite CS2 sticker craft today and personalize your inventory."
-    />
-    <meta
-      name="keywords"
-      content="Counter-Strike 2 skins, CS2, Sticker Text Generator, CS Stickers, Text Generator CS2 skins, CS2 skins, CSGO skins, inventory upgrade"
-    />
-    <meta name="author" content="cryck" />
-    <title>CS-Sticker.com - Generate any text to apply to your CS2 skins</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
     <link rel="icon" type="image/x-icon" href="./favicon.png" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "CS-Sticker.com",
+      "description": "Counter-Strike 2 sticker text generator and combination finder",
+      "applicationCategory": "Gaming Tool",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
   </head>
   <body>
     <div class="base-container">
-
-      <div class="navigation">
+      <nav class="navigation" aria-label="Main navigation">
         <div class="blog-btn">
-          <a href='https://blog.cs-sticker.com'>Visit our blog</a>
+          <a href='https://blog.cs-sticker.com' aria-label="Visit our blog">Visit our blog</a>
         </div>
-      </div>
+      </nav>
 
-      <div class="page-header">
-        <img src="assets/imgs/main.png" alt="stickers">
-        <h1 class="title">cs-sticker.com</h1>
-        <h2 class="subTitle">Generate any text to apply to your CS2 skins & personalize your inventory</h2>
-      </div>
+      <header class="page-header">
+        <img src="assets/img/main.png" alt="CS2 Sticker Generator Interface" width="200" height="100">
+        <h1 class="title">CS-Sticker.com</h1>
+        <h2 class="subTitle">Create custom text designs for your Counter-Strike 2 skins</h2>
+      </header>
 
-        <div class="search-container">
+      <main>
+        <section class="search-section" aria-label="Sticker generator controls">
+          <div class="search-container">
             <div class="input-group">
-                <input type="text" id="stickerInput" placeholder="Enter text to spell..." autofocus>
-                <button onclick="callWorker()" title="Generate stickers">
-                  <img src="assets/icons/sparkles.svg" alt="sparkles icon">
-                  Generate</button>
+              <input type="text" 
+                     id="stickerInput" 
+                     placeholder="Enter text to spell..." 
+                     aria-label="Enter text for sticker generation"
+                     autofocus>
+              <button onclick="callWorker()" 
+                      aria-label="Generate stickers">
+                <img src="assets/img/icons/sparkles.svg" alt="Generate stickers icon">
+                Generate
+              </button>
             </div>
 
             <div class="checkbox-container">
-                <label>
-                    <input type="checkbox" id="isBackwards"> Search Backwards
-                </label>
-                <label>
-                  <input type="checkbox" id="isDepth" /> Depth Search
-                </label>
-            </div>
-        </div>
-        <div id="infoContainer"></div>
-
-        <div class="page-content">
-            <div class="main-content">
-                <div id="results" class="results-container"></div>
-                <div id="selectedStickersContainer" class="selected-stickers-container">
-                  <div class="selected-stickers-wrapper">
-                    <div id="add-selected-to-canvas">
-                      <button onclick="pushStickersToCanvas()" title="Add selected stickers to canvas"> 
-                  <img src="assets/icons/mouse-pointer-square.svg" alt="mouse pointer square icon">
-                  Add to Canvas</button>
-                    </div>
-                    <ul id="selectedStickers" class="selected-stickers-list"></ul>
-                    <div id="result-index-controls">
-                      <p id="result-index-control-left" onclick="decrementResultIndex()">
-                        <
-                      </p>
-                      <span id="result-index-label"></span>
-                      <p id="result-index-control-right" onclick="incrementResultIndex()">
-                        >
-                      </p>
-                    </div>
-                  </div>
-                </div>
+              <label>
+                <input type="checkbox" id="isBackwards" aria-label="Enable backwards search">
+                Search Backwards
+              </label>
+              <label>
+                <input type="checkbox" id="isDepth" aria-label="Enable depth search" />
+                Depth Search
+              </label>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
+
+        <section id="infoContainer" aria-live="polite"></section>
+
+        <section class="page-content">
+          <div class="main-content">
+            <div id="results" class="results-container" aria-label="Generated sticker results"></div>
+            <div id="selectedStickersContainer" class="selected-stickers-container">
+              <div class="selected-stickers-wrapper">
+                <div id="add-selected-to-canvas">
+                  <button onclick="pushStickersToCanvas()" 
+                          aria-label="Add selected stickers to canvas">
+                    <img src="assets/img/icons/mouse-pointer-square.svg" alt="Add to canvas icon">
+                    Add to Canvas
+                  </button>
+                </div>
+                <ul id="selectedStickers" class="selected-stickers-list" aria-label="Selected stickers list"></ul>
+                <div id="result-index-controls" role="navigation" aria-label="Result navigation">
+                  <button id="result-index-control-left" 
+                          onclick="decrementResultIndex()" 
+                          aria-label="Previous result">&lt;</button>
+                  <span id="result-index-label" aria-live="polite"></span>
+                  <button id="result-index-control-right" 
+                          onclick="incrementResultIndex()" 
+                          aria-label="Next result">&gt;</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="site-description">
+          <h2>Your Ultimate CS2 Sticker Text Generator</h2>
+          <p>Welcome to CS-Sticker.com, the premier tool for Counter-Strike 2 players looking to create unique weapon customizations. Our sticker text generator helps you discover creative sticker combinations to spell out custom text on your favorite CS2 skins. Whether you're crafting a signature look for your AWP or designing a memorable message for your AK-47, our tool makes the process simple and intuitive.</p>
+          
+          <div class="site-description-grid">
+            <div class="feature-box">
+              <h3>Key Features</h3>
+              <p>Explore countless sticker combinations with our advanced search options. Use backwards search to find alternative arrangements, or dive deeper with our depth search feature to uncover rare combinations. Our generator helps you preview your designs before crafting them in-game, saving you time and resources while ensuring perfect results.</p>
+            </div>
+            
+            <div class="feature-box">
+              <h3>How It Works</h3>
+              <p>Simply enter the text you want to create, choose your search preferences, and let our generator find the perfect sticker combinations for your CS2 weapons. Once you find a combination you like, you can easily add it to your canvas and experiment with different layouts. Our tool is constantly updated to include the latest CS2 stickers, ensuring you always have access to the newest customization options.</p>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <a href="javascript:" id="back-to-top" aria-label="Scroll back to top">
+        <i class="icon-chevron-up" aria-hidden="true"></i>
+      </a>
     </div>
 
-    <a href="javascript:" id="back-to-top"><i class="icon-chevron-up"></i></a>
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-
     <footer>
-        Made by <a href="https://twitter.com/cryck_">cryck</a> with contributions from <a href="https://github.com/cryck/sticker-composer/graphs/contributors">these</a> lovely people. 
-        Powered by Steam.
+      <p>Made by <a href="https://twitter.com/cryck_">cryck</a> with contributions from 
+      <a href="https://github.com/cryck/sticker-composer/graphs/contributors">these</a> lovely people.</p>
+      <p>Powered by Steam.</p>
     </footer>
-    <script src="./back-to-top.js"></script>
-    <script src="./script.js" defer></script>
 
-</body>
+    <!-- Scripts -->
+    <script src="./assets/js/back-to-top.js"></script>
+    <script src="./assets/js/script.js" defer></script>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  </body>
 </html>
