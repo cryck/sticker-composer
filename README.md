@@ -1,6 +1,7 @@
 # Welcome to the CS2 sticker composer tool
 
-You can use the tool here: https://cs-sticker.com/
+You were able to use the tool from February 2024 to mid-March here https://cs-sticker.com/. 
+The domains have been sold to a new owner.
 
 
 ## Run locally
