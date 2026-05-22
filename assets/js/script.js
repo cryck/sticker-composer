@@ -65,19 +65,10 @@ function populateResults(resultIndex = 0) {
 
     groupDiv.appendChild(matchedPartSpan)
 
-    // Add a check to see if this position already has a selected sticker
-    const hasSelectedSticker = selectedStickers[i]?.sticker
-
     result.stickers.forEach((sticker) => {
       const stickerWrapper = document.createElement("div")
       stickerWrapper.classList.add("sticker-wrapper")
       stickerWrapper.setAttribute("data-name", sticker.name)
-
-      // If there's already a sticker selected for this position, add a visual indicator
-      if (hasSelectedSticker) {
-        stickerWrapper.style.opacity = "0.5"
-        stickerWrapper.style.cursor = "not-allowed"
-      }
 
       const image = document.createElement("img")
       image.src = sticker.image
@@ -87,7 +78,7 @@ function populateResults(resultIndex = 0) {
       let isAdding = false
 
       stickerWrapper.onclick = async () => {
-        // If we're already adding this sticker or there's a sticker already selected, ignore the click
+        const hasSelectedSticker = selectedStickers[i]?.sticker
         if (isAdding || hasSelectedSticker) return
 
         isAdding = true

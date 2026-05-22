@@ -2,7 +2,7 @@ addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request))
 })
 
-const dataBaseURL = 'https://cs-sticker.com/data/';
+const dataBaseURL = 'https://sticker-composer.pages.dev/data/';
 
 async function handleRequest(request) {
   // Set CORS headers
